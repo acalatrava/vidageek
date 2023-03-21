@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>VidaGeek</title>
+    <link>https://vidageek.com</link>
+    <description>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&lt;br/&gt;&lt;br/&gt;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</description>
+    <generator>iWeb 3.0.1</generator>
+    <image>
+      <url>https://vidageek.com/img/logo_bigger_square.jpg</url>
+      <title>VidaGeek</title>
+      <link>https://vidageek.com</link>
+    </image>
+    <ttl>60</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:author>VidaGeek</itunes:author>
+    <itunes:category text="Technology" />
+    <itunes:owner>
+      <itunes:name>VidaGeek</itunes:name>
+      <itunes:email>podcast@vidageek.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&#13;&#13;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</itunes:subtitle>
+    <itunes:summary>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&#13;&#13;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</itunes:summary>
+    <itunes:image href="https://vidageek.com/img/logo_bigger_square.jpg"/>
+    <language>es</language>
+    {% for post in site.posts %}<item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="false">{{ post.guid }}</guid>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z"}}</pubDate>
+      <itunes:season>{{ post.season }}</itunes:season>
+      <itunes:episode>{{ post.episode }}</itunes:episode>
+      <description><![CDATA[
+{{ post.content }}
+]]></description>
+      <enclosure url="{{ site.url }}{{ post.audiourl | url_encode }}" length="0" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>{{ post.duration }}</itunes:duration>
+      <itunes:summary>{{ post.summary }}</itunes:summary>
+    </item>{% endfor %}
+    <item>
+      <title>Podcast 11</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/10/4_Podcast_11.html</link>
+      <guid isPermaLink="false">58424620-beb7-4c83-8fbf-cf993485c0da</guid>
+      <pubDate>Sun, 4 Oct 2009 00:27:29 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/Podcast%2011.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_11.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;¡¡Estamos en directo!!&lt;br/&gt;Google Wave casi disponible&lt;br/&gt;Microsoft Courier&lt;br/&gt;GameSalad&lt;br/&gt;VoIP en España&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/Podcast%2011.mp3" length="42234367" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:10:48</itunes:duration>
+      <itunes:subtitle>¡¡Estamos en directo!!&#13;Google Wave casi disponible&#13;Microsoft Courier&#13;GameSalad&#13;VoIP en España&#13;&#13;&#13;</itunes:subtitle>
+      <itunes:summary>¡¡Estamos en directo!!&#13;Google Wave casi disponible&#13;Microsoft Courier&#13;GameSalad&#13;VoIP en España&#13;&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 10</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/9/27_Podcast_10.html</link>
+      <guid isPermaLink="false">e6d4cf57-ea78-429d-9cd3-765956ba3d95</guid>
+      <pubDate>Sun, 27 Sep 2009 12:17:12 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/Podcast%2010.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_10.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Google Chrome OS&lt;br/&gt;Nuevos anuncios de Windows 7&lt;br/&gt;Zune HD&lt;br/&gt;Snow Leopard y Grand Central Dispatch&lt;br/&gt;Nuevos iPod&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/Podcast%2010.mp3" length="48817070" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:20:53</itunes:duration>
+      <itunes:subtitle>Google Chrome OS&#13;Nuevos anuncios de Windows 7&#13;Zune HD&#13;Snow Leopard y Grand Central Dispatch&#13;Nuevos iPod&#13;&#13;&#13;</itunes:subtitle>
+      <itunes:summary>Google Chrome OS&#13;Nuevos anuncios de Windows 7&#13;Zune HD&#13;Snow Leopard y Grand Central Dispatch&#13;Nuevos iPod&#13;&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 9</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/7/8_Podcast_9.html</link>
+      <guid isPermaLink="false">a0a09264-fd2f-4982-bbf8-dc1c4bf3c969</guid>
+      <pubDate>Wed, 8 Jul 2009 20:17:04 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/Podcast%209.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_9.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;iPhone 3GS&lt;br/&gt;&lt;br/&gt;GPS en el iPhone&lt;br/&gt;&lt;br/&gt;Android&lt;br/&gt;&lt;br/&gt;Steve Jobs ha vuelto de su baja médica&lt;br/&gt;&lt;br/&gt;Microsoft 7 y Snow Leopard al caer&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/Podcast%209.mp3" length="39052355" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:04:34</itunes:duration>
+      <itunes:subtitle>iPhone 3GS&#13;&#13;GPS en el iPhone&#13;&#13;Android&#13;&#13;Steve Jobs ha vuelto de su baja médica&#13;&#13;Microsoft 7 y Snow Leopard al caer&#13;&#13;</itunes:subtitle>
+      <itunes:summary>iPhone 3GS&#13;&#13;GPS en el iPhone&#13;&#13;Android&#13;&#13;Steve Jobs ha vuelto de su baja médica&#13;&#13;Microsoft 7 y Snow Leopard al caer&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 8</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/1/21_Podcast_8.html</link>
+      <guid isPermaLink="false">0243fe7c-2929-450b-a6a6-fab00967dddf</guid>
+      <pubDate>Wed, 21 Jan 2009 20:27:24 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%208%2021-01-9.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_10.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&lt;br/&gt;&lt;br/&gt;Steve Jobs está de baja médica, al menos hara Junio&lt;br/&gt;&lt;br/&gt;Organiza tus vacaciones gracias a Internet&lt;br/&gt;&lt;br/&gt;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%208%2021-01-9.mp3" length="57858313" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:52:04</itunes:duration>
+      <itunes:subtitle>Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&#13;&#13;Steve Jobs está de baja médica, al menos hara Junio&#13;&#13;Organiza tus vacaciones gracias a Internet&#13;&#13;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</itunes:subtitle>
+      <itunes:summary>Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&#13;&#13;Steve Jobs está de baja médica, al menos hara Junio&#13;&#13;Organiza tus vacaciones gracias a Internet&#13;&#13;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 7</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/12/29_Podcast_7.html</link>
+      <guid isPermaLink="false">3dd6cc83-f0e8-45b6-9afa-08cb60b60321</guid>
+      <pubDate>Mon, 29 Dec 2008 16:44:59 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%207%2029-12-8.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_11.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&lt;br/&gt;&lt;br/&gt;Sistemas operativos para teléfonos móviles&lt;br/&gt;	-	Windows Mobile&lt;br/&gt;	-	iPhone OS&lt;br/&gt;	-	Symbian&lt;br/&gt;	-	Android&lt;br/&gt;	-	RIM OS</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%207%2029-12-8.mp3" length="45672936" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:25:01</itunes:duration>
+      <itunes:subtitle>MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&#13;&#13;Sistemas operativos para teléfonos móviles&#13;	-	Windows Mobile&#13;	-	iPhone OS&#13;	-	Symbian&#13;	-	Android&#13;	-	RIM OS</itunes:subtitle>
+      <itunes:summary>MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&#13;&#13;Sistemas operativos para teléfonos móviles&#13;	-	Windows Mobile&#13;	-	iPhone OS&#13;	-	Symbian&#13;	-	Android&#13;	-	RIM OS</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 6</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/12/14_Podcast_6.html</link>
+      <guid isPermaLink="false">24456853-e9e9-415a-bddb-fb07c2f61ffe</guid>
+      <pubDate>Sun, 14 Dec 2008 14:35:52 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%206%2013-12-9.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_12.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Google Native Client&lt;br/&gt;Google Chrome 1.0&lt;br/&gt;Google anuncia SMS gratis desde GMail&lt;br/&gt;Wikipedia vuelve a pedir donaciones&lt;br/&gt;¿Malware en Software Libre y enlaces patrocinados?&lt;br/&gt;iPhone Prepago para campaña navideña&lt;br/&gt;Gana 1.000 dólares con Ocarina Smule&lt;br/&gt;&lt;br/&gt;Monográfico: Redes sociales&lt;br/&gt;Monográfico: Nos hacemos mayores, ¿qué podemos hacer?&lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%206%2013-12-9.mp3" length="51582646" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:39:32</itunes:duration>
+      <itunes:subtitle>Google Native Client&#13;Google Chrome 1.0&#13;Google anuncia SMS gratis desde GMail&#13;Wikipedia vuelve a pedir donaciones&#13;¿Malware en Software Libre y enlaces patrocinados?&#13;iPhone Prepago para campaña navide</itunes:subtitle>
+      <itunes:summary>Google Native Client&#13;Google Chrome 1.0&#13;Google anuncia SMS gratis desde GMail&#13;Wikipedia vuelve a pedir donaciones&#13;¿Malware en Software Libre y enlaces patrocinados?&#13;iPhone Prepago para campaña navideña&#13;Gana 1.000 dólares con Ocarina Smule&#13;&#13;Monográfico: Redes sociales&#13;Monográfico: Nos hacemos mayores, ¿qué podemos hacer?&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 5</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/11/30_Podcast_5.html</link>
+      <guid isPermaLink="false">7402386b-7851-4dda-bf65-2596c8357a83</guid>
+      <pubDate>Sun, 30 Nov 2008 23:00:18 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%205%2030-11-8.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_13.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;CloudFront de Amazon&lt;br/&gt;Version 2.2 de iPhone&lt;br/&gt;SearchWiki de Google&lt;br/&gt;&lt;br/&gt;Monográfico: El mundo del emprendedor&lt;br/&gt;&lt;br/&gt;Trucos, recomendaciones y series!&lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%205%2030-11-8.mp3" length="62547092" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:17:48</itunes:duration>
+      <itunes:subtitle>CloudFront de Amazon&#13;Version 2.2 de iPhone&#13;SearchWiki de Google&#13;&#13;Monográfico: El mundo del emprendedor&#13;&#13;Trucos, recomendaciones y series!&#13;</itunes:subtitle>
+      <itunes:summary>CloudFront de Amazon&#13;Version 2.2 de iPhone&#13;SearchWiki de Google&#13;&#13;Monográfico: El mundo del emprendedor&#13;&#13;Trucos, recomendaciones y series!&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 4</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/11/18_Podcast_4.html</link>
+      <guid isPermaLink="false">8dbee25d-2259-4e99-af73-d6c023274356</guid>
+      <pubDate>Tue, 18 Nov 2008 18:55:44 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <description>En este podcast hablaremos sobre:&lt;br/&gt; - iPhone SDK&lt;br/&gt; - Objective-C vs otros lenguajes orientados a objetos&lt;br/&gt; - Buenas prácticas de codificación&lt;br/&gt; - Series: Merlin y Crusoe&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://java.sun.com/docs/codeconv/&quot;&gt;Buenas prácticas de Java&lt;br/&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mono-project.com/Coding_Guidelines&quot;&gt;Buenas prácticas de Mono&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;http://developer.apple.com/documentation/Cocoa/Conceptual/ObjectiveC/Articles/chapter_950_section_12.html&quot;&gt;Buenas prácticas de Objective-C&lt;br/&gt;&lt;/a&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%204%2018-11-8.mp3" length="38860768" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:52:46</itunes:duration>
+      <itunes:subtitle>En este podcast hablaremos sobre:&#13; - iPhone SDK&#13; - Objective-C vs otros lenguajes orientados a objetos&#13; - Buenas prácticas de codificación&#13; - Series: Merlin y Crusoe&#13; &#13;Buenas prácticas de Java&#13;Buenas prácticas de Mono&#13;Buenas prácticas de Objective-C&#13;</itunes:subtitle>
+      <itunes:summary>En este podcast hablaremos sobre:&#13; - iPhone SDK&#13; - Objective-C vs otros lenguajes orientados a objetos&#13; - Buenas prácticas de codificación&#13; - Series: Merlin y Crusoe&#13; &#13;Buenas prácticas de Java&#13;Buenas prácticas de Mono&#13;Buenas prácticas de Objective-C&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 3</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/9/22_Podcast_3.html</link>
+      <guid isPermaLink="false">2c4b0dce-249a-4142-9ef2-f7462cca50c6</guid>
+      <pubDate>Mon, 22 Sep 2008 21:23:39 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/03%20Podcast%203.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_14.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&lt;br/&gt;&lt;br/&gt;Esperamos que os guste.</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/03%20Podcast%203.mp3" length="29703914" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:41:16</itunes:duration>
+      <itunes:subtitle>Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&#13;&#13;Esperamos que os guste.</itunes:subtitle>
+      <itunes:summary>Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&#13;&#13;Esperamos que os guste.</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 2</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/3/24_Podcast_2.html</link>
+      <guid isPermaLink="false">bed82551-dd65-41bc-8171-63b31a36be4d</guid>
+      <pubDate>Mon, 24 Mar 2008 20:20:41 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%202%2024-03-08%201.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_15.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, esperamos que os guste.&lt;br/&gt;En este podcast hablaremos sobre el SDK que ha salido para el iPhone y comentaremos nuestras experiencias en los mercados de compraventa como eBay o Segundamano.</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%202%2024-03-08%201.mp3" length="31034405" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:41:38</itunes:duration>
+      <itunes:subtitle>De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, e</itunes:subtitle>
+      <itunes:summary>De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, esperamos que os guste.&#13;En este podcast hablaremos sobre el SDK que ha salido para el iPhone y comentaremos nuestras experiencias en los mercados de compraventa como eBay o Segundamano.</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 1</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/2/23_Podcast_1.html</link>
+      <guid isPermaLink="false">23c7e621-9b77-48d6-9441-d5b9c9457f2a</guid>
+      <pubDate>Sat, 23 Feb 2008 01:47:48 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%201%2022-02-08%201.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_16.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus EEE y presentamos una nueva serie de televisión que hará que afloren recuerdos de nuestra infancia.&lt;br/&gt;&lt;br/&gt;Sin más, esperamos que os guste nuestra primera creación. </description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%201%2022-02-08%201.mp3" length="27683763" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:37:46</itunes:duration>
+      <itunes:subtitle>Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus </itunes:subtitle>
+      <itunes:summary>Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus EEE y presentamos una nueva serie de televisión que hará que afloren recuerdos de nuestra infancia.&#13;&#13;Sin más, esperamos que os guste nuestra primera creación. </itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 0</title>
+      <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/2/16_Podcast_0.html</link>
+      <guid isPermaLink="false">a5fc6454-c7dd-4bfc-b987-28dc2f83ce7d</guid>
+      <pubDate>Sat, 16 Feb 2008 01:30:50 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>0</itunes:episode>
+      <description>&lt;a href=&quot;https://legacy.vidageek.com/VidaGeek/Media/Podcast%20num0%201.mp3&quot;&gt;&lt;img src=&quot;https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_17.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mundillo en el que nos adentramos.&lt;br/&gt;Es un podcast de corta duración donde explicamos las secciones que iremos incorporando en sucesivos podcasts. &lt;br/&gt;</description>
+      <enclosure url="https://legacy.vidageek.com/VidaGeek/Media/Podcast%20num0%201.mp3" length="10293627" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:14:05</itunes:duration>
+      <itunes:subtitle>Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mu</itunes:subtitle>
+      <itunes:summary>Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mundillo en el que nos adentramos.&#13;Es un podcast de corta duración donde explicamos las secciones que iremos incorporando en sucesivos podcasts. &#13;</itunes:summary>
+    </item>
+  </channel>
+</rss>

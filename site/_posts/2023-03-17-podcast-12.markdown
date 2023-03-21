@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "NextDNS y Logitech G502 Hero"
+date:   2023-03-17 11:25:40 +0000
+audiourl: /media/VidaGeek - 12 - 170323 - NextDNS - Logitech G502 Hero.mp3
+guid: a29d98c6-df19-4294-ba7d-24c5e645e6a4
+season: 2
+episode: 1
+duration: 00:21:45
+summary: Hoy os traemos NextDNS y Logitech G502 Hero
+---
+¡Después de casi 15 años estamos de vuelta!
+
+Hoy os traemos [NextDNS][nextdns], un servicio de DNS controlado por ti y con superpoderes. Podrás utilizarlo tanto para bloquear apps maliciosas, bloquear anuncios o incluso como control parental.
+
+Y en la sección de gaming hablaremos sobre el [Logitech G502 Hero][logitech], un ratón con tantos botones programables que te costará encontrarlos.
+
+[NextDNS][nextdns]
+
+[Logitech G502 Hero][logitech]
+
+¡Hasta el próximo episodio!
+
+[logitech]: https://amzn.to/42fdBYN
+[nextdns]: https://nextdns.io/?from=w3gmvhd4
