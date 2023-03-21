@@ -20,7 +20,7 @@
     </itunes:owner>
     <itunes:subtitle>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&#13;&#13;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</itunes:subtitle>
     <itunes:summary>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&#13;&#13;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</itunes:summary>
-    <itunes:image href="https://vidageek.com/img/logo_bigger_square.jpg"/>
+    <itunes:image href="{{ site.url }}/img/logo_bigger_square.jpg"/>
     <language>es</language>
     {% for post in site.posts %}<item>
       <title>{{ post.title }}</title>
