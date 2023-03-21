@@ -32,7 +32,7 @@
       <description><![CDATA[
 {{ post.content }}
 ]]></description>
-      <enclosure url="{{ site.url }}/{{ post.audiourl | url_encode }}" length="{% file_size {{ post.audiourl }} %}" type="audio/mpeg"/>
+      <enclosure url="{{ site.url }}/{{ post.audiourl | url_encode }}" type="audio/mpeg"/>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:summary>{{ post.summary }}</itunes:summary>
