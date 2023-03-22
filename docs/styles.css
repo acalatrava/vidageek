@@ -46,7 +46,7 @@ h3 {
 }
 
 .sidebar {
-    background: black;
+    background: rgb(34, 1, 57);
     color: #fff;
 }
 
@@ -200,6 +200,30 @@ h3 {
 
 .ondesktop {
     display: none;
+}
+
+.h1logo {
+    font-weight: 100;
+    font-size: 4em;
+}
+
+.h1logo.small {
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.footer .pure-menu-link {
+    font-size: .9em;
+    color: rgb(91, 89, 89);
+}
+
+.pagetitle {
+    font-weight: 100;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: 1em;
 }
 
 @media (min-width: 48em) {
