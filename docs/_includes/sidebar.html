@@ -1,5 +1,5 @@
 <div class="sidebar pure-u-1 pure-u-md-1-4">
-    <div class="header">
+    <div class="header ondesktop">
         <h1>VidaGeek</h1>
         <h3>Temporada 2</h3>
 
@@ -8,7 +8,7 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <img src="{{ site.url }}/img/logo_bigger.jpg" style="width: 100%; max-width: 200px">
+                    <img src="{{ site.url }}/img/logo_bigger_square_400.jpg" style="width: 100%; max-width: 200px">
                 </li>
             </ul>
         </nav>
@@ -30,5 +30,38 @@
                         width="20" /></a>
             </div>
         </div>
+    </div>
+
+    <div class="header onmobile">
+        <center>
+            <table width="400">
+                <tr>
+                    <td width="20%"><img src="{{ site.url }}/img/logo_bigger.jpg" width="150" valign="middle" />
+                        <p></p>
+                        <div class="pure-menu pure-menu-horizontal">
+                            <div class="icons">
+
+                                <a href="https://podcasts.apple.com/us/podcast/vidageek/id299525194"
+                                    class="pod-item"><img src="{{ site.url }}/img/applepodcasts-icon@2x.png"
+                                        width="20" /></a>
+                                <a href="https://share.podimo.com/podcast/ff5a2a37-860a-452b-b425-3c3bc655922c?creatorId=ba65ddd0-38e0-4e21-9a93-8959d10277ac&key=E5hKNwWuZ7ln&source=ln&from=studio"
+                                    class="pod-item"><img src="{{ site.url }}/img/podimo.png" width="20" /></a>
+                                <a href="https://open.spotify.com/show/4xA0RCcJ2jozOUhTYkPFmx" class="pod-item"><img
+                                        src="{{ site.url }}/img/spotify-icon@2x.png" width="20" /></a>
+                                <a href="{{ site.url }}/rss.xml" class="pod-item"><img
+                                        src="{{ site.url }}/img/rss-icon@2x.png" width="20" /></a>
+                            </div>
+                        </div>
+                    </td>
+                    <td width="50%" style="text-align: left">
+                        <h1>{{ page.title }}</h1>
+                        <h2 class="brand-tagline">Un podcast sobre tecnología, programación, videojuegos y mucho más
+                        </h2>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <p></p>
+
     </div>
 </div>
