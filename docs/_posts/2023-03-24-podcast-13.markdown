@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "LangChain y Samsung Odyssey G7 curvo"
+date:   2023-03-24 09:00:00 +0000
+audiourl: /media/VidaGeek_13.mp3
+guid: 5c0de642-c9c8-11ed-afa1-0242ac120002
+season: 2
+episode: 2
+duration: 00:27:40
+summary: Hoy hablamos sobre LangChain, inteligencia artificial y el monitor Samsung Odyssey G7 curvo
+---
+Esta semana hablamos sobre [LangChain][langchain], un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.
+
+Una de las características más interesantes son las llamadas herramientas (tools) que nos permiten dotar de nuevas funciones al LLM para que pueda hacer más cosas (como por ejemplo una calculadora).
+
+Lo que hace que LangChain sea tan emocionante es que ayuda a los desarrolladores a combinar la potencia de los modelos de lenguaje natural con otras fuentes de conocimiento y computación para crear aplicaciones verdaderamente efectivas. 
+
+Tamnbién os hablamos sobre el [monitor curvo Samsung Odyssey G7][samsung] el cual, a pesar de no ser 4k, es un monitor ideal tanto para jugar como para trabajar.
+
+[LangChain][langchain]
+
+[Samsung Odyssey G7][samsung]
+
+¡Hasta la próxima semana!
+
+[samsung]: https://amzn.to/4097gwz
+[langchain]: https://langchain.readthedocs.io/en/latest/

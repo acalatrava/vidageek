@@ -40,8 +40,8 @@
       <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:subtitle>{{ post.summary }}</itunes:subtitle>
       <itunes:summary>{{ post.summary }}</itunes:summary>
-    </item>{% endfor %}
-    <item>
+    </item>
+    {% endfor %}<item>
       <title>Podcast 11</title>
       <link>https://legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/10/4_Podcast_11.html</link>
       <guid isPermaLink="false">58424620-beb7-4c83-8fbf-cf993485c0da</guid>
