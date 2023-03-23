@@ -12,16 +12,16 @@ title: VidaGeek
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ site.url }}/styles.css">
+    <link rel="stylesheet" href="{{ site.url | url_fixer }}/styles.css">
 
     <!-- Podcasts -->
     <meta name="apple-itunes-app" content="app-id=299525194">
-    <link rel="canonical" href="{{ site.url }}">
+    <link rel="canonical" href="{{ site.url | url_fixer }}">
     <link type="application/rss+xml" rel="alternate" title="VidaGeek"
-        href="{{ site.url }}/VidaGeek/Podcast_VidaGeek/rss.xml">
+        href="{{ site.url | url_fixer }}/VidaGeek/Podcast_VidaGeek/rss.xml">
 
 
-    <link rel="image_src" href="{{ site.url }}/img/logo_bigger_square.jpg">
+    <link rel="image_src" href="{{ site.url | url_fixer }}/img/logo_bigger_square.jpg">
 </head>
 
 <body>
@@ -42,7 +42,8 @@ title: VidaGeek
                             <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
                                 src="/img/common/tilo-avatar.png">-->
 
-                            <h3 class="post-title"><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></h3>
+                            <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{{ post.title
+                                    }}</a></h3>
 
                         </header>
 

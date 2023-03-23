@@ -22,8 +22,8 @@ layout: post
             <div class="header header-post">
                 <h1 class="pagetitle">{{ page.title }}</h1>
                 <p>&nbsp;</p>
-                <h2 class="h1logo small"><a href="{{ site.url }}" style="text-decoration: none;"><img
-                            src="{{ site.url }}/img/logo_bigger.jpg" width="30" valign="middle" />
+                <h2 class="h1logo small"><a href="{{ site.url | url_fixer }}" style="text-decoration: none;"><img
+                            src="{{ site.url | url_fixer }}/img/logo_bigger.jpg" width="30" valign="middle" />
                         &nbsp; <span style="color: white">Vida<span style="color: gray">Geek</span>
                     </a></h2>
 
@@ -49,7 +49,7 @@ layout: post
                             {{ content }}
 
                             <audio controls>
-                                <source src="{{ site.url }}/{{ page.audiourl }}" type="audio/mpeg">
+                                <source src="{{ site.url | url_fixer }}/{{ page.audiourl }}" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
