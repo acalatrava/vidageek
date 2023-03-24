@@ -30,7 +30,8 @@ future: true
 
 # Build settings
 #theme: minima
-#plugins:
+plugins:
+  - jekyll-redirect-from
 #  - jekyll-feed
 
 # Exclude from processing.
