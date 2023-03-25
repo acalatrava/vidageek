@@ -6,7 +6,7 @@ audiourl: /media/VidaGeek_13.mp3
 guid: 5c0de642-c9c8-11ed-afa1-0242ac120002
 season: 2
 episode: 2
-duration: 00:27:40
+duration: "00:27:40"
 summary: Hoy hablamos sobre LangChain, inteligencia artificial y el monitor Samsung Odyssey G7 curvo
 ---
 Esta semana hablamos sobre [LangChain][langchain], un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.

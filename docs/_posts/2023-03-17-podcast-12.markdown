@@ -6,7 +6,7 @@ audiourl: /media/VidaGeek - 12 - 170323 - NextDNS - Logitech G502 Hero.mp3
 guid: a29d98c6-df19-4294-ba7d-24c5e645e6a4
 season: 2
 episode: 1
-duration: 00:21:45
+duration: "00:21:45"
 summary: Hoy os traemos NextDNS y Logitech G502 Hero
 ---
 ¡Después de casi 15 años estamos de vuelta!
