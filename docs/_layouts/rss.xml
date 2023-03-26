@@ -3,7 +3,7 @@
   <channel>
     <title>VidaGeek</title>
     <link>https://vidageek.com</link>
-    <description>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, telefonía móvil y también sobre series de TV.&lt;br/&gt;&lt;br/&gt;Deseamos que disfrutéis al escucharlo al menos tanto como nosotros haciéndolo.</description>
+    <description><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
     <generator>iWeb 3.0.1</generator>
     <image>
       <url>https://vidageek.com/img/logo_bigger_square.jpg</url>
