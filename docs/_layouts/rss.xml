@@ -22,24 +22,24 @@
       <itunes:name>VidaGeek</itunes:name>
       <itunes:email>podcast@vidageek.com</itunes:email>
     </itunes:owner>
-    <itunes:subtitle>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, programación, telefonía móvil y sobre todo lo que nos interese.&#13;&#13;Os escuchamos.</itunes:subtitle>
-    <itunes:summary>VidaGeek.com es un podcast sobre tecnología, seguridad, gadgets, programación, telefonía móvil y sobre todo lo que nos interese.&#13;&#13;Os escuchamos.</itunes:summary>
+    <itunes:subtitle>Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.></itunes:subtitle>
+    <itunes:summary><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></itunes:summary>
     <itunes:image href="{{ site.url | url_fixer }}/img/logo_bigger_square.jpg"/>
     <language>es</language>
     {% for post in site.posts %}<item>
-      <title>{{ post.title }}</title>
-      <itunes:title>{{ post.title }}</itunes:title>
+      <title>{% assign mp3_title = post.audiourl | mp3_title %}{{ post.title | default: mp3_title }}</title>
+      <itunes:title>{% assign mp3_title = post.audiourl | mp3_title %}{{ post.title | default: mp3_title }}</itunes:title>
       <link>{{ site.url | url_fixer }}{{ post.url }}</link>
       <guid isPermaLink="false">{{ post.guid | default: post.url }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z"}}</pubDate>
       <itunes:season>{{ post.season }}</itunes:season>
-      <itunes:episode>{{ post.episode }}</itunes:episode>
+      <itunes:episode>{% assign mp3_episode = post.audiourl | mp3_track %}{{ post.episode | default: mp3_episode }}</itunes:episode>
       <description><![CDATA[{{ post.content }}]]></description>
       <enclosure url="{{ site.url | url_fixer }}{{ post.audiourl | url_encode }}" length="{% file_size {{ post.audiourl }} %}" type="audio/mpeg"/>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>{{ post.duration }}</itunes:duration>
-      <itunes:subtitle>{{ post.summary }}</itunes:subtitle>
-      <itunes:summary>{{ post.summary }}</itunes:summary>
+      <itunes:duration>{% assign mp3_length = post.audiourl | mp3_length_hhmmss %}{{ post.duration | default: mp3_length }}</itunes:duration>
+      <itunes:subtitle>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:subtitle>
+      <itunes:summary>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:summary>
     </item>
     {% endfor %}<item>
       <title>Podcast 11</title>
