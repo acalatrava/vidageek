@@ -22,7 +22,7 @@
       <itunes:name>VidaGeek</itunes:name>
       <itunes:email>podcast@vidageek.com</itunes:email>
     </itunes:owner>
-    <itunes:subtitle>Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.></itunes:subtitle>
+    <itunes:subtitle>Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.</itunes:subtitle>
     <itunes:summary><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></itunes:summary>
     <itunes:image href="{{ site.url | url_fixer }}/img/logo_bigger_square.jpg"/>
     <language>es</language>
