@@ -52,7 +52,8 @@ redirect_from:
                         </header>
 
                         <div class="post-description">
-                            {{ post.summary }}
+                            {% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default:
+                            mp3_description }}
                         </div>
                     </section>
                 </div>

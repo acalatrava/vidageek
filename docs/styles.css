@@ -194,6 +194,10 @@ h3 {
     display: block;
 }
 
+.onpost .icons {
+    text-align: left;
+}
+
 .onmobile {
     display: block;
 }
@@ -258,5 +262,9 @@ h3 {
     .icons {
         text-align: right;
         display: block;
+    }
+
+    .onpost .icons {
+        text-align: right;
     }
 }

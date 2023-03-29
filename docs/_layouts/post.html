@@ -20,12 +20,23 @@ layout: post
     <div id="layout" class="pure-g">
         <div class="sidebar pure-u-1 pure-u-md-1-4">
             <div class="header header-post">
-                <h1 class="pagetitle">{{ page.title }}</h1>
-                <p>&nbsp;</p>
+                <div class="ondesktop">
+                    <h1 class="pagetitle">{{ page.title }}</h1>
+                    <p>&nbsp;</p>
+                </div>
+
+
                 <h2 class="h1logo small"><a href="{{ site.url | url_fixer }}" style="text-decoration: none;"><img
-                            src="{{ site.url | url_fixer }}/img/logo_bigger.jpg" width="30" valign="middle" />
+                            src="{{ site.url | url_fixer }}/img/logo_2023_200x200.jpg" width="30" valign="middle" />
                         &nbsp; <span style="color: white">Vida<span style="color: gray">Geek</span>
                     </a></h2>
+                <div class="onpost">
+                    {% include platforms.html %}
+                </div>
+                <div class="onmobile">
+                    <p>&nbsp;</p>
+                    <h1 class="pagetitle">{{ page.title }}</h1>
+                </div>
 
             </div>
         </div>

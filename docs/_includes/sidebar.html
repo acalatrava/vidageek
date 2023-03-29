@@ -6,7 +6,7 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <img src="{{ site.url | url_fixer }}/img/logo_bigger_square_400.jpg"
+                    <img src="{{ site.url | url_fixer }}/img/logo_2023_400x400.jpg"
                         style="width: 100%; max-width: 200px">
                 </li>
             </ul>
@@ -34,7 +34,7 @@
     <div class="header onmobile">
         <div class="hero-titles">
             <h1 class="h1logo" style="margin: 0"><img class="logo"
-                    src="{{ site.url | url_fixer }}/img/logo_bigger_square_400.jpg" alt="VidaGeek" width="50">
+                    src="{{ site.url | url_fixer }}/img/logo_2023_400x400.jpg" alt="VidaGeek" width="50">
                 <span style="color: white">Vida<span style="color: gray">Geek</span>
             </h1>
             <div style="max-width: 300px; margin: auto">
@@ -43,21 +43,7 @@
                 </h2>
             </div>
             <p>&nbsp;</p>
-            <div class="pure-menu pure-menu-horizontal">
-                <div class="icons">
-
-                    <a href="https://podcasts.apple.com/us/podcast/vidageek/id299525194" class="pod-item"><img
-                            src="{{ site.url | url_fixer }}/img/applepodcasts-icon@2x.png" width="20"
-                            alt="Apple Podcasts" /></a>
-                    <a href="https://share.podimo.com/podcast/ff5a2a37-860a-452b-b425-3c3bc655922c?creatorId=ba65ddd0-38e0-4e21-9a93-8959d10277ac&key=E5hKNwWuZ7ln&source=ln&from=studio"
-                        class="pod-item"><img src="{{ site.url | url_fixer }}/img/podimo.png" width="20"
-                            alt="Podimo" /></a>
-                    <a href="https://open.spotify.com/show/4xA0RCcJ2jozOUhTYkPFmx" class="pod-item"><img
-                            src="{{ site.url | url_fixer }}/img/spotify-icon@2x.png" width="20" alt="Spotify" /></a>
-                    <a href="{{ site.url | url_fixer }}/rss.xml" class="pod-item"><img
-                            src="{{ site.url | url_fixer }}/img/rss-icon@2x.png" width="20" alt="RSS" /></a>
-                </div>
-            </div>
+            {% include platforms.html %}
         </div>
         <p></p>
 
