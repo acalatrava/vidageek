@@ -46,8 +46,9 @@ redirect_from:
                             <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
                                 src="/img/common/tilo-avatar.png">-->
 
-                            <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{{ post.title
-                                    }}</a></h3>
+                            <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{% assign
+                                    mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</a>
+                            </h3>
 
                         </header>
 

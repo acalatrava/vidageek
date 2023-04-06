@@ -27,8 +27,8 @@
     <itunes:image href="{{ site.url | url_fixer }}/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     {% for post in site.posts %}<item>
-      <title>{% assign mp3_title = post.audiourl | mp3_title %}{{ post.title | default: mp3_title }}</title>
-      <itunes:title>{% assign mp3_title = post.audiourl | mp3_title %}{{ post.title | default: mp3_title }}</itunes:title>
+      <title>{% assign mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</title>
+      <itunes:title>{% assign mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</itunes:title>
       <link>{{ site.url | url_fixer }}{{ post.url }}</link>
       <guid isPermaLink="false">{{ post.guid | default: post.url }}</guid>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z"}}</pubDate>
@@ -36,7 +36,7 @@
       <itunes:episode>{% assign mp3_episode = post.audiourl | mp3_track %}{{ post.episode | default: mp3_episode }}</itunes:episode>
       <description><![CDATA[{{ post.content }}]]></description>
       <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/{{ site.url | url_fixer }}{{ post.audiourl | url_encode }}" length="{% file_size {{ post.audiourl }} %}" type="audio/mpeg"/>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>{{ post.explicit | default: "no" }}</itunes:explicit>
       <itunes:duration>{% assign mp3_length = post.audiourl | mp3_length_hhmmss %}{{ post.duration | default: mp3_length }}</itunes:duration>
       <itunes:subtitle>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:subtitle>
       <itunes:summary>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:summary>
