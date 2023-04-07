@@ -5,15 +5,33 @@ guid: c0e2bc99-4d69-468a-abf7-58afe6cb48aa
 season: 2
 explicit: "yes"
 ---
+# Vicuna, un nuevo y más avanzado LLM
 Y seguimos con la familia de las LLaMAs que crece un poquito más, con un nuevo modelo de lenguaje especializado utilizando com dataset más de 100k preguntas y respuestas de la comunidad de [ShareGPT][sharegpt]. El modelo le han bautizado como [Vicuna][vicuna] para seguir la "tradición", por no decir el cachondeo, de los lamoides. Para su entrenamiento ha sido necesario una inversión de sólo 300$ tal como se puede ver en su [paper][vicunapaper].
 
 El modelo se puede incluso [encontrar cuantizado][vicuna13b] para poder utilizarlo con [llama.cpp][llamacpp] y se comporta de una manera muy similar ya a ChatGPT, lo cual es todo un mérito teniendo en cuenta que es un modelo de solo 13 billones de parámetros que puede ser inferido en un equipo convencional con 16GB de RAM.
 
-Por otro lado os hablamos de [Destiny 2][destiny2] un videojuego con una larga trayectoria el cual permite múltiples mundos y una jugabilidad sin igual. 100% recomendado.
+# Review Destiny 2
+Destiny 2 es un videjuego creado por Bungie, continuando la primera parte Destiny en el año 2017. Es un shooter en primera persona, con muchísima jugabilidad y habilidades. 
+
+## Características
+- Cooperativo de 3 y 6 jugadores(raid y crisol)
+- Habilidades
+- Diferentes personajes
+
+## Ventajas
+- Mundo abierto
+- Jugabilidad
+- Horas y horas de entretenimiento
+- Cooperativo
+
+
+## Conclusión
+Sin duda Destiny 2 aportará horas de diversion. Muchos planetas, misiones, asaltos, raid etc. Dispone tambien de un juego tipo pvp muy parecido a partidas cortas de call of duty para poder poner tus habilidades contra otros jugadores. Perfecto si tienes una escuadra para poder pasar el rato. No defraudará a todo aquel que le guste los shooter y los juegos de mundo abierto. 
+
 
 ¡Hasta la próxima semana!
 
-[sharegpt]: https://amzn.to/40LrCM7
+[sharegpt]: https://sharegpt.com
 [vicuna]: https://github.com/lm-sys/FastChat
 [vicunapaper]: https://vicuna.lmsys.org
 [vicuna13b]: https://huggingface.co/eachadea/ggml-vicuna-13b-4bit

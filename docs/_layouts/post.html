@@ -59,12 +59,14 @@ layout: post
                         </header>
 
                         <div class="post-description">
-                            {{ content }}
-
+                            Escucha nuestro episodio "{% assign mp3_title = page.audiourl | mp3_title %}{{ mp3_title |
+                            default: page.title }}"<br />
                             <audio controls>
                                 <source src="{{ site.url | url_fixer }}/{{ page.audiourl }}" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
+
+                            {{ content }}
                         </div>
                     </section>
                 </div>
