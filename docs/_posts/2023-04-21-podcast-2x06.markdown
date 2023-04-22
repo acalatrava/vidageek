@@ -1,0 +1,43 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x06.mp3
+guid: 99e833fb-4e01-4b7e-9576-6073e3ec4560
+season: 2
+explicit: "no"
+---
+
+# Patrocinado por Qoodiht, tus fundas sostenibles
+El episodio de hoy está patrocinado por [Qoodiht][qoodiht], unas nuevas fundas ecológicas para tu iPhone, fabricadas en España con un material ecológico y sostenible. Llevo un par de semanas utilizando la funda modelo GEA y estoy gratamente sorprendido. Tan sólo cuestan 7,95€ y están disponibles en color blanco y verde fluor. Además tienen una funda, el modelo Apolo, que brilla en la oscuridad.
+
+# Clona tu propia voz... o la de tu vecino
+La inteligencia artificial no para. La semana pasada hablábamos de cómo [Alltta][alltta] había creado una canción utilizando por inteligencia artificial con la voz de Jay-Z y esta semana os traemos un proyecto de código abierto llamado [SoftVC VITS][softvc] con el que podrás hacerlo tú mismo. Este proyecto en concreto es un fork del proyecto original el cual nos permite hacer incluso inferencia en tiempo real. Además alguien ha creado unos cuantos modelos de voces que podemos [descargar libremente][modelos] con voces como la de Lady Gaga, Billie Joe o David Bowie. 
+
+## ¿Puedo clonar la voz de cualquier persona? ¿Qué dice la ley al respecto?
+Hablamos con Javier Maestre, un abogado experto en nuevas tecnologías que nos cuenta qué dice la ley al respecto de utilizar la voz creada por la IA.
+
+## ¿Qué son las GAN o Redes Generativas Adversarias?
+Una GAN (Generative Adversarial Network o red generativa antagónica en Español) fue creada por Ian Goodfellow en 2017. Son un tipo de inteligencia artificial que se utiliza para crear cosas nuevas, como imágenes o sonidos, imitando ejemplos existentes. Imagina que es como un artista y un crítico que trabajan juntos: el artista crea una obra y el crítico la evalúa. En una GAN, hay dos partes: el generador, que es como el artista, y el discriminador, que es como el crítico. El generador crea imágenes (u otros tipos de datos) y el discriminador evalúa si son reales (parecidas a los ejemplos existentes) o falsas (hechas por el generador). Ambos van aprendiendo y mejorando en su trabajo a medida que se entrenan, lo que hace que la GAN sea cada vez más efectiva para crear cosas que parezcan reales.
+Se utilizaron para deepfakes
+
+
+## Para la música... o la voz
+Lo más interesante de este proyecto es que, si bien está pensado para cambiar la voz en canciones, se puede utilizar de la misma manera para el habla, de forma que tu voz sea cambiada por ejemplo... por la de tu jefe, o por la de tu vecino. Yo mismo he creado un modelo de la voz de Paco en apenas unas horas y con un coste de... 0€. Totalmente gratuito utilizando la plataforma de Google Colab. 
+
+## Cómo clonar tu voz
+Para poder realizar el modelo de una voz es necesario tener unos cuantos minutos de la voz que queremos clonar de forma clara. Si por ejemplo queremos clonar nuestra propia voz, es suficiente con grabarnos hablar durante unos 10 o 15 minutos. Si queremos clonar una voz de una canción será necesario eliminar la música de fondo  antes de utilizarla.
+
+Una vez obtenida la voz es necesario trocearla en diferentes samples de unos 10 segundos o menos de duración. En mi caso he utilizado mi voz del último podcast y la he troceado de forma automática utilizando un script en python que automáticamente busca los silencios y lo separa.
+
+Después no tiene mayor misterio más que seguir [este cuaderno][notebook] que os hemos creado para que, en unos sencillos pasos, podamos crear nuestro propio modelo de voz. Una vez generado podemos utilizar [este otro][notebook2] para cambiar nuestra voz por la de nuestro modelo.
+
+
+
+
+¡Hasta la próxima semana!
+
+[alltta]: https://open.spotify.com/artist/1si6mnxJ6IpTOTW13ECa0o
+[softvc]: https://github.com/voicepaw/so-vits-svc-fork
+[modelos]: https://huggingface.co/marcoc2/so-vits-svc-4.0-models
+[notebook]: https://vidageek.com/entrenarvoz
+[notebook2]: https://colab.research.google.com/github/34j/so-vits-svc-fork/blob/main/notebooks/so-vits-svc-fork-4.0.ipynb
+[qoodiht]: https://qoodiht.myshopify.com
