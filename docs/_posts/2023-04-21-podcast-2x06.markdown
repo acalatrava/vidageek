@@ -6,11 +6,14 @@ season: 2
 explicit: "no"
 ---
 
-# Patrocinado por Qoodiht, tus fundas sostenibles
-El episodio de hoy está patrocinado por [Qoodiht][qoodiht], unas nuevas fundas ecológicas para tu iPhone, fabricadas en España con un material ecológico y sostenible. Llevo un par de semanas utilizando la funda modelo GEA y estoy gratamente sorprendido. Tan sólo cuestan 7,95€ y están disponibles en color blanco y verde fluor. Además tienen una funda, el modelo Apolo, que brilla en la oscuridad.
-
 # Clona tu propia voz... o la de tu vecino
 La inteligencia artificial no para. La semana pasada hablábamos de cómo [Alltta][alltta] había creado una canción utilizando por inteligencia artificial con la voz de Jay-Z y esta semana os traemos un proyecto de código abierto llamado [SoftVC VITS][softvc] con el que podrás hacerlo tú mismo. Este proyecto en concreto es un fork del proyecto original el cual nos permite hacer incluso inferencia en tiempo real. Además alguien ha creado unos cuantos modelos de voces que podemos [descargar libremente][modelos] con voces como la de Lady Gaga, Billie Joe o David Bowie. 
+
+***
+> ### Patrocinado por Qoodiht, tus fundas sostenibles
+> El episodio de hoy está patrocinado por [Qoodiht][qoodiht], unas nuevas fundas ecológicas para tu iPhone, fabricadas en España con un material ecológico y sostenible. Llevo un par de semanas utilizando la funda modelo GEA y estoy gratamente sorprendido. Tan sólo cuestan 7,95€ y están disponibles en color blanco y verde fluor. Además tienen una funda, el modelo Apolo, que brilla en la oscuridad.
+
+***
 
 ## ¿Puedo clonar la voz de cualquier persona? ¿Qué dice la ley al respecto?
 Hablamos con Javier Maestre, un abogado experto en nuevas tecnologías que nos cuenta qué dice la ley al respecto de utilizar la voz creada por la IA.
