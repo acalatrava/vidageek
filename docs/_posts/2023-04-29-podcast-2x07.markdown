@@ -6,8 +6,8 @@ season: 2
 explicit: "no"
 ---
 
-# Ólvidate del backend con AppWrite
-Hoy hablamos sobre AppWrite[appwrite], un proyecto de código abierto para crear tu backend de una forma fácil y rápida. Puedes instalar [AppWrite][appwrite] en tu servidor utilizando docker o diréctamente utilizando AppWrite Cloud y de esta forma no tener que preocuparte de absolutamente nada.
+# Olvídate del backend con AppWrite
+Hoy hablamos sobre [AppWrite][appwrite], un proyecto de código abierto para crear tu backend de una forma fácil y rápida. Puedes instalar [AppWrite][appwrite] en tu servidor utilizando docker o directamente utilizando AppWrite Cloud y de esta forma no tener que preocuparte de absolutamente nada.
 
 Puedes integrar AppWrite con cualquier plataforma con sus SDKs para cualquier lenguaje de programación o framework como Flutter, iOS, Android, JS, etc.
 
