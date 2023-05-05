@@ -3,7 +3,7 @@
   <channel>
     <title>VidaGeek</title>
     <link>https://vidageek.com</link>
-    <description><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
+    <description><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, inteligencia artificial, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
     <generator>iWeb 3.0.1</generator>
     <image>
       <url>https://vidageek.com/img/logo_2023_3000x3000.jpg</url>
@@ -12,7 +12,7 @@
     </image>
     <ttl>60</ttl>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:author>VidaGeek</itunes:author>
+    <itunes:author><![CDATA[Antonio Calatrava y Paco Rodríguez]]></itunes:author>
     <itunes:category text="Technology"/>
     <itunes:category text="News">
       <itunes:category text="Tech News"/>
