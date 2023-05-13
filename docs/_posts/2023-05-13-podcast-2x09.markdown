@@ -33,10 +33,20 @@ Para este tutorial vamos a hacer uso de un cuaderno que hemos creado de una form
  - Revelar mensaje: [Esteganografía en JPG revelar mensaje][revelar]
 
 ----
-# Review: Lenovo Legion Pro 7 de 8ª generación
-El portátil para videojuegos [Legion Pro 7 de 8.ª generación][lenovo] [40,64 cm (16″), AMD], equipado con procesadores AMD Ryzen™, te brinda una potencia y un rendimiento contundentes para jugar, transmitir y crear sin renunciar a la duración de la batería. Potentes tarjetas gráficas NVIDIA ® GeForce RTX™1.
+# Legion Pro 7i Gen 8: El ordenador ideal para gamers exigentes
 
-La pantalla WQXGA IPS de 40,64 cm (16″), con relación de aspecto de 16:10, hace que el Legion Pro 7i de 8.ª generación sea perfecto para imágenes grandes, reflejos rápidos y puntería precisa2.
+El [Legion Pro 7i Gen 8][lenovo] es un ordenador diseñado específicamente para disfrutar de tus videojuegos favoritos. Con una pantalla de excelente calidad y una tarjeta gráfica de última generación, podrás jugar a cualquier juego con una calidad altísima. La única desventaja es su batería, que puede durar menos de una hora, por lo que es recomendable tenerlo siempre conectado a la corriente para que la GPU funcione a pleno rendimiento. Además, cuenta con un teclado retroiluminado RGB que permite multitud de combinaciones. En definitiva, una elección TOP para juegos que durará muchos años gracias a sus 32 GB de RAM, 1 TB de disco SSD y 12 GB de gráfica RTX 4070. Debido a que está pensado para rendimiento, su tamaño y peso son amplios para garantizar una buena refrigeración y evitar que los componentes sufran en exceso. Sin duda, Lenovo está haciendo un trabajo estupendo con esta gama Legion.
+
+## Ventajas
+- Pantalla de 16" a 240 Hz que ofrece una experiencia de juego incomparable.
+- Tarjeta gráfica de última generación RTX 4070 de 12 GB que permite jugar a cualquier juego con una calidad altísima.
+- Procesador Intel i9 para una mayor rapidez y eficiencia.
+
+## Desventajas
+- Batería de poca duración, por lo que es recomendable tenerlo conectado a la corriente para poder jugar sin problemas.
+- Tamaño y peso elevados debido a su diseño enfocado en la refrigeración.
+- Precio elevado, aunque su calidad lo convierte en una inversión a largo plazo para los gamers más exigentes.
+
 
 ¡Hasta la próxima semana!
 
