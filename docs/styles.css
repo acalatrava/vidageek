@@ -2,25 +2,29 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
 }
 
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
+    transition: 0.3s;
 }
 
 a:hover,
 a:focus {
-    text-decoration: underline;
+    text-decoration: none;
+    color: rgb(0, 123, 255);
 }
 
 h3 {
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .post-header h3 {
-    font-size: 1.4em;
-    font-weight: 500;
+    font-size: 1.6em;
+    font-weight: 600;
 }
 
 /* LAYOUT CSS */
@@ -48,6 +52,7 @@ h3 {
 .sidebar {
     background: rgb(34, 1, 57);
     color: #fff;
+    padding: 2em;
 }
 
 .brand-title,
@@ -58,6 +63,7 @@ h3 {
 
 .brand-title {
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .brand-tagline {
@@ -75,6 +81,7 @@ h3 {
     display: inline-block;
     *display: inline;
     zoom: 1;
+    margin: 0 1em;
 }
 
 .nav-item a {
@@ -85,12 +92,16 @@ h3 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-size: 85%;
+    padding: 0.5em 1em;
+    transition: 0.3s;
 }
 
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 6px solid rgb(61, 146, 201);
+    border: 2px solid rgb(61, 146, 201);
     text-decoration: none;
+    color: rgb(61, 146, 201);
+    background: #fff;
 }
 
 .content-subhead {
@@ -124,7 +135,7 @@ h3 {
 }
 
 .post-description {
-    font-family: Georgia, "Cambria", serif;
+    font-family: 'Poppins', sans-serif;
     color: #444;
     line-height: 1.8em;
 }
@@ -172,10 +183,11 @@ h3 {
 
 .footer {
     padding: 1em 0;
+    background: #f8f9fa;
 }
 
 .footer a {
-    color: #ccc;
+    color: #999;
     font-size: 80%;
 }
 
