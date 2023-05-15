@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-15T10:20:36+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x09</title><link href="https://vidageek.com/2023/05/13/podcast-2x09.html" rel="alternate" type="text/html" title="Podcast 2x09" /><published>2023-05-13T00:00:00+00:00</published><updated>2023-05-13T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/13/podcast-2x09</id><content type="html" xml:base="https://vidageek.com/2023/05/13/podcast-2x09.html"><![CDATA[<h1 id="cómo-esconder-mensajes-secretos-a-plena-vista">Cómo esconder mensajes secretos a plena vista</h1>
+<p>Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.</p>
+
+<h2 id="etimología">Etimología</h2>
+<p>La palabra “esteganografía” proviene de dos palabras griegas: “steganos” (στεγανός) y “graphein” (γράφειν). “Steganos” significa “cubierto” o “escondido”, mientras que “graphein” significa “escribir” o “dibujar”. Por lo tanto, la etimología de “esteganografía” se traduce aproximadamente como “escritura escondida” o “escritura encubierta”, lo que refleja la idea de ocultar mensajes secretos dentro de otros medios, como imágenes, textos o archivos de audio.</p>
+
+<h2 id="tipos-de-esteganografía">Tipos de esteganografía</h2>
+<p>Hay diferentes tipos de esteganografía, dependiendo de en qué escondes el mensaje:</p>
+
+<ul>
+  <li>
+    <p>Esteganografía en imágenes: Escondes el mensaje dentro de una foto o un dibujo, cambiando un poquito los colores o los detalles de la imagen.</p>
+  </li>
+  <li>
+    <p>Esteganografía en audio: Puedes esconder el mensaje dentro de una grabación de música o sonido, cambiando un poquito las ondas de sonido.</p>
+  </li>
+  <li>
+    <p>Esteganografía en texto: Aquí, escondes el mensaje dentro de un texto, utilizando letras o palabras extrañas, o cambiando el tamaño y el color de las letras.</p>
+  </li>
+  <li>
+    <p>Esteganografía en redes: En este caso, escondes el mensaje en la forma en que se envían los datos por internet u otras redes, para que no se pueda saber qué información se está compartiendo.</p>
+  </li>
+</ul>
+
+<h2 id="historia">Historia</h2>
+<p>La esteganografía se ha utilizado desde hace mucho tiempo. La primera vez que se tiene constancia de su uso fue en la antigua Grecia, alrededor del año 440 a.C. Un famoso general griego llamado Histiaeus quería enviar un mensaje secreto a uno de sus aliados. Entonces, afeitó la cabeza de uno de sus mensajeros, escribió el mensaje en su cuero cabelludo y esperó a que el cabello volviera a crecer. Cuando el cabello del mensajero creció lo suficiente para cubrir el mensaje, lo envió a entregar el mensaje secreto. Al llegar a su destino, el aliado volvió a afeitar la cabeza del mensajero y pudo leer el mensaje oculto.</p>
+
+<h2 id="tutorial-esconde-un-mensaje-en-una-imagen-jpeg">Tutorial: esconde un mensaje en una imagen JPEG</h2>
+<p>Para este tutorial vamos a hacer uso de un cuaderno que hemos creado de una forma sencilla.</p>
+
+<ul>
+  <li>Ocultar mensaje: <a href="https://colab.research.google.com/drive/1B5oYFHjQQZ7DJckB9HLm6U4GmKEFo0fn">Esteganografía en JPG ocultar mensaje</a></li>
+  <li>Revelar mensaje: <a href="https://colab.research.google.com/drive/180wShYdVHgPU8WPBfxrWAkJnYpglSOr_">Esteganografía en JPG revelar mensaje</a></li>
+</ul>
+
+<hr />
+<h1 id="legion-pro-7i-gen-8-el-ordenador-ideal-para-gamers-exigentes">Legion Pro 7i Gen 8: El ordenador ideal para gamers exigentes</h1>
+
+<p>El <a href="https://amzn.to/3MnkXTP">Legion Pro 7i Gen 8</a> es un ordenador diseñado específicamente para disfrutar de tus videojuegos favoritos. Con una pantalla de excelente calidad y una tarjeta gráfica de última generación, podrás jugar a cualquier juego con una calidad altísima. La única desventaja es su batería, que puede durar menos de una hora, por lo que es recomendable tenerlo siempre conectado a la corriente para que la GPU funcione a pleno rendimiento. Además, cuenta con un teclado retroiluminado RGB que permite multitud de combinaciones. En definitiva, una elección TOP para juegos que durará muchos años gracias a sus 32 GB de RAM, 1 TB de disco SSD y 12 GB de gráfica RTX 4070. Debido a que está pensado para rendimiento, su tamaño y peso son amplios para garantizar una buena refrigeración y evitar que los componentes sufran en exceso. Sin duda, Lenovo está haciendo un trabajo estupendo con esta gama Legion.</p>
+
+<h2 id="ventajas">Ventajas</h2>
+<ul>
+  <li>Pantalla de 16” a 240 Hz que ofrece una experiencia de juego incomparable.</li>
+  <li>Tarjeta gráfica de última generación RTX 4070 de 12 GB que permite jugar a cualquier juego con una calidad altísima.</li>
+  <li>Procesador Intel i9 para una mayor rapidez y eficiencia.</li>
+</ul>
+
+<h2 id="desventajas">Desventajas</h2>
+<ul>
+  <li>Batería de poca duración, por lo que es recomendable tenerlo conectado a la corriente para poder jugar sin problemas.</li>
+  <li>Tamaño y peso elevados debido a su diseño enfocado en la refrigeración.</li>
+  <li>Precio elevado, aunque su calidad lo convierte en una inversión a largo plazo para los gamers más exigentes.</li>
+</ul>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Cómo esconder mensajes secretos a plena vista Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.]]></summary></entry><entry><title type="html">Podcast 2x08</title><link href="https://vidageek.com/2023/05/06/podcast-2x08.html" rel="alternate" type="text/html" title="Podcast 2x08" /><published>2023-05-06T00:00:00+00:00</published><updated>2023-05-06T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/06/podcast-2x08</id><content type="html" xml:base="https://vidageek.com/2023/05/06/podcast-2x08.html"><![CDATA[<h1 id="cómo-generar-imágenes-geniales-con-ia">Cómo generar imágenes geniales con IA</h1>
+<p>Si ya hemos visto cómo generar audio con IA y cómo hablar con un modelo de lenguaje, esta semana os traemos cómo generar imágenes con IA. Hablaremos de <a href="https://openai.com/research/dall-e">Dall-E</a>, una herramienta de <a href="https://openai.com">OpenAI</a> y una de las primeras en la generación de imágenes. También probaremos <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Difussion</a> y <a href="https://www.bluewillow.ai">BlueWillow</a> para comparar cómo generan imágenes cada una de ellas.</p>
+
+<p>Después hablamos sobre un nuevo proyecto de código abierto que ha irrumpido en escena llamado <a href="https://github.com/deep-floyd/IF">IF de DeepFloyd</a> el cual ha sido el primero en ser capaz de generar imágenes en las cuales podemos pedir que añada un texto y éste aparecerá en la imagen de forma correcta. Hasta ahora las imágenes generadas en otras herramientas eran incapaces de generar el texto de forma coherente.</p>
+
+<h2 id="star-wars-jedi-survivor">Star Wars Jedi: Survivor</h2>
+<p>Os traemos un nuevo juego de acción y aventuras en tercera persona desarrollado por Respawn Entertainment y publicado por Electronic Arts. El juego se lanzó el 26 de abril de 2023 para PlayStation 5, Xbox Series X/S y PC. El juego sigue la historia de Cal Kestis, un joven Padawan Jedi que sobrevivió a la Orden 66 y ahora vive como un fugitivo en la galaxia. El juego ha recibido críticas positivas por su jugabilidad, historia y gráficos. IGN le dio al juego una puntuación de 9/10, mientras que PC Gamer le dio una puntuación de 8/10. The Guardian le dio al juego una puntuación perfecta de 5 estrellas. Sin embargo, el juego también ha sido criticado por sus problemas técnicos y problemas de velocidad de fotogramas.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Cómo generar imágenes geniales con IA Si ya hemos visto cómo generar audio con IA y cómo hablar con un modelo de lenguaje, esta semana os traemos cómo generar imágenes con IA. Hablaremos de Dall-E, una herramienta de OpenAI y una de las primeras en la generación de imágenes. También probaremos Stable Difussion y BlueWillow para comparar cómo generan imágenes cada una de ellas.]]></summary></entry><entry><title type="html">Podcast 2x07</title><link href="https://vidageek.com/2023/04/29/podcast-2x07.html" rel="alternate" type="text/html" title="Podcast 2x07" /><published>2023-04-29T00:00:00+00:00</published><updated>2023-04-29T00:00:00+00:00</updated><id>https://vidageek.com/2023/04/29/podcast-2x07</id><content type="html" xml:base="https://vidageek.com/2023/04/29/podcast-2x07.html"><![CDATA[<h1 id="olvídate-del-backend-con-appwrite">Olvídate del backend con AppWrite</h1>
+<p>Hoy hablamos sobre <a href="[https://appwrite.io]">AppWrite</a>, un proyecto de código abierto para crear tu backend de una forma fácil y rápida. Puedes instalar <a href="[https://appwrite.io]">AppWrite</a> en tu servidor utilizando docker o directamente utilizando AppWrite Cloud y de esta forma no tener que preocuparte de absolutamente nada.</p>
+
+<p>Puedes integrar AppWrite con cualquier plataforma con sus SDKs para cualquier lenguaje de programación o framework como Flutter, iOS, Android, JS, etc.</p>
+
+<h2 id="unrecord-videojuego-con-unreal-engine-5">Unrecord Videojuego con Unreal Engine 5</h2>
+<p>Unrecord será uno de los primeros juegos en utilizar el nuevo motor de imagen Unreal Engine 5. Promete ser mucho mas realista (cosa que veremos) y mucho más espectacular en cuanto a imagen. Nos pondremos en la piel de un policía visto desde la camara que llevan en el hombro como si de una gopro se tratara. Sin duda una vista algo inusual para un juego de disparos pero que desde luego le da una sensación de realismo brutal.</p>
+
+<p>Actualmente está en desarrollo y en principio solo saldrá para PC. Podéis seguirlo en <a href="https://store.steampowered.com/app/2381520/Unrecord/">Steam</a> o en su <a href="https://discord.com/invite/3xFRSXuDgDfork">Discord</a>. Además podéis ver un <a href="https://www.youtube.com/watch?v=IK76q13Aqt0">vídeo de demostración en YouTube</a>.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Olvídate del backend con AppWrite Hoy hablamos sobre AppWrite, un proyecto de código abierto para crear tu backend de una forma fácil y rápida. Puedes instalar AppWrite en tu servidor utilizando docker o directamente utilizando AppWrite Cloud y de esta forma no tener que preocuparte de absolutamente nada.]]></summary></entry><entry><title type="html">Podcast 2x06</title><link href="https://vidageek.com/2023/04/22/podcast-2x06.html" rel="alternate" type="text/html" title="Podcast 2x06" /><published>2023-04-22T00:00:00+00:00</published><updated>2023-04-22T00:00:00+00:00</updated><id>https://vidageek.com/2023/04/22/podcast-2x06</id><content type="html" xml:base="https://vidageek.com/2023/04/22/podcast-2x06.html"><![CDATA[<h1 id="clona-tu-propia-voz-o-la-de-tu-vecino">Clona tu propia voz… o la de tu vecino</h1>
+<p>La inteligencia artificial no para. La semana pasada hablábamos de cómo <a href="https://open.spotify.com/artist/1si6mnxJ6IpTOTW13ECa0o">Alltta</a> había creado una canción utilizando por inteligencia artificial con la voz de Jay-Z y esta semana os traemos un proyecto de código abierto llamado <a href="https://github.com/voicepaw/so-vits-svc-fork">SoftVC VITS</a> con el que podrás hacerlo tú mismo. Este proyecto en concreto es un fork del proyecto original el cual nos permite hacer incluso inferencia en tiempo real. Además alguien ha creado unos cuantos modelos de voces que podemos <a href="https://huggingface.co/marcoc2/so-vits-svc-4.0-models">descargar libremente</a> con voces como la de Lady Gaga, Billie Joe o David Bowie.</p>
+
+<hr />
+<blockquote>
+  <h3 id="patrocinado-por-qoodiht-tus-fundas-sostenibles">Patrocinado por Qoodiht, tus fundas sostenibles</h3>
+  <p>El episodio de hoy está patrocinado por <a href="https://qoodiht.myshopify.com">Qoodiht</a>, unas nuevas fundas ecológicas para tu iPhone, fabricadas en España con un material ecológico y sostenible. Llevo un par de semanas utilizando la funda modelo GEA y estoy gratamente sorprendido. Tan sólo cuestan 7,95€ y están disponibles en color blanco y verde fluor. Además tienen una funda, el modelo Apolo, que brilla en la oscuridad.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="puedo-clonar-la-voz-de-cualquier-persona-qué-dice-la-ley-al-respecto">¿Puedo clonar la voz de cualquier persona? ¿Qué dice la ley al respecto?</h2>
+<p>Hablamos con Javier Maestre, un abogado experto en nuevas tecnologías que nos cuenta qué dice la ley al respecto de utilizar la voz creada por la IA.</p>
+
+<h2 id="qué-son-las-gan-o-redes-generativas-adversarias">¿Qué son las GAN o Redes Generativas Adversarias?</h2>
+<p>Una GAN (Generative Adversarial Network o red generativa antagónica en Español) fue creada por Ian Goodfellow en 2017. Son un tipo de inteligencia artificial que se utiliza para crear cosas nuevas, como imágenes o sonidos, imitando ejemplos existentes. Imagina que es como un artista y un crítico que trabajan juntos: el artista crea una obra y el crítico la evalúa. En una GAN, hay dos partes: el generador, que es como el artista, y el discriminador, que es como el crítico. El generador crea imágenes (u otros tipos de datos) y el discriminador evalúa si son reales (parecidas a los ejemplos existentes) o falsas (hechas por el generador). Ambos van aprendiendo y mejorando en su trabajo a medida que se entrenan, lo que hace que la GAN sea cada vez más efectiva para crear cosas que parezcan reales.
+Se utilizaron para deepfakes</p>
+
+<h2 id="para-la-música-o-la-voz">Para la música… o la voz</h2>
+<p>Lo más interesante de este proyecto es que, si bien está pensado para cambiar la voz en canciones, se puede utilizar de la misma manera para el habla, de forma que tu voz sea cambiada por ejemplo… por la de tu jefe, o por la de tu vecino. Yo mismo he creado un modelo de la voz de Paco en apenas unas horas y con un coste de… 0€. Totalmente gratuito utilizando la plataforma de Google Colab.</p>
+
+<h2 id="cómo-clonar-tu-voz">Cómo clonar tu voz</h2>
+<p>Para poder realizar el modelo de una voz es necesario tener unos cuantos minutos de la voz que queremos clonar de forma clara. Si por ejemplo queremos clonar nuestra propia voz, es suficiente con grabarnos hablar durante unos 10 o 15 minutos. Si queremos clonar una voz de una canción será necesario eliminar la música de fondo  antes de utilizarla.</p>
+
+<p>Una vez obtenida la voz es necesario trocearla en diferentes samples de unos 10 segundos o menos de duración. En mi caso he utilizado mi voz del último podcast y la he troceado de forma automática utilizando un script en python que automáticamente busca los silencios y lo separa.</p>
+
+<p>Después no tiene mayor misterio más que seguir <a href="https://vidageek.com/entrenarvoz">este cuaderno</a> que os hemos creado para que, en unos sencillos pasos, podamos crear nuestro propio modelo de voz. Una vez generado podemos utilizar <a href="https://colab.research.google.com/github/34j/so-vits-svc-fork/blob/main/notebooks/so-vits-svc-fork-4.0.ipynb">este otro</a> para cambiar nuestra voz por la de nuestro modelo.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Clona tu propia voz… o la de tu vecino La inteligencia artificial no para. La semana pasada hablábamos de cómo Alltta había creado una canción utilizando por inteligencia artificial con la voz de Jay-Z y esta semana os traemos un proyecto de código abierto llamado SoftVC VITS con el que podrás hacerlo tú mismo. Este proyecto en concreto es un fork del proyecto original el cual nos permite hacer incluso inferencia en tiempo real. Además alguien ha creado unos cuantos modelos de voces que podemos descargar libremente con voces como la de Lady Gaga, Billie Joe o David Bowie.]]></summary></entry><entry><title type="html">Podcast 16</title><link href="https://vidageek.com/2023/04/14/podcast-16.html" rel="alternate" type="text/html" title="Podcast 16" /><published>2023-04-14T00:00:00+00:00</published><updated>2023-04-14T00:00:00+00:00</updated><id>https://vidageek.com/2023/04/14/podcast-16</id><content type="html" xml:base="https://vidageek.com/2023/04/14/podcast-16.html"><![CDATA[<h1 id="alltta-y-cómo-jay-z-no-colabora-en-su-último-tema-savages">Alltta y cómo Jay-Z no colabora en su último tema “Savages”</h1>
+<p>Hoy seguimos con inteligencia artificial pero esta vez dedicada al audio. Hace unos días el grupo de rap <a href="https://open.spotify.com/artist/1si6mnxJ6IpTOTW13ECa0o">Alltta</a> ha publicado <a href="https://www.youtube.com/watch?v=y7r6PAkFRfU">Savages</a>, un tema en el que aparece Jay-Z colaborando… solo que no es Jay-Z el que canta y tampoco un ser humano…</p>
+
+<p>Comenatamos cómo es posible clonar tu voz con herramientas como <a href="https://www.descript.com/overdub">Overdub</a>, <a href="https://fakeyou.com">FakeYou</a> o <a href="https://huggingface.co/spaces/coqui/CoquiTTS">Coqui</a> entre otras.</p>
+
+<h1 id="xiaomi-compresor-de-aire-eléctrico-portátil-1s">Xiaomi Compresor de aire eléctrico portátil 1S</h1>
+<p>El <a href="https://amzn.to/3UH4tc0">Xiaomi Portable Electric Air Compressor 1S</a> es un compresor de aire eléctrico portátil que se puede utilizar para inflar neumáticos, pelotas u otros objetos inflables de manera rápida y sencilla</p>
+
+<h2 id="caracteristicas">Caracteristicas</h2>
+
+<p>Tiene una precisión de ±2 psi y una capacidad de batería de 2.000mAh (14,8Wh) que puede durar unos 18 minutos con una carga completa. También tiene un diseño compacto y se puede transportar fácilmente a cualquier lugar. El <a href="https://amzn.to/3UH4tc0">Xiaomi Portable Electric Air Compressor 1S</a> tiene un motor más potente que el Xiaomi Portable Electric Air Compressor lo que le permite llenar el aire del neumático a un ritmo más rápido2. También tiene un puerto de carga USB Tipo-C en comparación con el puerto microUSB del modelo anterior2. Según un análisis realizado por Xataka, el Xiaomi Electric Air Compressor 1S tardó 13 minutos y 20 segundos en llenar un neumático 215/60/R16 completamente desinflado a 34 PSI</p>
+
+<h2 id="ventajas">Ventajas</h2>
+<ul>
+  <li>Portatil</li>
+  <li>Duracion de la bateria</li>
+  <li>Tamaño</li>
+</ul>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Un dispositivo que me ha resultado muy util y que no hay excusa para tener las ruedas bajas de presion. Muy recomendable dado que su tamaño es muy reducido y un uso muy sencillo. Viene acompañado de utiles para inflar balones de fútbol y es compatible con la mayoria de las válvulas que hay en el mercado.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Alltta y cómo Jay-Z no colabora en su último tema “Savages” Hoy seguimos con inteligencia artificial pero esta vez dedicada al audio. Hace unos días el grupo de rap Alltta ha publicado Savages, un tema en el que aparece Jay-Z colaborando… solo que no es Jay-Z el que canta y tampoco un ser humano…]]></summary></entry><entry><title type="html">Podcast 15</title><link href="https://vidageek.com/2023/04/07/podcast-15.html" rel="alternate" type="text/html" title="Podcast 15" /><published>2023-04-07T00:00:00+00:00</published><updated>2023-04-07T00:00:00+00:00</updated><id>https://vidageek.com/2023/04/07/podcast-15</id><content type="html" xml:base="https://vidageek.com/2023/04/07/podcast-15.html"><![CDATA[<h1 id="vicuna-un-nuevo-y-más-avanzado-llm">Vicuna, un nuevo y más avanzado LLM</h1>
+<p>Y seguimos con la familia de las LLaMAs que crece un poquito más, con un nuevo modelo de lenguaje especializado utilizando com dataset más de 100k preguntas y respuestas de la comunidad de <a href="https://sharegpt.com">ShareGPT</a>. El modelo le han bautizado como <a href="https://github.com/lm-sys/FastChat">Vicuna</a> para seguir la “tradición”, por no decir el cachondeo, de los lamoides. Para su entrenamiento ha sido necesario una inversión de sólo 300$ tal como se puede ver en su <a href="https://vicuna.lmsys.org">paper</a>.</p>
+
+<p>El modelo se puede incluso <a href="https://huggingface.co/eachadea/ggml-vicuna-13b-4bit">encontrar cuantizado</a> para poder utilizarlo con <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> y se comporta de una manera muy similar ya a ChatGPT, lo cual es todo un mérito teniendo en cuenta que es un modelo de solo 13 billones de parámetros que puede ser inferido en un equipo convencional con 16GB de RAM.</p>
+
+<h1 id="review-destiny-2">Review Destiny 2</h1>
+<p>Destiny 2 es un videjuego creado por Bungie, continuando la primera parte Destiny en el año 2017. Es un shooter en primera persona, con muchísima jugabilidad y habilidades.</p>
+
+<h2 id="características">Características</h2>
+<ul>
+  <li>Cooperativo de 3 y 6 jugadores(raid y crisol)</li>
+  <li>Habilidades</li>
+  <li>Diferentes personajes</li>
+</ul>
+
+<h2 id="ventajas">Ventajas</h2>
+<ul>
+  <li>Mundo abierto</li>
+  <li>Jugabilidad</li>
+  <li>Horas y horas de entretenimiento</li>
+  <li>Cooperativo</li>
+</ul>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Sin duda Destiny 2 aportará horas de diversion. Muchos planetas, misiones, asaltos, raid etc. Dispone tambien de un juego tipo pvp muy parecido a partidas cortas de call of duty para poder poner tus habilidades contra otros jugadores. Perfecto si tienes una escuadra para poder pasar el rato. No defraudará a todo aquel que le guste los shooter y los juegos de mundo abierto.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Vicuna, un nuevo y más avanzado LLM Y seguimos con la familia de las LLaMAs que crece un poquito más, con un nuevo modelo de lenguaje especializado utilizando com dataset más de 100k preguntas y respuestas de la comunidad de ShareGPT. El modelo le han bautizado como Vicuna para seguir la “tradición”, por no decir el cachondeo, de los lamoides. Para su entrenamiento ha sido necesario una inversión de sólo 300$ tal como se puede ver en su paper.]]></summary></entry><entry><title type="html">La inteligencia artificial nos come</title><link href="https://vidageek.com/2023/03/31/podcast-14.html" rel="alternate" type="text/html" title="La inteligencia artificial nos come" /><published>2023-03-31T00:00:00+00:00</published><updated>2023-03-31T00:00:00+00:00</updated><id>https://vidageek.com/2023/03/31/podcast-14</id><content type="html" xml:base="https://vidageek.com/2023/03/31/podcast-14.html"><![CDATA[<p>La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de <a href="https://github.com/tatsu-lab/stanford_alpaca">Alpaca</a> un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo <a href="https://github.com/facebookresearch/llama">LLaMA</a> de Meta. Además, utilizando el proyecto <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a>, es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.</p>
+
+<p>En la sección de gaming os hablamos del mando <a href="https://amzn.to/40LrCM7">Xbox Inalámbrico Elite Series 2</a>, un mando versátil que te sentará como un guante. Es un mando con un peso ideal para jugar sin parar.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de Alpaca un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo LLaMA de Meta. Además, utilizando el proyecto llama.cpp, es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.]]></summary></entry><entry><title type="html">LangChain y Samsung Odyssey G7 curvo</title><link href="https://vidageek.com/2023/03/24/podcast-13.html" rel="alternate" type="text/html" title="LangChain y Samsung Odyssey G7 curvo" /><published>2023-03-24T09:00:00+00:00</published><updated>2023-03-24T09:00:00+00:00</updated><id>https://vidageek.com/2023/03/24/podcast-13</id><content type="html" xml:base="https://vidageek.com/2023/03/24/podcast-13.html"><![CDATA[<p>Esta semana hablamos sobre <a href="https://langchain.readthedocs.io/en/latest/">LangChain</a>, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.</p>
+
+<p>Una de las características más interesantes son las llamadas herramientas (tools) que nos permiten dotar de nuevas funciones al LLM para que pueda hacer más cosas (como por ejemplo una calculadora).</p>
+
+<p>Lo que hace que LangChain sea tan emocionante es que ayuda a los desarrolladores a combinar la potencia de los modelos de lenguaje natural con otras fuentes de conocimiento y computación para crear aplicaciones verdaderamente efectivas.</p>
+
+<p>Tamnbién os hablamos sobre el <a href="https://amzn.to/4097gwz">monitor curvo Samsung Odyssey G7</a> el cual, a pesar de no ser 4k, es un monitor ideal tanto para jugar como para trabajar.</p>
+
+<p><a href="https://langchain.readthedocs.io/en/latest/">LangChain</a></p>
+
+<p><a href="https://amzn.to/4097gwz">Samsung Odyssey G7</a></p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Esta semana hablamos sobre LangChain, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.]]></summary></entry><entry><title type="html">NextDNS y Logitech G502 Hero</title><link href="https://vidageek.com/2023/03/17/podcast-12.html" rel="alternate" type="text/html" title="NextDNS y Logitech G502 Hero" /><published>2023-03-17T11:25:40+00:00</published><updated>2023-03-17T11:25:40+00:00</updated><id>https://vidageek.com/2023/03/17/podcast-12</id><content type="html" xml:base="https://vidageek.com/2023/03/17/podcast-12.html"><![CDATA[<p>¡Después de casi 15 años estamos de vuelta!</p>
+
+<p>Hoy os traemos <a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a>, un servicio de DNS controlado por ti y con superpoderes. Podrás utilizarlo tanto para bloquear apps maliciosas, bloquear anuncios o incluso como control parental.</p>
+
+<p>Y en la sección de gaming hablaremos sobre el <a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a>, un ratón con tantos botones programables que te costará encontrarlos.</p>
+
+<p><a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a></p>
+
+<p><a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a></p>
+
+<p>¡Hasta el próximo episodio!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[¡Después de casi 15 años estamos de vuelta!]]></summary></entry></feed>
