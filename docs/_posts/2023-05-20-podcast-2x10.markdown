@@ -54,7 +54,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
  
 ¡Hasta la próxima semana!
 
-[chatpdf]: https://chatpdf.com
+[chatpdf]: https://www.chatpdf.com?via=vidageek
 [openai]: https://openai.com
 [privategpt]: https://github.com/imartinez/privateGPT
 [colab]: https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P
