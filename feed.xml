@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-15T10:20:36+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x09</title><link href="https://vidageek.com/2023/05/13/podcast-2x09.html" rel="alternate" type="text/html" title="Podcast 2x09" /><published>2023-05-13T00:00:00+00:00</published><updated>2023-05-13T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/13/podcast-2x09</id><content type="html" xml:base="https://vidageek.com/2023/05/13/podcast-2x09.html"><![CDATA[<h1 id="cómo-esconder-mensajes-secretos-a-plena-vista">Cómo esconder mensajes secretos a plena vista</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-21T07:00:06+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x10</title><link href="https://vidageek.com/2023/05/20/podcast-2x10.html" rel="alternate" type="text/html" title="Podcast 2x10" /><published>2023-05-20T00:00:00+00:00</published><updated>2023-05-20T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/20/podcast-2x10</id><content type="html" xml:base="https://vidageek.com/2023/05/20/podcast-2x10.html"><![CDATA[<h1 id="habla-con-tus-documentos">Habla con tus documentos</h1>
+<p>Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como <a href="https://chatpdf.com">ChatPDF</a> una herramienta online que utiliza por detrás los modelos de lenguaje de <a href="https://openai.com">OpenAI</a> como ChatGPT. También os explicamos cómo realizarlo de forma totalmente offline y privada utilizando el proyecto <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a> el cual utiliza un modelo de lenguaje de código abierto y directamente en tu CPU. Como ejemplo os hemos puesto un <a href="https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P">Google Colab</a> para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU…</p>
+
+<hr />
+<h1 id="amazfit-gtr-4-y-gts-4">Amazfit GTR 4 y GTS 4</h1>
+
+<h2 id="acerca-de-estos-relojes">Acerca de estos relojes</h2>
+<p>Dos relojes muy similares por dentro pero muy diferentes por fuera.
+El <a href="https://amzn.to/3WmkgO4">Amazfit GTR 4</a> cuenta con una pantalla HD amoled de 1.43 pulgadas con una resolucion de 466x466 Pixeles. Cuenta además con una batería que prometen durar unos 15 días. Con sensores para deporte con 150 modos de entrenamiento, control del sueño etc. Una opcion muy buena para el dia a dia y con un tamaño y forma muy deportivo</p>
+
+<p>Por otro lado, el <a href="https://amzn.to/3pWDVbs">Amazfit GTS 4</a>, al contrario que su hermano, es rectangular(el gtr es redondo) y es la mayor diferencia que podemos encontrar en el dado que sus sensores son iguales. El peso tambien al ser mas pequeño es menor, la bateria pasa lo mismo pero no por ello malo ni mucho menos.</p>
+
+<p>Cuenta con una pantalla de 1.75 pulgadas, comentamos en directo que la pantalla del gtr 4 era mas grande pero como dicen los datos lo dijimos mal.</p>
+
+<p>En ambos casos hay que usar la aplicacion de Amazfit para poder usar las funcionalidades del mismo con nuestro telefono movil.
+Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marcas y desde luego para el dia a dia no dudaria en comprarmelo</p>
+
+<h2 id="ventajas">Ventajas</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Bateria
+- Pantalla
+- Precio
+</code></pre></div></div>
+
+<h2 id="desventajas">Desventajas</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- No cuenta con NFC
+- Fácil de rallar
+- Aplicacion de terceros 
+</code></pre></div></div>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Habla con tus documentos Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como ChatPDF una herramienta online que utiliza por detrás los modelos de lenguaje de OpenAI como ChatGPT. También os explicamos cómo realizarlo de forma totalmente offline y privada utilizando el proyecto PrivateGPT el cual utiliza un modelo de lenguaje de código abierto y directamente en tu CPU. Como ejemplo os hemos puesto un Google Colab para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU…]]></summary></entry><entry><title type="html">Podcast 2x09</title><link href="https://vidageek.com/2023/05/13/podcast-2x09.html" rel="alternate" type="text/html" title="Podcast 2x09" /><published>2023-05-13T00:00:00+00:00</published><updated>2023-05-13T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/13/podcast-2x09</id><content type="html" xml:base="https://vidageek.com/2023/05/13/podcast-2x09.html"><![CDATA[<h1 id="cómo-esconder-mensajes-secretos-a-plena-vista">Cómo esconder mensajes secretos a plena vista</h1>
 <p>Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.</p>
 
 <h2 id="etimología">Etimología</h2>
