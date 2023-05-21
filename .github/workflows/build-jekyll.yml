@@ -20,7 +20,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      - uses: ankarenko/jekyll-deploy-action@v0.4.0
+      - uses: acalatrava/jekyll-deploy-action@v0.4.1
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
