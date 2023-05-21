@@ -7,7 +7,26 @@ explicit: "no"
 ---
 
 # Habla con tus documentos
-Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como [ChatPDF][chatpdf] una herramienta online que utiliza por detrás los modelos de lenguaje de [OpenAI][openai] como ChatGPT. También os explicamos cómo realizarlo de forma totalmente offline y privada utilizando el proyecto [PrivateGPT][privategpt] el cual utiliza un modelo de lenguaje de código abierto y directamente en tu CPU. Como ejemplo os hemos puesto un [Google Colab][colab] para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU...
+Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como [ChatPDF][chatpdf] o [PrivateGPT][privategpt].
+
+El modo como funcionan estas herramientas se divide en 3 partes:
+
+ - Extracción de texto
+El primer paso es extraer todo el texto del documento y categorizarlo con metadatos como número de página, autor, etc.
+
+ - Extraer embeddings del texto
+Este paso utiliza un modelo que analiza semánticamente el texto y lo convierte a vectores de forma que puede ser indexado en una base de datos vectorial como [Pinecone][pinecone] o similar.
+
+ - "Conversar" con el documento
+Este último paso realiza el paso anterior por cada consulta que le realicemos. Es decir, genera embeddings de la consulta que queremos hacer para luego poder hacer una búsqueda en la base de datos de forma que encontrará los textos que se acerquen más de forma semántica a la consulta para utilizarlos como contexto o referencia en la consulta final.
+
+## ChatPDF
+[ChatPDF][chatpdf] es una herramienta online que utiliza por detrás los modelos de lenguaje de [OpenAI][openai] como ChatGPT para las consultas o ADA para los embeddings. Es un servicio gratuito con limitaciones de hasta 120 páginas por documento o 3 documentos por día. Es muy sencilla de utilizar pero como inconveniente tiene que todo es procesdo online de forma que, si trabajamos con documentos sensibles o confidenciales, no deberíamos utilizarla.
+
+## PrivateGPT
+Por el contrario el proyecto [PrivateGPT][privategpt] utiliza un modelo de lenguaje de código abierto que se ejecuta en local, directamente en tu CPU. Esto tiene la gran ventaja de que podemos trabajar con documentos confidenciales pero como contrapartida es mucho más lento, dependiendo en gran medida de la potencia de la CPU.
+
+Como ejemplo os hemos puesto un [Google Colab][colab] para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU...
 
 ----
 # Amazfit GTR 4 y GTS 4
@@ -41,3 +60,4 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
 [colab]: https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P
 [gts4]: https://amzn.to/3pWDVbs
 [gtr4]: https://amzn.to/3WmkgO4
+[pinecone]: https://pinecone.io
