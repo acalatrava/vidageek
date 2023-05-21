@@ -35,7 +35,32 @@
       <itunes:season>2</itunes:season>
       <itunes:episode>10</itunes:episode>
       <description><![CDATA[<h1 id="habla-con-tus-documentos">Habla con tus documentos</h1>
-<p>Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como <a href="https://chatpdf.com">ChatPDF</a> una herramienta online que utiliza por detrás los modelos de lenguaje de <a href="https://openai.com">OpenAI</a> como ChatGPT. También os explicamos cómo realizarlo de forma totalmente offline y privada utilizando el proyecto <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a> el cual utiliza un modelo de lenguaje de código abierto y directamente en tu CPU. Como ejemplo os hemos puesto un <a href="https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P">Google Colab</a> para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU…</p>
+<p>Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como <a href="https://chatpdf.com">ChatPDF</a> o <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a>.</p>
+
+<p>El modo como funcionan estas herramientas se divide en 3 partes:</p>
+
+<ul>
+  <li>
+    <p>Extracción de texto
+El primer paso es extraer todo el texto del documento y categorizarlo con metadatos como número de página, autor, etc.</p>
+  </li>
+  <li>
+    <p>Extraer embeddings del texto
+Este paso utiliza un modelo que analiza semánticamente el texto y lo convierte a vectores de forma que puede ser indexado en una base de datos vectorial como <a href="https://pinecone.io">Pinecone</a> o similar.</p>
+  </li>
+  <li>
+    <p>“Conversar” con el documento
+Este último paso realiza el paso anterior por cada consulta que le realicemos. Es decir, genera embeddings de la consulta que queremos hacer para luego poder hacer una búsqueda en la base de datos de forma que encontrará los textos que se acerquen más de forma semántica a la consulta para utilizarlos como contexto o referencia en la consulta final.</p>
+  </li>
+</ul>
+
+<h2 id="chatpdf">ChatPDF</h2>
+<p><a href="https://chatpdf.com">ChatPDF</a> es una herramienta online que utiliza por detrás los modelos de lenguaje de <a href="https://openai.com">OpenAI</a> como ChatGPT para las consultas o ADA para los embeddings. Es un servicio gratuito con limitaciones de hasta 120 páginas por documento o 3 documentos por día. Es muy sencilla de utilizar pero como inconveniente tiene que todo es procesdo online de forma que, si trabajamos con documentos sensibles o confidenciales, no deberíamos utilizarla.</p>
+
+<h2 id="privategpt">PrivateGPT</h2>
+<p>Por el contrario el proyecto <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a> utiliza un modelo de lenguaje de código abierto que se ejecuta en local, directamente en tu CPU. Esto tiene la gran ventaja de que podemos trabajar con documentos confidenciales pero como contrapartida es mucho más lento, dependiendo en gran medida de la potencia de la CPU.</p>
+
+<p>Como ejemplo os hemos puesto un <a href="https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P">Google Colab</a> para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU…</p>
 
 <hr />
 <h1 id="amazfit-gtr-4-y-gts-4">Amazfit GTR 4 y GTS 4</h1>
