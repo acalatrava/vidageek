@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-21T09:16:16+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x10</title><link href="https://vidageek.com/2023/05/20/podcast-2x10.html" rel="alternate" type="text/html" title="Podcast 2x10" /><published>2023-05-20T00:00:00+00:00</published><updated>2023-05-20T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/20/podcast-2x10</id><content type="html" xml:base="https://vidageek.com/2023/05/20/podcast-2x10.html"><![CDATA[<h1 id="habla-con-tus-documentos">Habla con tus documentos</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-27T22:35:54+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x11</title><link href="https://vidageek.com/2023/05/27/podcast-2x11.html" rel="alternate" type="text/html" title="Podcast 2x11" /><published>2023-05-27T00:00:00+00:00</published><updated>2023-05-27T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/27/podcast-2x11</id><content type="html" xml:base="https://vidageek.com/2023/05/27/podcast-2x11.html"><![CDATA[<h1 id="tree-of-thoughts-deliberate-problem-solving-with-large-language-models">Tree of thoughts: Deliberate problem solving with Large Language Models</h1>
+<p><a href="https://arxiv.org/pdf/2305.10601.pdf">https://arxiv.org/pdf/2305.10601.pdf</a></p>
+
+<p>Esta pasada semana se ha publicado un paper llamado “Tree of thoughts: Deliberate problem solving with Large Language Models” que sería algo como “Pensamiento arborescente: Solución de problemas con modelos grandes de lenguaje”. En este paper se explican los métodos más habituales en los que se usan los LLM como ChatGPT y se propone un nuevo método el cual mejora sustancialmente los métodos actuales.</p>
+
+<p>Hasta ahora básicamente se usan 3 métodos:</p>
+<ul>
+  <li>Input-Output prompting: El cual consiste básicamente en hacer una pregunta para llegar a una respuesta. Sería lo que hacemos habitualmente con ChatGPT.</li>
+  <li>Chain of thought prompting: Consiste en separar la pregunta en los pasos necesarios para llegar a una respuesta, de esta manera la respuesta siempre es más efectiva. Se utiliza en algunos proyectos como BabyAGI o AutoGPT.</li>
+  <li>Self consistency with CoT: Que sería básicamente lo mismo que CoT pero haciendo la pregunta y elaborando los pasos varias veces de forma que nos quedaremos con la respuesta final que más se repita.</li>
+</ul>
+
+<p>Y el paper propone un nuevo método al que llama Tree of Thoughts o Árbol de pensamientos el cual consiste en, resumiéndolo mucho, en pedir al LLM que elabore varios planes para la resolución de un problema. Luego se le pide 5 veces que vote cuál es el mejor plan para resolver el problema planteado. Una vez hecho se le vuelve a pedir que elabore varios planes para resolver el problema basándose en los planes más votados y se vuelve a establecer un sistema de votaciones para esos planes generados. De esta manera se van creando unas ramas de pensamiento y las más votadas se van siguiendo. Es posible que alguna no llegue a buen puerto y se descarte esa rama por completo volviendo a una rama anterior.</p>
+
+<p>Este nuevo método parece muy efectivo y es muy prometedor. En las pruebas que han realizado han conseguido unos resultados excelentes. Por ejemplo en la resolución de crucigramas, los métodos clásicos como IO o CoT solo conseguían resolver 1 de cada 100 en el mejor de los casos mientras que ToT ha conseguido resolver 20 de cada 100. E incluso es más impresionante en el juego de 24 en el cual los métodos tradicionales conseguían un 9% de éxito mientras que ToT consigue un 74% de soluciones correctas.</p>
+
+<p>Ya ha salido una implementación en Python para que se pueda probar y trastear con ello:
+<a href="https://github.com/kyegomez/tree-of-thoughts">https://github.com/kyegomez/tree-of-thoughts</a></p>
+
+<h1 id="drag-your-gan-interactive-point-based-manipulation-on-the-generative-image-manifold">Drag your GAN: Interactive Point-based Manipulation on the Generative Image Manifold</h1>
+<p><a href="https://vcai.mpi-inf.mpg.de/projects/DragGAN/">https://vcai.mpi-inf.mpg.de/projects/DragGAN/</a></p>
+
+<p>Este paper que se podría traducir como “Arrastra tu GAN, Manipulación interactiva basada en puntos de la variedad de imágenes generativas</p>
+
+<hr />
+
+<h1 id="mandos-de-videojuego-accesibles">Mandos de videojuego accesibles</h1>
+<p>Hoy os traemos unos cuantos mandos económicos para poder disfrutar de nuestros juegos sin que nos escueza el bolsillo.</p>
+
+<p>En concreto son estos modelos:
+    - <a href="https://amzn.to/3C0N0mo">Microsoft Xbox original (XBOX y PC)</a>
+    - <a href="https://amzn.to/3BVTR0l">Nacon - Compact Mando (PS4 y PC)</a>
+    - <a href="https://amzn.to/3qiIvk9">G-Lab K-Pad Thorium Mando Gaming (PS3 y PC)</a>
+    - <a href="https://amzn.to/3OGUySy">Diswoe Mando Xbox 360 (PC)</a>
+    - <a href="https://amzn.to/3BXoYIT">PowerA (Xbox Series X|S Y PC)</a></p>
+
+<h2 id="recomendacion">Recomendacion</h2>
+<p>Desde mi punto de vista eligiria de todos ellos el mando POWER A por su calidad de acabado, precio y ergonomia a la hora de jugar ya que es practicamente lo mismo que el de xbox original pero con cable. Eso lo hace mas ligero pero con el incoveniente de tenerlo que tener conectado por cable.</p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Tree of thoughts: Deliberate problem solving with Large Language Models https://arxiv.org/pdf/2305.10601.pdf]]></summary></entry><entry><title type="html">Podcast 2x10</title><link href="https://vidageek.com/2023/05/20/podcast-2x10.html" rel="alternate" type="text/html" title="Podcast 2x10" /><published>2023-05-20T00:00:00+00:00</published><updated>2023-05-20T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/20/podcast-2x10</id><content type="html" xml:base="https://vidageek.com/2023/05/20/podcast-2x10.html"><![CDATA[<h1 id="habla-con-tus-documentos">Habla con tus documentos</h1>
 <p>Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como <a href="https://www.chatpdf.com?via=vidageek">ChatPDF</a> o <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a>.</p>
 
 <p>El modo como funcionan estas herramientas se divide en 3 partes:</p>
@@ -216,14 +255,4 @@ Se utilizaron para deepfakes</p>
 
 <p><a href="https://amzn.to/4097gwz">Samsung Odyssey G7</a></p>
 
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Esta semana hablamos sobre LangChain, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.]]></summary></entry><entry><title type="html">NextDNS y Logitech G502 Hero</title><link href="https://vidageek.com/2023/03/17/podcast-12.html" rel="alternate" type="text/html" title="NextDNS y Logitech G502 Hero" /><published>2023-03-17T11:25:40+00:00</published><updated>2023-03-17T11:25:40+00:00</updated><id>https://vidageek.com/2023/03/17/podcast-12</id><content type="html" xml:base="https://vidageek.com/2023/03/17/podcast-12.html"><![CDATA[<p>¡Después de casi 15 años estamos de vuelta!</p>
-
-<p>Hoy os traemos <a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a>, un servicio de DNS controlado por ti y con superpoderes. Podrás utilizarlo tanto para bloquear apps maliciosas, bloquear anuncios o incluso como control parental.</p>
-
-<p>Y en la sección de gaming hablaremos sobre el <a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a>, un ratón con tantos botones programables que te costará encontrarlos.</p>
-
-<p><a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a></p>
-
-<p><a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a></p>
-
-<p>¡Hasta el próximo episodio!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[¡Después de casi 15 años estamos de vuelta!]]></summary></entry></feed>
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Esta semana hablamos sobre LangChain, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.]]></summary></entry></feed>
