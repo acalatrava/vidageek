@@ -27,6 +27,74 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Aniquilados por Inteligencia Artificial</title>
+      <itunes:title>Aniquilados por Inteligencia Artificial</itunes:title>
+      <link>https://vidageek.com/2023/06/03/podcast-2x12.html</link>
+      <guid isPermaLink="false">79a686ac-fb7e-4425-93ed-aba7f35ccd9a</guid>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>12</itunes:episode>
+      <description><![CDATA[<h1 id="según-esta-filtración-las-gafas-de-apple-tendían-unas-especificaciones-loquísimas">Según esta filtración, las gafas de Apple tendían unas especificaciones loquísimas</h1>
+<p>Y otro rumor más… por si teníamos pocos, este último te dejará con la boca abierta (o más bien con los ojos abiertos) ya que se han filtrado las especificaciones de lo que serán las gafas de Apple y no tienen competencia… Serían estas:</p>
+
+<ul>
+  <li>Pantalla Micro-OLED de 1,41 pulgadas para cada ojo</li>
+  <li>Resolución 4K en cada ojo</li>
+  <li>Densidad de píxeles de 4000 ppi (puntos por pulgada)</li>
+  <li>Más de 5000 nits de brillo</li>
+  <li>ProMotion display hasta 120hz de refresco</li>
+</ul>
+
+<p>En comparación las PlayStation VR2 tienen unas pantallas de 2000x2400 pixeles (frente a 3840x2160 del 4K) y una densidad de píxeles de 850ppi…</p>
+
+<p>Así se explica que hubiera otro rumor que situaba su precio en unos 3000$…</p>
+
+<p>Fuente: <a href="https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter">https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter</a></p>
+
+<h3 id="por-cierto-que-el-lunes-a-partir-de-las-1845-hora-española-daremos-cobertura-en-directo-al-evento-de-apple">Por cierto que el lunes a partir de las 18:45 hora española daremos cobertura en directo al evento de Apple.</h3>
+<h2 id="suscríbete-a-nuestro-canal-de-youtube-para-verlo-en-directo-httpswwwyoutubecomliveskn2xcvt0lofeatureshareaa">Suscríbete a nuestro canal de YouTube para verlo en directo: <a href="https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share">https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share</a>aa</h2>
+
+<hr />
+
+<h1 id="imagebind-un-embedding-para-enlazarlos-a-todos">ImageBind un embedding para enlazarlos a todos</h1>
+<p>Meta sigue dándonos muchas alegrías ya que ha presentado un nuevo modelo de IA que pretende enlazar múltiples y diversos fuentes de datos como:</p>
+<ul>
+  <li>Audio</li>
+  <li>Texto</li>
+  <li>Imagen</li>
+  <li>Datos de profundidad</li>
+  <li>Datos de aceleración</li>
+  <li>Mapas de calor</li>
+</ul>
+
+<p>Este nuevo modelo multimodal crea unos embeddings que interrelacionan todos los datos aunque sean de diferente tipo. De este modo se le puede pasar un audio de un perro ladrando y encontrar imágenes de perros por ejemplo. Esto abre un nuevo campo en la IA ya que enlazándolo con los grandes modelos de lenguaje LLM nos permitrá una interacción multimodal tremenda.</p>
+
+<p>Además, es de código abierto. Meta nos está sorprendiendo mucho en este campo y dejando atrás esa mala imagen que Facebook consiguió.</p>
+
+<p><a href="https://imagebind.metademolab.com">https://imagebind.metademolab.com</a></p>
+
+<hr />
+
+<h1 id="mitigar-el-riesgo-de-extinción-humana-por-ia-debería-ser-una-prioridad-global">Mitigar el riesgo de extinción humana por IA debería ser una prioridad global</h1>
+<p>Esto es lo que han dicho algunas figuras relevantes en el campo de la IA como los ganadores del premio Turing Geoffery Hinton y Yoshua Bengio así como el CEO de OpenAI Sam Altman, y otros ejecutivos de OpenAI como Ilya Sutskever y Mira Murati. Además también lo suscriben el CEO de DeepMind Demis Hassabis o el CEO de Anthropic Dario Amodei, y profesores de la UC Berkely, Stanford y MIT.</p>
+
+<p>Esta vez no han escrito una <a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/">carta abierta</a> como sucedió en el pasado mes de marzo, sino que simplemente han dicho lo siguiente:</p>
+
+<blockquote>
+  <p><em>“Mitigar el riesgo de extinción por la IA debería ser una prioridad global junto con otros riesgos a escala social como las pandemias o las guerras nucleares.”</em></p>
+</blockquote>
+
+<p>Más información: <a href="https://www.safe.ai/press-release">https://www.safe.ai/press-release</a></p>
+
+<p>¡Hasta la próxima semana!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_2x12.mp3" length="38178059" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:26:30</itunes:duration>
+      <itunes:subtitle>¡Se han filtrado las especificaciones de las gafas de Apple y son loquísimas! | ImageBind un modelo para unirlos a todos | Dicen algunos expertos que la IA podría acabar aniquilando la humanidad</itunes:subtitle>
+      <itunes:summary>¡Se han filtrado las especificaciones de las gafas de Apple y son loquísimas! | ImageBind un modelo para unirlos a todos | Dicen algunos expertos que la IA podría acabar aniquilando la humanidad</itunes:summary>
+    </item>
+    <item>
       <title>Pensamiento arborescente para tu IA, edición mágica de imágenes y mandos accesibles</title>
       <itunes:title>Pensamiento arborescente para tu IA, edición mágica de imágenes y mandos accesibles</itunes:title>
       <link>https://vidageek.com/2023/05/27/podcast-2x11.html</link>

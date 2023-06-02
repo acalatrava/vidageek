@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-05-27T22:35:54+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x11</title><link href="https://vidageek.com/2023/05/27/podcast-2x11.html" rel="alternate" type="text/html" title="Podcast 2x11" /><published>2023-05-27T00:00:00+00:00</published><updated>2023-05-27T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/27/podcast-2x11</id><content type="html" xml:base="https://vidageek.com/2023/05/27/podcast-2x11.html"><![CDATA[<h1 id="tree-of-thoughts-deliberate-problem-solving-with-large-language-models">Tree of thoughts: Deliberate problem solving with Large Language Models</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-06-02T21:36:48+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 2x12</title><link href="https://vidageek.com/2023/06/03/podcast-2x12.html" rel="alternate" type="text/html" title="Podcast 2x12" /><published>2023-06-03T00:00:00+00:00</published><updated>2023-06-03T00:00:00+00:00</updated><id>https://vidageek.com/2023/06/03/podcast-2x12</id><content type="html" xml:base="https://vidageek.com/2023/06/03/podcast-2x12.html"><![CDATA[<h1 id="según-esta-filtración-las-gafas-de-apple-tendían-unas-especificaciones-loquísimas">Según esta filtración, las gafas de Apple tendían unas especificaciones loquísimas</h1>
+<p>Y otro rumor más… por si teníamos pocos, este último te dejará con la boca abierta (o más bien con los ojos abiertos) ya que se han filtrado las especificaciones de lo que serán las gafas de Apple y no tienen competencia… Serían estas:</p>
+
+<ul>
+  <li>Pantalla Micro-OLED de 1,41 pulgadas para cada ojo</li>
+  <li>Resolución 4K en cada ojo</li>
+  <li>Densidad de píxeles de 4000 ppi (puntos por pulgada)</li>
+  <li>Más de 5000 nits de brillo</li>
+  <li>ProMotion display hasta 120hz de refresco</li>
+</ul>
+
+<p>En comparación las PlayStation VR2 tienen unas pantallas de 2000x2400 pixeles (frente a 3840x2160 del 4K) y una densidad de píxeles de 850ppi…</p>
+
+<p>Así se explica que hubiera otro rumor que situaba su precio en unos 3000$…</p>
+
+<p>Fuente: <a href="https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter">https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter</a></p>
+
+<h3 id="por-cierto-que-el-lunes-a-partir-de-las-1845-hora-española-daremos-cobertura-en-directo-al-evento-de-apple">Por cierto que el lunes a partir de las 18:45 hora española daremos cobertura en directo al evento de Apple.</h3>
+<h2 id="suscríbete-a-nuestro-canal-de-youtube-para-verlo-en-directo-httpswwwyoutubecomliveskn2xcvt0lofeatureshareaa">Suscríbete a nuestro canal de YouTube para verlo en directo: <a href="https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share">https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share</a>aa</h2>
+
+<hr />
+
+<h1 id="imagebind-un-embedding-para-enlazarlos-a-todos">ImageBind un embedding para enlazarlos a todos</h1>
+<p>Meta sigue dándonos muchas alegrías ya que ha presentado un nuevo modelo de IA que pretende enlazar múltiples y diversos fuentes de datos como:</p>
+<ul>
+  <li>Audio</li>
+  <li>Texto</li>
+  <li>Imagen</li>
+  <li>Datos de profundidad</li>
+  <li>Datos de aceleración</li>
+  <li>Mapas de calor</li>
+</ul>
+
+<p>Este nuevo modelo multimodal crea unos embeddings que interrelacionan todos los datos aunque sean de diferente tipo. De este modo se le puede pasar un audio de un perro ladrando y encontrar imágenes de perros por ejemplo. Esto abre un nuevo campo en la IA ya que enlazándolo con los grandes modelos de lenguaje LLM nos permitrá una interacción multimodal tremenda.</p>
+
+<p>Además, es de código abierto. Meta nos está sorprendiendo mucho en este campo y dejando atrás esa mala imagen que Facebook consiguió.</p>
+
+<p><a href="https://imagebind.metademolab.com">https://imagebind.metademolab.com</a></p>
+
+<hr />
+
+<h1 id="mitigar-el-riesgo-de-extinción-humana-por-ia-debería-ser-una-prioridad-global">Mitigar el riesgo de extinción humana por IA debería ser una prioridad global</h1>
+<p>Esto es lo que han dicho algunas figuras relevantes en el campo de la IA como los ganadores del premio Turing Geoffery Hinton y Yoshua Bengio así como el CEO de OpenAI Sam Altman, y otros ejecutivos de OpenAI como Ilya Sutskever y Mira Murati. Además también lo suscriben el CEO de DeepMind Demis Hassabis o el CEO de Anthropic Dario Amodei, y profesores de la UC Berkely, Stanford y MIT.</p>
+
+<p>Esta vez no han escrito una <a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/">carta abierta</a> como sucedió en el pasado mes de marzo, sino que simplemente han dicho lo siguiente:</p>
+
+<blockquote>
+  <p><em>“Mitigar el riesgo de extinción por la IA debería ser una prioridad global junto con otros riesgos a escala social como las pandemias o las guerras nucleares.”</em></p>
+</blockquote>
+
+<p>Más información: <a href="https://www.safe.ai/press-release">https://www.safe.ai/press-release</a></p>
+
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Según esta filtración, las gafas de Apple tendían unas especificaciones loquísimas Y otro rumor más… por si teníamos pocos, este último te dejará con la boca abierta (o más bien con los ojos abiertos) ya que se han filtrado las especificaciones de lo que serán las gafas de Apple y no tienen competencia… Serían estas:]]></summary></entry><entry><title type="html">Podcast 2x11</title><link href="https://vidageek.com/2023/05/27/podcast-2x11.html" rel="alternate" type="text/html" title="Podcast 2x11" /><published>2023-05-27T00:00:00+00:00</published><updated>2023-05-27T00:00:00+00:00</updated><id>https://vidageek.com/2023/05/27/podcast-2x11</id><content type="html" xml:base="https://vidageek.com/2023/05/27/podcast-2x11.html"><![CDATA[<h1 id="tree-of-thoughts-deliberate-problem-solving-with-large-language-models">Tree of thoughts: Deliberate problem solving with Large Language Models</h1>
 <p><a href="https://arxiv.org/pdf/2305.10601.pdf">https://arxiv.org/pdf/2305.10601.pdf</a></p>
 
 <p>Esta pasada semana se ha publicado un paper llamado “Tree of thoughts: Deliberate problem solving with Large Language Models” que sería algo como “Pensamiento arborescente: Solución de problemas con modelos grandes de lenguaje”. En este paper se explican los métodos más habituales en los que se usan los LLM como ChatGPT y se propone un nuevo método el cual mejora sustancialmente los métodos actuales.</p>
@@ -243,16 +295,4 @@ Se utilizaron para deepfakes</p>
 
 <p>En la sección de gaming os hablamos del mando <a href="https://amzn.to/40LrCM7">Xbox Inalámbrico Elite Series 2</a>, un mando versátil que te sentará como un guante. Es un mando con un peso ideal para jugar sin parar.</p>
 
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de Alpaca un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo LLaMA de Meta. Además, utilizando el proyecto llama.cpp, es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.]]></summary></entry><entry><title type="html">LangChain y Samsung Odyssey G7 curvo</title><link href="https://vidageek.com/2023/03/24/podcast-13.html" rel="alternate" type="text/html" title="LangChain y Samsung Odyssey G7 curvo" /><published>2023-03-24T09:00:00+00:00</published><updated>2023-03-24T09:00:00+00:00</updated><id>https://vidageek.com/2023/03/24/podcast-13</id><content type="html" xml:base="https://vidageek.com/2023/03/24/podcast-13.html"><![CDATA[<p>Esta semana hablamos sobre <a href="https://langchain.readthedocs.io/en/latest/">LangChain</a>, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.</p>
-
-<p>Una de las características más interesantes son las llamadas herramientas (tools) que nos permiten dotar de nuevas funciones al LLM para que pueda hacer más cosas (como por ejemplo una calculadora).</p>
-
-<p>Lo que hace que LangChain sea tan emocionante es que ayuda a los desarrolladores a combinar la potencia de los modelos de lenguaje natural con otras fuentes de conocimiento y computación para crear aplicaciones verdaderamente efectivas.</p>
-
-<p>Tamnbién os hablamos sobre el <a href="https://amzn.to/4097gwz">monitor curvo Samsung Odyssey G7</a> el cual, a pesar de no ser 4k, es un monitor ideal tanto para jugar como para trabajar.</p>
-
-<p><a href="https://langchain.readthedocs.io/en/latest/">LangChain</a></p>
-
-<p><a href="https://amzn.to/4097gwz">Samsung Odyssey G7</a></p>
-
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Esta semana hablamos sobre LangChain, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.]]></summary></entry></feed>
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de Alpaca un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo LLaMA de Meta. Además, utilizando el proyecto llama.cpp, es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.]]></summary></entry></feed>
