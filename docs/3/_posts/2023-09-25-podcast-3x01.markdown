@@ -1,0 +1,60 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x01.mp3
+guid: 181a8c14-e893-4091-9b08-e91925d7abbd
+season: 3
+explicit: "no"
+---
+# Open Interpreter: Hablando con tu ordenador
+
+La inteligencia artificial sigue imparable. Hoy vamos a hablar de un nuevo proyecto de código abierto llamado [Open Interpreter][interpreter] el cual nos permite "hablar" con nuestro ordenador. 
+
+[Open Interpreter][interpreter] es la respuesta de código abierto al plugin "Code Interpreter" que sacó en la versión plus de ChatGPT. Este plugin permite la creación y ejecución de código en base a una petición, o prompt. Entre otras cosas te permite resolución de problemas matemáticos, análisis y visualización de datos, convertir ficheros a diferentes formatos, y cosas así. No obstante tiene ciertas limitaciones como que opera sin acceso a internet, tiene un set de paquetes previamente instalados limitado, tiene un límite de 2 minutos de ejecución y el estado es eliminado después de la ejecución.
+
+Open Interpreter viene a mejorar todo esto, dando acceso completo a tu PC o Mac de forma que pueda ejecutar código diréctamente en tu equipo y con acceso a internet, eliminando todos esos límites impuestos por ChatGPT. Además, al ser un proyecto open source, puede operar totalmente en local utilizando un LLM que también se ejecute en local. Aunque si queremos que tenga mucha más potencia y conocimiento lo ideal es que utilicemos GPT4. No obstante en este caso estaremos enviando todo lo que hacemos a OpenAI y esto puede suponer un problema de privacidad.
+
+Aquí os vamos a explicar cómo ponerlo en marcha totalmente en local, sin tener que utilizar GPT4. Para ello utilizaremos CodeLlama, un LLM desarrollado por Meta, especializado en programación, que se ejecuta en local y con una licencia bastante abierta.
+
+## Puesta en marcha
+
+Lo primero que tenemos que realizar es crearnos un entorno de ejecución con Conda. Si bien este paso no es esencial, es muy recomendable. Conda es un gestor de entornos de ejecución de forma que nos crea entornos independientes para cada proyecto. Esto está muy bien ya que muchas veces los proyectos necesitan de versiones específicas de ciertos paquetes o librerías. Para ello Conda crea un entorno de ejecución para cada proyecto aislado de los demas. Si bien aquí no vamos a tratar la instalación de Conda, es algo muy sencillo de realizar haciéndo una búsqueda en internet.
+
+Una vez tengamos conda instalado crearemos un entorno para el proyecto:
+```
+ $ conda create python=3.11 open-interpreter
+ $ conda activate open-interpreter
+```
+
+El siguiente paso es simplemente instalar open-interpreter con pip:
+```
+ $ pip install open-interpreter
+```
+
+Y ya está! Simplemente con esto ya tenemos Open Interpreter instalado. Ahora simplemente tenemos que ejecutar
+```
+ $ interpreter
+```
+y seguir los pasos que nos va pidiendo. 
+
+## GPT4 o CodeLlama
+
+Lo primero que nos pedirá es la clave de API de OpenAI para utilizar GPT4 como motor LLM. Esto es lo más rápido y efectivo puesto que GPT4 es el LLM más potente y capaz hasta la fecha. No obstante tiene ciertas desventajas:
+ - No es gratis
+ - Todos tus comandos y respuestas serán enviados a OpenAI para procesarlos
+Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemos ejecutar en local. CodeLlama viene en 3 sabores: 7B, 11B y 34B. Cada número se refiere a los billones de parámetros que tiene el modelo. Como suele ser en estas cosas, cuanto más, mejor. Pero cuanto más, más RAM y potencia de cálculo necesitarás.
+
+He hecho pruebas con el más potente (34B aunque muy comprimido) y con GPT4 y claramente GPT4 es mucho más potente y capaz. Aunque en la petición que le hice (generar un fichero excel a partir de un listado de películas en un PDF) no fue capaz de conseguir el objetivo final.
+
+## OpenCore Legacy Patcher
+
+Paco nos ha comentado cómo ha sido posible actualizar su Macbook Pro Retina de 2014 a la última versión de MacOS gracias a [OpenCore Legacy Patcher][opencore], un proyecto open source que nos permite crear un instalador de MacOS que engaña al sistema operativo haciéndole creer que se está ejecutando en un hardware soportado. 
+
+Dependiendo del hardware que tengamos algos OS serán soportados y otros no. Sin embargo si tu equipo es de 2013 o supuerior suele poder soportar los últimos MacOS hasta la fecha. Quizá haya algunas funcionalidades que no estén disponibles pero generalmente funciona francamente bien.
+
+---
+
+¡Hasta la próxima semana!
+
+[interpreter]: https://github.com/KillianLucas/open-interpreter
+[opencore]: https://dortania.github.io/OpenCore-Legacy-Patcher/
+

@@ -1,0 +1,57 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x12.mp3
+guid: 79a686ac-fb7e-4425-93ed-aba7f35ccd9a
+season: 2
+explicit: "no"
+---
+
+# Según esta filtración, las gafas de Apple tendían unas especificaciones loquísimas
+Y otro rumor más... por si teníamos pocos, este último te dejará con la boca abierta (o más bien con los ojos abiertos) ya que se han filtrado las especificaciones de lo que serán las gafas de Apple y no tienen competencia... Serían estas:
+
+ - Pantalla Micro-OLED de 1,41 pulgadas para cada ojo
+ - Resolución 4K en cada ojo
+ - Densidad de píxeles de 4000 ppi (puntos por pulgada)
+ - Más de 5000 nits de brillo
+ - ProMotion display hasta 120hz de refresco
+
+En comparación las PlayStation VR2 tienen unas pantallas de 2000x2400 pixeles (frente a 3840x2160 del 4K) y una densidad de píxeles de 850ppi...
+
+Así se explica que hubiera otro rumor que situaba su precio en unos 3000$...
+
+Fuente: [https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter](https://www.macworld.com/article/1935837/apple-reality-headset-display-leak-resolution-brightness.html?utm_source=tldrnewsletter)
+
+### Por cierto que el lunes a partir de las 18:45 hora española daremos cobertura en directo al evento de Apple. 
+## Suscríbete a nuestro canal de YouTube para verlo en directo: [https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share](https://www.youtube.com/live/sKn2Xcvt0Lo?feature=share)aa
+
+
+---
+
+# ImageBind un embedding para enlazarlos a todos
+Meta sigue dándonos muchas alegrías ya que ha presentado un nuevo modelo de IA que pretende enlazar múltiples y diversos fuentes de datos como:
+ - Audio
+ - Texto
+ - Imagen
+ - Datos de profundidad
+ - Datos de aceleración
+ - Mapas de calor
+
+Este nuevo modelo multimodal crea unos embeddings que interrelacionan todos los datos aunque sean de diferente tipo. De este modo se le puede pasar un audio de un perro ladrando y encontrar imágenes de perros por ejemplo. Esto abre un nuevo campo en la IA ya que enlazándolo con los grandes modelos de lenguaje LLM nos permitrá una interacción multimodal tremenda.
+
+Además, es de código abierto. Meta nos está sorprendiendo mucho en este campo y dejando atrás esa mala imagen que Facebook consiguió.
+
+[https://imagebind.metademolab.com](https://imagebind.metademolab.com)
+
+---
+
+# Mitigar el riesgo de extinción humana por IA debería ser una prioridad global
+Esto es lo que han dicho algunas figuras relevantes en el campo de la IA como los ganadores del premio Turing Geoffery Hinton y Yoshua Bengio así como el CEO de OpenAI Sam Altman, y otros ejecutivos de OpenAI como Ilya Sutskever y Mira Murati. Además también lo suscriben el CEO de DeepMind Demis Hassabis o el CEO de Anthropic Dario Amodei, y profesores de la UC Berkely, Stanford y MIT.
+
+Esta vez no han escrito una [carta abierta](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) como sucedió en el pasado mes de marzo, sino que simplemente han dicho lo siguiente:
+
+> *"Mitigar el riesgo de extinción por la IA debería ser una prioridad global junto con otros riesgos a escala social como las pandemias o las guerras nucleares."*
+
+Más información: [https://www.safe.ai/press-release](https://www.safe.ai/press-release)
+
+
+¡Hasta la próxima semana!

@@ -1,0 +1,99 @@
+---
+title: VidaGeek
+redirect_from:
+- /VidaGeek/Podcast_VidaGeek/Podcast_VidaGeek.html
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VidaGeek, un podcast de tecnología">
+    <title>VidaGeek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.url | url_fixer }}/styles.css">
+
+    <!-- Podcasts -->
+    <meta name="apple-itunes-app" content="app-id=299525194">
+    <link rel="canonical" href="{{ site.url | url_fixer }}">
+    <link type="application/rss+xml" rel="alternate" title="VidaGeek"
+        href="{{ site.url | url_fixer }}/VidaGeek/Podcast_VidaGeek/rss.xml">
+
+
+    <link rel="image_src" href="{{ site.url | url_fixer }}/img/logo_bigger_square.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url | url_fixer }}/img/logo_bigger_square_180.png">
+</head>
+
+<body>
+
+    <div id="layout" class="pure-g">
+        {% include sidebar.html %}
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+
+            <h3> Temporada 2</h3>
+
+            {% for post in site.categories["2"] %}
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <div class="post-avatar">{{ post.date | date: "%-d %B %Y" }}</div>
+                        <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
+                                src="/img/common/tilo-avatar.png">-->
+
+                        <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{{post.season}}x{%
+                                assign
+                                mp3_episode = post.audiourl | mp3_track %}{{
+                                post.episode | default: mp3_episode | prepend: '00' | slice: -2, 2 }} {% assign
+                                mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</a>
+                        </h3>
+
+                    </header>
+
+                    <div class="post-description">
+                        {% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default:
+                        mp3_description }}
+                    </div>
+                </section>
+            </div>
+            {% endfor %}
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+            <ul>
+
+                {% assign sorted_categories = site.categories | sort %}
+                {% for season in sorted_categories reversed %}
+                <li class="pure-menu-item"><a href="/{{season[0]}}" class="pure-menu-link">Temporada
+                        {{season[0]}}</a>
+                </li>
+                {% endfor %}
+
+
+
+                <li class="pure-menu-item"><a href="https://legacy.vidageek.com" class="pure-menu-link">Temporada
+                        1</a>
+                </li>
+                <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">Quiénes somos</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

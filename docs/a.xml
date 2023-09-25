@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>VidaGeek</title>
+    <link>https://vidageek.com</link>
+    <description><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
+    <generator>iWeb 3.0.1</generator>
+    <image>
+      <url>https://vidageek.com/img/logo_2023_3000x3000.jpg</url>
+      <title>VidaGeek</title>
+      <link>https://vidageek.com</link>
+    </image>
+    <ttl>60</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:author>VidaGeek</itunes:author>
+    <itunes:category text="Technology"/>
+    <itunes:category text="News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>VidaGeek</itunes:name>
+      <itunes:email>podcast@vidageek.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.</itunes:subtitle>
+    <itunes:summary><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></itunes:summary>
+    <itunes:image href="http://localhost:4000/img/logo_2023_3000x3000.jpg"/>
+    <language>es</language>
+    <item>
+      <title>Cómo clonar tu voz fácilmente</title>
+      <itunes:title>Cómo clonar tu voz fácilmente</itunes:title>
+      <link>http://localhost:4000/2023/04/21/podcast-2x06.html</link>
+      <guid isPermaLink="false">99e833fb-4e01-4b7e-9576-6073e3ec4560</guid>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0200</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <description><![CDATA[<h1 id="patrocinado-por-qoodiht-tus-fundas-sostenibles">Patrocinado por Qoodiht, tus fundas sostenibles</h1>
+<p>El episodio de hoy está patrocinado por <a href="https://qoodiht.myshopify.com">Qoodiht</a>, unas nuevas fundas ecológicas para tu iPhone, fabricadas en España con un material ecológico y sostenible. Llevo un par de semanas utilizando la funda modelo GEA y estoy gratamente sorprendido. Tan sólo cuestan 7,95€ y están disponibles en color blanco y verde fluor. Además tienen una funda, el modelo Apolo, que brilla en la oscuridad.</p>
+
+<h1 id="clona-tu-propia-voz-o-la-de-tu-vecino">Clona tu propia voz… o la de tu vecino</h1>
+<p>La inteligencia artificial no para. La semana pasada hablábamos de cómo <a href="https://open.spotify.com/artist/1si6mnxJ6IpTOTW13ECa0o">Alltta</a> había creado una canción utilizando por inteligencia artificial con la voz de Jay-Z y esta semana os traemos un proyecto de código abierto llamado <a href="https://github.com/voicepaw/so-vits-svc-fork">SoftVC VITS</a> con el que podrás hacerlo tú mismo. Este proyecto en concreto es un fork del proyecto original el cual nos permite hacer incluso inferencia en tiempo real. Además alguien ha creado unos cuantos modelos de voces que podemos <a href="https://huggingface.co/marcoc2/so-vits-svc-4.0-models">descargar libremente</a> con voces como la de Lady Gaga, Billie Joe o David Bowie.</p>
+
+<h2 id="puedo-clonar-la-voz-de-cualquier-persona-qué-dice-la-ley-al-respecto">¿Puedo clonar la voz de cualquier persona? ¿Qué dice la ley al respecto?</h2>
+<p>Hablamos con Javier Maestre, un abogado experto en nuevas tecnologías que nos cuenta qué dice la ley al respecto de utilizar la voz creada por la IA.</p>
+
+<h2 id="qué-son-las-gan-o-redes-generativas-adversarias">¿Qué son las GAN o Redes Generativas Adversarias?</h2>
+<p>Una GAN (Generative Adversarial Network o red generativa antagónica en Español) fue creada por Ian Goodfellow en 2017. Son un tipo de inteligencia artificial que se utiliza para crear cosas nuevas, como imágenes o sonidos, imitando ejemplos existentes. Imagina que es como un artista y un crítico que trabajan juntos: el artista crea una obra y el crítico la evalúa. En una GAN, hay dos partes: el generador, que es como el artista, y el discriminador, que es como el crítico. El generador crea imágenes (u otros tipos de datos) y el discriminador evalúa si son reales (parecidas a los ejemplos existentes) o falsas (hechas por el generador). Ambos van aprendiendo y mejorando en su trabajo a medida que se entrenan, lo que hace que la GAN sea cada vez más efectiva para crear cosas que parezcan reales.
+Se utilizaron para deepfakes</p>
+
+<h2 id="para-la-música-o-la-voz">Para la música… o la voz</h2>
+<p>Lo más interesante de este proyecto es que, si bien está pensado para cambiar la voz en canciones, se puede utilizar de la misma manera para el habla, de forma que tu voz sea cambiada por ejemplo… por la de tu jefe, o por la de tu vecino. Yo mismo he creado un modelo de la voz de Paco en apenas unas horas y con un coste de… 0€. Totalmente gratuito utilizando la plataforma de Google Colab.</p>
+
+<h2 id="cómo-clonar-tu-voz">Cómo clonar tu voz</h2>
+<p>Para poder realizar el modelo de una voz es necesario tener unos cuantos minutos de la voz que queremos clonar de forma clara. Si por ejemplo queremos clonar nuestra propia voz, es suficiente con grabarnos hablar durante unos 10 o 15 minutos. Si queremos clonar una voz de una canción será necesario eliminar la música de fondo  antes de utilizarla.</p>
+
+<p>Una vez obtenida la voz es necesario trocearla en diferentes samples de unos 10 segundos o menos de duración. En mi caso he utilizado mi voz del último podcast y la he troceado de forma automática utilizando un script en python que automáticamente busca los silencios y lo separa.</p>
+
+<p>Después no tiene mayor misterio más que seguir <a href="https://vidageek.com/entrenarvoz">este cuaderno</a> que os hemos creado para que, en unos sencillos pasos, podamos crear nuestro propio modelo de voz. Una vez generado podemos utilizar <a href="https://colab.research.google.com/github/34j/so-vits-svc-fork/blob/main/notebooks/so-vits-svc-fork-4.0.ipynb">este otro</a> para cambiar nuestra voz por la de nuestro modelo.</p>
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek_2x06.mp3" length="66922783" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:46:28</itunes:duration>
+      <itunes:subtitle>En este episodio indagamos aún más en cómo clonar nuestra propia voz o la de nuestro vecino... Además Javier Maestre nos dará el punto de vista legal de un experto abogado en nuevas tecnologías.</itunes:subtitle>
+      <itunes:summary>En este episodio indagamos aún más en cómo clonar nuestra propia voz o la de nuestro vecino... Además Javier Maestre nos dará el punto de vista legal de un experto abogado en nuevas tecnologías.</itunes:summary>
+    </item>
+    <item>
+      <title>Hola, ¿quién está ahí?</title>
+      <itunes:title>Hola, ¿quién está ahí?</itunes:title>
+      <link>http://localhost:4000/2023/04/14/podcast-16.html</link>
+      <guid isPermaLink="false">dada4fa2-2c25-4381-83a5-ea0044ed9439</guid>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0200</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <description><![CDATA[<h1 id="alltta-y-cómo-jay-z-no-colabora-en-su-último-tema-savages">Alltta y cómo Jay-Z no colabora en su último tema “Savages”</h1>
+<p>Hoy seguimos con inteligencia artificial pero esta vez dedicada al audio. Hace unos días el grupo de rap <a href="https://open.spotify.com/artist/1si6mnxJ6IpTOTW13ECa0o">Alltta</a> ha publicado <a href="https://www.youtube.com/watch?v=y7r6PAkFRfU">Savages</a>, un tema en el que aparece Jay-Z colaborando… solo que no es Jay-Z el que canta y tampoco un ser humano…</p>
+
+<p>Comenatamos cómo es posible clonar tu voz con herramientas como <a href="https://www.descript.com/overdub">Overdub</a>, <a href="https://fakeyou.com">FakeYou</a> o <a href="https://huggingface.co/spaces/coqui/CoquiTTS">Coqui</a> entre otras.</p>
+
+<h1 id="xiaomi-compresor-de-aire-eléctrico-portátil-1s">Xiaomi Compresor de aire eléctrico portátil 1S</h1>
+<p>El <a href="https://amzn.to/3UH4tc0">Xiaomi Portable Electric Air Compressor 1S</a> es un compresor de aire eléctrico portátil que se puede utilizar para inflar neumáticos, pelotas u otros objetos inflables de manera rápida y sencilla</p>
+
+<h2 id="caracteristicas">Caracteristicas</h2>
+
+<p>Tiene una precisión de ±2 psi y una capacidad de batería de 2.000mAh (14,8Wh) que puede durar unos 18 minutos con una carga completa. También tiene un diseño compacto y se puede transportar fácilmente a cualquier lugar. El <a href="https://amzn.to/3UH4tc0">Xiaomi Portable Electric Air Compressor 1S</a> tiene un motor más potente que el Xiaomi Portable Electric Air Compressor lo que le permite llenar el aire del neumático a un ritmo más rápido2. También tiene un puerto de carga USB Tipo-C en comparación con el puerto microUSB del modelo anterior2. Según un análisis realizado por Xataka, el Xiaomi Electric Air Compressor 1S tardó 13 minutos y 20 segundos en llenar un neumático 215/60/R16 completamente desinflado a 34 PSI</p>
+
+<h2 id="ventajas">Ventajas</h2>
+<ul>
+  <li>Portatil</li>
+  <li>Duracion de la bateria</li>
+  <li>Tamaño</li>
+</ul>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Un dispositivo que me ha resultado muy util y que no hay excusa para tener las ruedas bajas de presion. Muy recomendable dado que su tamaño es muy reducido y un uso muy sencillo. Viene acompañado de utiles para inflar balones de fútbol y es compatible con la mayoria de las válvulas que hay en el mercado.</p>
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek_16.mp3" length="45915659" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:31:53</itunes:duration>
+      <itunes:subtitle>Hablamos sobre deep fake audio o cómo hablar como tu vecino de enfrente, también os traemos un inflador de pelotas</itunes:subtitle>
+      <itunes:summary>Hablamos sobre deep fake audio o cómo hablar como tu vecino de enfrente, también os traemos un inflador de pelotas</itunes:summary>
+    </item>
+    <item>
+      <title>La familia de los lamoides crece</title>
+      <itunes:title>La familia de los lamoides crece</itunes:title>
+      <link>http://localhost:4000/2023/04/07/podcast-15.html</link>
+      <guid isPermaLink="false">c0e2bc99-4d69-468a-abf7-58afe6cb48aa</guid>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0200</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <description><![CDATA[<h1 id="vicuna-un-nuevo-y-más-avanzado-llm">Vicuna, un nuevo y más avanzado LLM</h1>
+<p>Y seguimos con la familia de las LLaMAs que crece un poquito más, con un nuevo modelo de lenguaje especializado utilizando com dataset más de 100k preguntas y respuestas de la comunidad de <a href="https://sharegpt.com">ShareGPT</a>. El modelo le han bautizado como <a href="https://github.com/lm-sys/FastChat">Vicuna</a> para seguir la “tradición”, por no decir el cachondeo, de los lamoides. Para su entrenamiento ha sido necesario una inversión de sólo 300$ tal como se puede ver en su <a href="https://vicuna.lmsys.org">paper</a>.</p>
+
+<p>El modelo se puede incluso <a href="https://huggingface.co/eachadea/ggml-vicuna-13b-4bit">encontrar cuantizado</a> para poder utilizarlo con <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> y se comporta de una manera muy similar ya a ChatGPT, lo cual es todo un mérito teniendo en cuenta que es un modelo de solo 13 billones de parámetros que puede ser inferido en un equipo convencional con 16GB de RAM.</p>
+
+<h1 id="review-destiny-2">Review Destiny 2</h1>
+<p>Destiny 2 es un videjuego creado por Bungie, continuando la primera parte Destiny en el año 2017. Es un shooter en primera persona, con muchísima jugabilidad y habilidades.</p>
+
+<h2 id="características">Características</h2>
+<ul>
+  <li>Cooperativo de 3 y 6 jugadores(raid y crisol)</li>
+  <li>Habilidades</li>
+  <li>Diferentes personajes</li>
+</ul>
+
+<h2 id="ventajas">Ventajas</h2>
+<ul>
+  <li>Mundo abierto</li>
+  <li>Jugabilidad</li>
+  <li>Horas y horas de entretenimiento</li>
+  <li>Cooperativo</li>
+</ul>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Sin duda Destiny 2 aportará horas de diversion. Muchos planetas, misiones, asaltos, raid etc. Dispone tambien de un juego tipo pvp muy parecido a partidas cortas de call of duty para poder poner tus habilidades contra otros jugadores. Perfecto si tienes una escuadra para poder pasar el rato. No defraudará a todo aquel que le guste los shooter y los juegos de mundo abierto.</p>
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek_15.mp3" length="40347004" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:28:01</itunes:duration>
+      <itunes:subtitle>Hablamos sobre un nuevo modelo en el barrio de las LLaMAs y sobre el videjuego Destiny 2</itunes:subtitle>
+      <itunes:summary>Hablamos sobre un nuevo modelo en el barrio de las LLaMAs y sobre el videjuego Destiny 2</itunes:summary>
+    </item>
+    <item>
+      <title>La inteligencia artificial nos come</title>
+      <itunes:title>La inteligencia artificial nos come</itunes:title>
+      <link>http://localhost:4000/2023/03/31/podcast-14.html</link>
+      <guid isPermaLink="false">294aaafa-cf4b-11ed-afa1-0242ac120002</guid>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0200</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <description><![CDATA[<p>La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de <a href="https://github.com/tatsu-lab/stanford_alpaca">Alpaca</a> un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo <a href="https://github.com/facebookresearch/llama">LLaMA</a> de Meta. Además, utilizando el proyecto <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a>, es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.</p>
+
+<p>En la sección de gaming os hablamos del mando <a href="https://amzn.to/40LrCM7">Xbox Inalámbrico Elite Series 2</a>, un mando versátil que te sentará como un guante. Es un mando con un peso ideal para jugar sin parar.</p>
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek_14.mp3" length="47845162" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:33:13</itunes:duration>
+      <itunes:subtitle>Hoy hablamos sobre llamas, alpacas y mandos de xbox... una locura vamos.</itunes:subtitle>
+      <itunes:summary>Hoy hablamos sobre llamas, alpacas y mandos de xbox... una locura vamos.</itunes:summary>
+    </item>
+    <item>
+      <title>LangChain y Samsung Odyssey G7</title>
+      <itunes:title>LangChain y Samsung Odyssey G7</itunes:title>
+      <link>http://localhost:4000/2023/03/24/podcast-13.html</link>
+      <guid isPermaLink="false">5c0de642-c9c8-11ed-afa1-0242ac120002</guid>
+      <pubDate>Fri, 24 Mar 2023 10:00:00 +0100</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <description><![CDATA[<p>Esta semana hablamos sobre <a href="https://langchain.readthedocs.io/en/latest/">LangChain</a>, un framework de código abierto diseñado para ayudar a los desarrolladores a construir aplicaciones de lenguaje natural más potentes e integradas.</p>
+
+<p>Una de las características más interesantes son las llamadas herramientas (tools) que nos permiten dotar de nuevas funciones al LLM para que pueda hacer más cosas (como por ejemplo una calculadora).</p>
+
+<p>Lo que hace que LangChain sea tan emocionante es que ayuda a los desarrolladores a combinar la potencia de los modelos de lenguaje natural con otras fuentes de conocimiento y computación para crear aplicaciones verdaderamente efectivas.</p>
+
+<p>Tamnbién os hablamos sobre el <a href="https://amzn.to/4097gwz">monitor curvo Samsung Odyssey G7</a> el cual, a pesar de no ser 4k, es un monitor ideal tanto para jugar como para trabajar.</p>
+
+<p><a href="https://langchain.readthedocs.io/en/latest/">LangChain</a></p>
+
+<p><a href="https://amzn.to/4097gwz">Samsung Odyssey G7</a></p>
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek_13.mp3" length="39856743" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:27:40</itunes:duration>
+      <itunes:subtitle>Hoy hablamos sobre LangChain e inteligencia artificial y sobre el monitor Samsung Odyssey G7</itunes:subtitle>
+      <itunes:summary>Hoy hablamos sobre LangChain e inteligencia artificial y sobre el monitor Samsung Odyssey G7</itunes:summary>
+    </item>
+    <item>
+      <title>NextDNS y Logitech G502 Hero</title>
+      <itunes:title>NextDNS y Logitech G502 Hero</itunes:title>
+      <link>http://localhost:4000/2023/03/17/podcast-12.html</link>
+      <guid isPermaLink="false">a29d98c6-df19-4294-ba7d-24c5e645e6a4</guid>
+      <pubDate>Fri, 17 Mar 2023 12:25:40 +0100</pubDate>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <description><![CDATA[<p>¡Después de casi 15 años estamos de vuelta!</p>
+
+<p>Hoy os traemos <a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a>, un servicio de DNS controlado por ti y con superpoderes. Podrás utilizarlo tanto para bloquear apps maliciosas, bloquear anuncios o incluso como control parental.</p>
+
+<p>Y en la sección de gaming hablaremos sobre el <a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a>, un ratón con tantos botones programables que te costará encontrarlos.</p>
+
+<p><a href="https://nextdns.io/?from=w3gmvhd4">NextDNS</a></p>
+
+<p><a href="https://amzn.to/42fdBYN">Logitech G502 Hero</a></p>
+
+<p>¡Hasta el próximo episodio!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/http://localhost:4000/media/VidaGeek%20-%2012%20-%20170323%20-%20NextDNS%20-%20Logitech%20G502%20Hero.mp3" length="18291184" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:21:45</itunes:duration>
+      <itunes:subtitle>Hoy os traemos NextDNS y Logitech G502 Hero</itunes:subtitle>
+      <itunes:summary>Hoy os traemos NextDNS y Logitech G502 Hero</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 11</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/10/4_Podcast_11.html</link>
+      <guid isPermaLink="false">58424620-beb7-4c83-8fbf-cf993485c0da</guid>
+      <pubDate>Sun, 4 Oct 2009 00:27:29 +0200</pubDate>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%2011.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_11.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;¡¡Estamos en directo!!&lt;br/&gt;Google Wave casi disponible&lt;br/&gt;Microsoft Courier&lt;br/&gt;GameSalad&lt;br/&gt;VoIP en España&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%2011.mp3" length="42234367" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:10:48</itunes:duration>
+      <itunes:subtitle>¡¡Estamos en directo!!&#13;Google Wave casi disponible&#13;Microsoft Courier&#13;GameSalad&#13;VoIP en España&#13;&#13;&#13;</itunes:subtitle>
+      <itunes:summary>¡¡Estamos en directo!!&#13;Google Wave casi disponible&#13;Microsoft Courier&#13;GameSalad&#13;VoIP en España&#13;&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 10</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/9/27_Podcast_10.html</link>
+      <guid isPermaLink="false">e6d4cf57-ea78-429d-9cd3-765956ba3d95</guid>
+      <pubDate>Sun, 27 Sep 2009 12:17:12 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%2010.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_10.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Google Chrome OS&lt;br/&gt;Nuevos anuncios de Windows 7&lt;br/&gt;Zune HD&lt;br/&gt;Snow Leopard y Grand Central Dispatch&lt;br/&gt;Nuevos iPod&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%2010.mp3" length="48817070" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:20:53</itunes:duration>
+      <itunes:subtitle>Google Chrome OS&#13;Nuevos anuncios de Windows 7&#13;Zune HD&#13;Snow Leopard y Grand Central Dispatch&#13;Nuevos iPod&#13;&#13;&#13;</itunes:subtitle>
+      <itunes:summary>Google Chrome OS&#13;Nuevos anuncios de Windows 7&#13;Zune HD&#13;Snow Leopard y Grand Central Dispatch&#13;Nuevos iPod&#13;&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 9</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/7/8_Podcast_9.html</link>
+      <guid isPermaLink="false">a0a09264-fd2f-4982-bbf8-dc1c4bf3c969</guid>
+      <pubDate>Wed, 8 Jul 2009 20:17:04 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%209.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_9.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;iPhone 3GS&lt;br/&gt;&lt;br/&gt;GPS en el iPhone&lt;br/&gt;&lt;br/&gt;Android&lt;br/&gt;&lt;br/&gt;Steve Jobs ha vuelto de su baja médica&lt;br/&gt;&lt;br/&gt;Microsoft 7 y Snow Leopard al caer&lt;br/&gt;&lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%209.mp3" length="39052355" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:04:34</itunes:duration>
+      <itunes:subtitle>iPhone 3GS&#13;&#13;GPS en el iPhone&#13;&#13;Android&#13;&#13;Steve Jobs ha vuelto de su baja médica&#13;&#13;Microsoft 7 y Snow Leopard al caer&#13;&#13;</itunes:subtitle>
+      <itunes:summary>iPhone 3GS&#13;&#13;GPS en el iPhone&#13;&#13;Android&#13;&#13;Steve Jobs ha vuelto de su baja médica&#13;&#13;Microsoft 7 y Snow Leopard al caer&#13;&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 8</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2009/1/21_Podcast_8.html</link>
+      <guid isPermaLink="false">0243fe7c-2929-450b-a6a6-fab00967dddf</guid>
+      <pubDate>Wed, 21 Jan 2009 20:27:24 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%208%2021-01-9.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_10.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&lt;br/&gt;&lt;br/&gt;Steve Jobs está de baja médica, al menos hara Junio&lt;br/&gt;&lt;br/&gt;Organiza tus vacaciones gracias a Internet&lt;br/&gt;&lt;br/&gt;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%208%2021-01-9.mp3" length="57858313" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:52:04</itunes:duration>
+      <itunes:subtitle>Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&#13;&#13;Steve Jobs está de baja médica, al menos hara Junio&#13;&#13;Organiza tus vacaciones gracias a Internet&#13;&#13;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</itunes:subtitle>
+      <itunes:summary>Nuevo Palm Pre, ¿definitivamente el iPhone Killer?&#13;&#13;Steve Jobs está de baja médica, al menos hara Junio&#13;&#13;Organiza tus vacaciones gracias a Internet&#13;&#13;¡¡Vuelve Lost!! y Kyle XY y BattleStar Galactica...</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 7</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/12/29_Podcast_7.html</link>
+      <guid isPermaLink="false">3dd6cc83-f0e8-45b6-9afa-08cb60b60321</guid>
+      <pubDate>Mon, 29 Dec 2008 16:44:59 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%207%2029-12-8.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_11.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&lt;br/&gt;&lt;br/&gt;Sistemas operativos para teléfonos móviles&lt;br/&gt;	-	Windows Mobile&lt;br/&gt;	-	iPhone OS&lt;br/&gt;	-	Symbian&lt;br/&gt;	-	Android&lt;br/&gt;	-	RIM OS</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%207%2029-12-8.mp3" length="45672936" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:25:01</itunes:duration>
+      <itunes:subtitle>MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&#13;&#13;Sistemas operativos para teléfonos móviles&#13;	-	Windows Mobile&#13;	-	iPhone OS&#13;	-	Symbian&#13;	-	Android&#13;	-	RIM OS</itunes:subtitle>
+      <itunes:summary>MacWorld a la vuelta de la esquina, ¿habrá nuevos productos?&#13;&#13;Sistemas operativos para teléfonos móviles&#13;	-	Windows Mobile&#13;	-	iPhone OS&#13;	-	Symbian&#13;	-	Android&#13;	-	RIM OS</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 6</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/12/14_Podcast_6.html</link>
+      <guid isPermaLink="false">24456853-e9e9-415a-bddb-fb07c2f61ffe</guid>
+      <pubDate>Sun, 14 Dec 2008 14:35:52 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%206%2013-12-9.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_12.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Google Native Client&lt;br/&gt;Google Chrome 1.0&lt;br/&gt;Google anuncia SMS gratis desde GMail&lt;br/&gt;Wikipedia vuelve a pedir donaciones&lt;br/&gt;¿Malware en Software Libre y enlaces patrocinados?&lt;br/&gt;iPhone Prepago para campaña navideña&lt;br/&gt;Gana 1.000 dólares con Ocarina Smule&lt;br/&gt;&lt;br/&gt;Monográfico: Redes sociales&lt;br/&gt;Monográfico: Nos hacemos mayores, ¿qué podemos hacer?&lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%206%2013-12-9.mp3" length="51582646" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:39:32</itunes:duration>
+      <itunes:subtitle>Google Native Client&#13;Google Chrome 1.0&#13;Google anuncia SMS gratis desde GMail&#13;Wikipedia vuelve a pedir donaciones&#13;¿Malware en Software Libre y enlaces patrocinados?&#13;iPhone Prepago para campaña navide</itunes:subtitle>
+      <itunes:summary>Google Native Client&#13;Google Chrome 1.0&#13;Google anuncia SMS gratis desde GMail&#13;Wikipedia vuelve a pedir donaciones&#13;¿Malware en Software Libre y enlaces patrocinados?&#13;iPhone Prepago para campaña navideña&#13;Gana 1.000 dólares con Ocarina Smule&#13;&#13;Monográfico: Redes sociales&#13;Monográfico: Nos hacemos mayores, ¿qué podemos hacer?&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 5</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/11/30_Podcast_5.html</link>
+      <guid isPermaLink="false">7402386b-7851-4dda-bf65-2596c8357a83</guid>
+      <pubDate>Sun, 30 Nov 2008 23:00:18 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%205%2030-11-8.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_13.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;CloudFront de Amazon&lt;br/&gt;Version 2.2 de iPhone&lt;br/&gt;SearchWiki de Google&lt;br/&gt;&lt;br/&gt;Monográfico: El mundo del emprendedor&lt;br/&gt;&lt;br/&gt;Trucos, recomendaciones y series!&lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%205%2030-11-8.mp3" length="62547092" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:17:48</itunes:duration>
+      <itunes:subtitle>CloudFront de Amazon&#13;Version 2.2 de iPhone&#13;SearchWiki de Google&#13;&#13;Monográfico: El mundo del emprendedor&#13;&#13;Trucos, recomendaciones y series!&#13;</itunes:subtitle>
+      <itunes:summary>CloudFront de Amazon&#13;Version 2.2 de iPhone&#13;SearchWiki de Google&#13;&#13;Monográfico: El mundo del emprendedor&#13;&#13;Trucos, recomendaciones y series!&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 4</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/11/18_Podcast_4.html</link>
+      <guid isPermaLink="false">8dbee25d-2259-4e99-af73-d6c023274356</guid>
+      <pubDate>Tue, 18 Nov 2008 18:55:44 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <description>En este podcast hablaremos sobre:&lt;br/&gt; - iPhone SDK&lt;br/&gt; - Objective-C vs otros lenguajes orientados a objetos&lt;br/&gt; - Buenas prácticas de codificación&lt;br/&gt; - Series: Merlin y Crusoe&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://java.sun.com/docs/codeconv/&quot;&gt;Buenas prácticas de Java&lt;br/&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mono-project.com/Coding_Guidelines&quot;&gt;Buenas prácticas de Mono&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;http://developer.apple.com/documentation/Cocoa/Conceptual/ObjectiveC/Articles/chapter_950_section_12.html&quot;&gt;Buenas prácticas de Objective-C&lt;br/&gt;&lt;/a&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%204%2018-11-8.mp3" length="38860768" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:52:46</itunes:duration>
+      <itunes:subtitle>En este podcast hablaremos sobre:&#13; - iPhone SDK&#13; - Objective-C vs otros lenguajes orientados a objetos&#13; - Buenas prácticas de codificación&#13; - Series: Merlin y Crusoe&#13; &#13;Buenas prácticas de Java&#13;Buenas prácticas de Mono&#13;Buenas prácticas de Objective-C&#13;</itunes:subtitle>
+      <itunes:summary>En este podcast hablaremos sobre:&#13; - iPhone SDK&#13; - Objective-C vs otros lenguajes orientados a objetos&#13; - Buenas prácticas de codificación&#13; - Series: Merlin y Crusoe&#13; &#13;Buenas prácticas de Java&#13;Buenas prácticas de Mono&#13;Buenas prácticas de Objective-C&#13;</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 3</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/9/22_Podcast_3.html</link>
+      <guid isPermaLink="false">2c4b0dce-249a-4142-9ef2-f7462cca50c6</guid>
+      <pubDate>Mon, 22 Sep 2008 21:23:39 +0200</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/03%20Podcast%203.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_14.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&lt;br/&gt;&lt;br/&gt;Esperamos que os guste.</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/03%20Podcast%203.mp3" length="29703914" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:41:16</itunes:duration>
+      <itunes:subtitle>Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&#13;&#13;Esperamos que os guste.</itunes:subtitle>
+      <itunes:summary>Con mucho tiempo de espera pero aquí traemos el tercer podcast. Esta vez hablando del iPhone y comparándolo con otros móviles similares.&#13;&#13;Esperamos que os guste.</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 2</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/3/24_Podcast_2.html</link>
+      <guid isPermaLink="false">bed82551-dd65-41bc-8171-63b31a36be4d</guid>
+      <pubDate>Mon, 24 Mar 2008 20:20:41 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%202%2024-03-08%201.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_15.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, esperamos que os guste.&lt;br/&gt;En este podcast hablaremos sobre el SDK que ha salido para el iPhone y comentaremos nuestras experiencias en los mercados de compraventa como eBay o Segundamano.</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%202%2024-03-08%201.mp3" length="31034405" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:41:38</itunes:duration>
+      <itunes:subtitle>De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, e</itunes:subtitle>
+      <itunes:summary>De nuevo estamos aquí con nuestro segundo podcast. Perdonad a todos por el tiempo que hemos tardado en grabarlo pero hemos estado haciendo algunos cambios. Este podcast se ha grabado con otra aplicación y se nota bastante la calidad del audio, esperamos que os guste.&#13;En este podcast hablaremos sobre el SDK que ha salido para el iPhone y comentaremos nuestras experiencias en los mercados de compraventa como eBay o Segundamano.</itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 1</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/2/23_Podcast_1.html</link>
+      <guid isPermaLink="false">23c7e621-9b77-48d6-9441-d5b9c9457f2a</guid>
+      <pubDate>Sat, 23 Feb 2008 01:47:48 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%201%2022-02-08%201.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_16.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus EEE y presentamos una nueva serie de televisión que hará que afloren recuerdos de nuestra infancia.&lt;br/&gt;&lt;br/&gt;Sin más, esperamos que os guste nuestra primera creación. </description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/VidaGeek%20podcast%20numero%201%2022-02-08%201.mp3" length="27683763" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:37:46</itunes:duration>
+      <itunes:subtitle>Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus </itunes:subtitle>
+      <itunes:summary>Y aquí empezamos con nuestro primer podcast. En este podcast discutiremos acerca de lo que opinamos sobre la informática a nivel profesional y sobre hacer o no la carrera. Además Jaime nos contará las maravillas del portátil Asus EEE y presentamos una nueva serie de televisión que hará que afloren recuerdos de nuestra infancia.&#13;&#13;Sin más, esperamos que os guste nuestra primera creación. </itunes:summary>
+    </item>
+    <item>
+      <title>Podcast 0</title>
+      <link>https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Entradas/2008/2/16_Podcast_0.html</link>
+      <guid isPermaLink="false">a5fc6454-c7dd-4bfc-b987-28dc2f83ce7d</guid>
+      <pubDate>Sat, 16 Feb 2008 01:30:50 +0100</pubDate>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>0</itunes:episode>
+      <description>&lt;a href=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%20num0%201.mp3&quot;&gt;&lt;img src=&quot;https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Podcast_VidaGeek/Media/vidageek_300_17.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:166px; height:166px;&quot;/&gt;&lt;/a&gt;Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mundillo en el que nos adentramos.&lt;br/&gt;Es un podcast de corta duración donde explicamos las secciones que iremos incorporando en sucesivos podcasts. &lt;br/&gt;</description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/legacy.vidageek.com/VidaGeek/Media/Podcast%20num0%201.mp3" length="10293627" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:author>VidaGeek</itunes:author>
+      <itunes:duration>00:14:05</itunes:duration>
+      <itunes:subtitle>Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mu</itunes:subtitle>
+      <itunes:summary>Ésta es la primera grabación, le hemos puesto el número cero puesto que en él únicamente hablamos acerca de lo que serán nuestros podcasts, de qué vamos a hablar y para probar si nos terminaba de gustar este nuevo mundillo en el que nos adentramos.&#13;Es un podcast de corta duración donde explicamos las secciones que iremos incorporando en sucesivos podcasts. &#13;</itunes:summary>
+    </item>
+  </channel>
+</rss>

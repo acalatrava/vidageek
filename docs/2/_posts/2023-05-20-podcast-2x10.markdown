@@ -1,0 +1,63 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x10.mp3
+guid: b5cf32b4-92d8-4e3c-87c6-831aa5409bd1
+season: 2
+explicit: "no"
+---
+
+# Habla con tus documentos
+Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como [ChatPDF][chatpdf] o [PrivateGPT][privategpt].
+
+El modo como funcionan estas herramientas se divide en 3 partes:
+
+ - Extracción de texto
+El primer paso es extraer todo el texto del documento y categorizarlo con metadatos como número de página, autor, etc.
+
+ - Extraer embeddings del texto
+Este paso utiliza un modelo que analiza semánticamente el texto y lo convierte a vectores de forma que puede ser indexado en una base de datos vectorial como [Pinecone][pinecone] o similar.
+
+ - "Conversar" con el documento
+Este último paso realiza el paso anterior por cada consulta que le realicemos. Es decir, genera embeddings de la consulta que queremos hacer para luego poder hacer una búsqueda en la base de datos de forma que encontrará los textos que se acerquen más de forma semántica a la consulta para utilizarlos como contexto o referencia en la consulta final.
+
+## ChatPDF
+[ChatPDF][chatpdf] es una herramienta online que utiliza por detrás los modelos de lenguaje de [OpenAI][openai] como ChatGPT para las consultas o ADA para los embeddings. Es un servicio gratuito con limitaciones de hasta 120 páginas por documento o 3 documentos por día. Es muy sencilla de utilizar pero como inconveniente tiene que todo es procesdo online de forma que, si trabajamos con documentos sensibles o confidenciales, no deberíamos utilizarla.
+
+## PrivateGPT
+Por el contrario el proyecto [PrivateGPT][privategpt] utiliza un modelo de lenguaje de código abierto que se ejecuta en local, directamente en tu CPU. Esto tiene la gran ventaja de que podemos trabajar con documentos confidenciales pero como contrapartida es mucho más lento, dependiendo en gran medida de la potencia de la CPU.
+
+Como ejemplo os hemos puesto un [Google Colab][colab] para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU...
+
+----
+# Amazfit GTR 4 y GTS 4
+
+## Acerca de estos relojes
+Dos relojes muy similares por dentro pero muy diferentes por fuera.
+El [Amazfit GTR 4][gtr4] cuenta con una pantalla HD amoled de 1.43 pulgadas con una resolucion de 466x466 Pixeles. Cuenta además con una batería que prometen durar unos 15 días. Con sensores para deporte con 150 modos de entrenamiento, control del sueño etc. Una opcion muy buena para el dia a dia y con un tamaño y forma muy deportivo
+
+Por otro lado, el [Amazfit GTS 4][gts4], al contrario que su hermano, es rectangular(el gtr es redondo) y es la mayor diferencia que podemos encontrar en el dado que sus sensores son iguales. El peso tambien al ser mas pequeño es menor, la bateria pasa lo mismo pero no por ello malo ni mucho menos.
+
+Cuenta con una pantalla de 1.75 pulgadas, comentamos en directo que la pantalla del gtr 4 era mas grande pero como dicen los datos lo dijimos mal.
+
+En ambos casos hay que usar la aplicacion de Amazfit para poder usar las funcionalidades del mismo con nuestro telefono movil.
+Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marcas y desde luego para el dia a dia no dudaria en comprarmelo
+
+## Ventajas
+    - Bateria
+    - Pantalla
+    - Precio
+    
+## Desventajas
+    - No cuenta con NFC
+    - Fácil de rallar
+    - Aplicacion de terceros 
+ 
+¡Hasta la próxima semana!
+
+[chatpdf]: https://www.chatpdf.com?via=vidageek
+[openai]: https://openai.com
+[privategpt]: https://github.com/imartinez/privateGPT
+[colab]: https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P
+[gts4]: https://amzn.to/3pWDVbs
+[gtr4]: https://amzn.to/3WmkgO4
+[pinecone]: https://pinecone.io

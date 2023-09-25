@@ -1,0 +1,25 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x07.mp3
+guid: d04368a7-0c69-45e0-b274-cc54d5b4cb77
+season: 2
+explicit: "no"
+---
+
+# Olvídate del backend con AppWrite
+Hoy hablamos sobre [AppWrite][appwrite], un proyecto de código abierto para crear tu backend de una forma fácil y rápida. Puedes instalar [AppWrite][appwrite] en tu servidor utilizando docker o directamente utilizando AppWrite Cloud y de esta forma no tener que preocuparte de absolutamente nada.
+
+Puedes integrar AppWrite con cualquier plataforma con sus SDKs para cualquier lenguaje de programación o framework como Flutter, iOS, Android, JS, etc.
+
+## Unrecord Videojuego con Unreal Engine 5 
+Unrecord será uno de los primeros juegos en utilizar el nuevo motor de imagen Unreal Engine 5. Promete ser mucho mas realista (cosa que veremos) y mucho más espectacular en cuanto a imagen. Nos pondremos en la piel de un policía visto desde la camara que llevan en el hombro como si de una gopro se tratara. Sin duda una vista algo inusual para un juego de disparos pero que desde luego le da una sensación de realismo brutal.
+
+Actualmente está en desarrollo y en principio solo saldrá para PC. Podéis seguirlo en [Steam][steam] o en su [Discord][discord]. Además podéis ver un [vídeo de demostración en YouTube][demo].
+
+
+¡Hasta la próxima semana!
+
+[steam]: https://store.steampowered.com/app/2381520/Unrecord/
+[discord]: https://discord.com/invite/3xFRSXuDgDfork
+[demo]: https://www.youtube.com/watch?v=IK76q13Aqt0
+[appwrite]: [https://appwrite.io]

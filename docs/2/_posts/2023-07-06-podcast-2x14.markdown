@@ -1,0 +1,32 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x14.mp3
+guid: 41f25b4c-2bda-4aa7-956c-51cf1cd6b472
+season: 2
+explicit: "no"
+---
+# Hubble Network: Revolucionando la comunicación de dispositivos IoT desde el espacio
+
+Hoy vamos a hablar de Hubble Network, una compañía que pretende revolucionar la forma en la que se comunican muchos de nuestros dispositivos, especialmente aquellos relacionados con el Internet de las Cosas (IoT). Estos dispositivos suelen enfrentar un problema importante: la comunicación con Internet, la cual requiere de sistemas costosos en términos de batería y tamaño.
+
+## El desafío de la comunicación en dispositivos IoT
+
+Imaginemos dispositivos ubicados en un campo, encargados de monitorear animales o condiciones específicas. Para enviar esta información periódicamente a Internet, se requiere de un sistema de comunicación que, en la mayoría de los casos, resulta costoso en términos de batería y cobertura. Por ejemplo, si utilizáramos un modem GSM o LTE, similar a un teléfono móvil, nos enfrentaríamos a dos problemas principales: el consumo de batería y la cobertura en zonas rurales remotas, donde la señal puede ser escasa o inexistente.
+
+Existen otros sistemas más eficientes energéticamente, como SIGFOX o LORAWAN, pero su despliegue depende de la presencia de repetidores de estos protocolos en las cercanías. En algunas zonas, puede que estos repetidores no estén disponibles.
+
+## La revolución de Hubble Network
+
+Es aquí donde Hubble Network busca revolucionar estos sistemas de comunicación de una forma sencilla y eficiente. Esta empresa tiene como objetivo llevar los dispositivos BLE (Bluetooth Low Energy) al espacio. Si estás escuchando este podcast con unos AirPods u otros auriculares inalámbricos, es muy probable que estés utilizando la tecnología BLE, la cual permite una conexión fácil entre estos dispositivos y nuestros móviles.
+
+Hubble Network ha desarrollado un satélite con miles de antenas modificadas para capturar las señales de los dispositivos BLE que, con un firmware específico, transmiten desde la Tierra. Esta capacidad es impresionante, ya que elimina la necesidad de utilizar chips o módems especiales como SIGFOX o LORAWAN. La mayoría de los dispositivos de IoT ya cuentan con un chip BLE, y si no lo tienen, su incorporación resulta increíblemente económica y eficiente.
+
+Por ejemplo, en un proyecto en el que he estado trabajando, se utilizó un sistema similar con un chip BLE de Nordic Semi, capaz de funcionar durante 2 años con una simple pila de botón. Un ejemplo conocido de este sistema es el AirTag de Apple, cuya autonomía también es muy alta.
+
+## La constelación de satélites de Hubble Network
+
+Hubble Network planea poner en órbita baja una constelación de satélites que capturarán la información enviada por dispositivos Bluetooth. La empresa ha conseguido una inversión de 20 millones de dólares, lo cual le permitirá lanzar su primer satélite en enero de 2024, gracias a SpaceX, y comenzar a operar su red.
+
+Durante los primeros meses, con un único satélite en órbita, se espera que la captura de datos de los dispositivos ocurra cada 6 horas, el tiempo que tardará en dar una vuelta completa alrededor de nuestro planeta. A pesar de las limitaciones iniciales, esto es un logro impresionante para el inicio de esta ambiciosa empresa. Seguiremos de cerca los avances de Hubble Network y os mantendremos informados sobre su desarrollo.
+
+Si tengo la oportunidad de obtener el kit de desarrollo de esta tecnología, lo utilizaré para explorar su funcionamiento. Tengo muchas ganas de presenciar cómo Hubble Network está transformando la forma en que se comunican los dispositivos IoT desde el espacio.

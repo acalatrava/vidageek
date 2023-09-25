@@ -34,49 +34,65 @@ redirect_from:
         {% include sidebar.html %}
 
         <div class="content pure-u-1 pure-u-md-3-4">
-            <div>
 
-                {% for post in site.posts %}
-                <!-- A wrapper for all the blog posts -->
-                <div class="posts">
-                    <!-- A single blog post -->
-                    <section class="post">
-                        <header class="post-header">
-                            <div class="post-avatar">{{ post.date | date: "%-d %B %Y" }}</div>
-                            <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
+            <h3> Temporada 3</h3>
+
+            {% for post in site.categories["3"] %}
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <div class="post-avatar">{{ post.date | date: "%-d %B %Y" }}</div>
+                        <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
                                 src="/img/common/tilo-avatar.png">-->
 
-                            <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{% assign
-                                    mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</a>
-                            </h3>
+                        <h3 class="post-title"><a href="{{ site.url | url_fixer }}/{{ post.url }}">{{post.season}}x{%
+                                assign
+                                mp3_episode = post.audiourl | mp3_track %}{{
+                                post.episode | default: mp3_episode | prepend: '00' | slice: -2, 2 }} {% assign
+                                mp3_title = post.audiourl | mp3_title %}{{ mp3_title | default: post.title }}</a>
+                        </h3>
 
-                        </header>
+                    </header>
 
-                        <div class="post-description">
-                            {% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default:
-                            mp3_description }}
-                        </div>
-                    </section>
-                </div>
+                    <div class="post-description">
+                        {% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default:
+                        mp3_description }}
+                    </div>
+                </section>
+            </div>
+            {% endfor %}
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+            <ul>
+
+                {% assign sorted_categories = site.categories | sort %}
+                {% for season in sorted_categories reversed %}
+                <li class="pure-menu-item"><a href="/{{season[0]}}" class="pure-menu-link">Temporada
+                        {{season[0]}}</a>
+                </li>
                 {% endfor %}
 
-                <div class="footer">
-                    <div class="pure-menu pure-menu-horizontal">
-                        <ul>
 
 
-
-                            <li class="pure-menu-item"><a href="https://legacy.vidageek.com"
-                                    class="pure-menu-link">Temporada 1</a>
-                            </li>
-                            <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">Quiénes somos</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                <li class="pure-menu-item"><a href="https://legacy.vidageek.com" class="pure-menu-link">Temporada
+                        1</a>
+                </li>
+                <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">Quiénes somos</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </footer>
 
 </body>
 

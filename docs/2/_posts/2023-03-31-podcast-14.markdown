@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "La inteligencia artificial nos come"
+audiourl: /media/VidaGeek_14.mp3
+guid: 294aaafa-cf4b-11ed-afa1-0242ac120002
+season: 2
+---
+La inteligencia artificial no solo no se detiene sino que parece que coge carrerilla. Esta semana os vamos a hablar acerca de [Alpaca][alpaca] un modelo de lenguaje desarrollado por la universidad de Stanford el cual ha sido especializado utilizando como base el modelo [LLaMA][llama] de Meta. Además, utilizando el proyecto [llama.cpp][llamacpp], es posible ejecutar tanto el modelo LLaMA como Alpaca en un equipo sin necesidad de GPU. El funcionamiento de LLaMA es casi equiparable a GPT3 y el de Alpaca a ChatGPT. Todo en local en tu equipo.
+
+En la sección de gaming os hablamos del mando [Xbox Inalámbrico Elite Series 2][xboxelite], un mando versátil que te sentará como un guante. Es un mando con un peso ideal para jugar sin parar.
+
+¡Hasta la próxima semana!
+
+[xboxelite]: https://amzn.to/40LrCM7
+[llamacpp]: https://github.com/ggerganov/llama.cpp
+[alpaca]: https://github.com/tatsu-lab/stanford_alpaca
+[llama]: https://github.com/facebookresearch/llama

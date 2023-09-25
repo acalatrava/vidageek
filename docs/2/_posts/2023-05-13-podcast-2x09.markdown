@@ -1,0 +1,55 @@
+---
+layout: post
+audiourl: /media/VidaGeek_2x09.mp3
+guid: 61907f89-84be-4504-9e77-b98b15779877
+season: 2
+explicit: "no"
+---
+
+# Cómo esconder mensajes secretos a plena vista
+Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.
+
+## Etimología
+La palabra "esteganografía" proviene de dos palabras griegas: "steganos" (στεγανός) y "graphein" (γράφειν). "Steganos" significa "cubierto" o "escondido", mientras que "graphein" significa "escribir" o "dibujar". Por lo tanto, la etimología de "esteganografía" se traduce aproximadamente como "escritura escondida" o "escritura encubierta", lo que refleja la idea de ocultar mensajes secretos dentro de otros medios, como imágenes, textos o archivos de audio.
+
+## Tipos de esteganografía
+Hay diferentes tipos de esteganografía, dependiendo de en qué escondes el mensaje:
+
+ -  Esteganografía en imágenes: Escondes el mensaje dentro de una foto o un dibujo, cambiando un poquito los colores o los detalles de la imagen.
+
+ -  Esteganografía en audio: Puedes esconder el mensaje dentro de una grabación de música o sonido, cambiando un poquito las ondas de sonido.
+
+ -  Esteganografía en texto: Aquí, escondes el mensaje dentro de un texto, utilizando letras o palabras extrañas, o cambiando el tamaño y el color de las letras.
+
+ -  Esteganografía en redes: En este caso, escondes el mensaje en la forma en que se envían los datos por internet u otras redes, para que no se pueda saber qué información se está compartiendo.
+
+## Historia
+La esteganografía se ha utilizado desde hace mucho tiempo. La primera vez que se tiene constancia de su uso fue en la antigua Grecia, alrededor del año 440 a.C. Un famoso general griego llamado Histiaeus quería enviar un mensaje secreto a uno de sus aliados. Entonces, afeitó la cabeza de uno de sus mensajeros, escribió el mensaje en su cuero cabelludo y esperó a que el cabello volviera a crecer. Cuando el cabello del mensajero creció lo suficiente para cubrir el mensaje, lo envió a entregar el mensaje secreto. Al llegar a su destino, el aliado volvió a afeitar la cabeza del mensajero y pudo leer el mensaje oculto.
+
+## Tutorial: esconde un mensaje en una imagen JPEG
+Para este tutorial vamos a hacer uso de un cuaderno que hemos creado de una forma sencilla.
+
+ - Ocultar mensaje: [Esteganografía en JPG ocultar mensaje][ocultar]
+ - Revelar mensaje: [Esteganografía en JPG revelar mensaje][revelar]
+
+----
+# Legion Pro 7i Gen 8: El ordenador ideal para gamers exigentes
+
+El [Legion Pro 7i Gen 8][lenovo] es un ordenador diseñado específicamente para disfrutar de tus videojuegos favoritos. Con una pantalla de excelente calidad y una tarjeta gráfica de última generación, podrás jugar a cualquier juego con una calidad altísima. La única desventaja es su batería, que puede durar menos de una hora, por lo que es recomendable tenerlo siempre conectado a la corriente para que la GPU funcione a pleno rendimiento. Además, cuenta con un teclado retroiluminado RGB que permite multitud de combinaciones. En definitiva, una elección TOP para juegos que durará muchos años gracias a sus 32 GB de RAM, 1 TB de disco SSD y 12 GB de gráfica RTX 4070. Debido a que está pensado para rendimiento, su tamaño y peso son amplios para garantizar una buena refrigeración y evitar que los componentes sufran en exceso. Sin duda, Lenovo está haciendo un trabajo estupendo con esta gama Legion.
+
+## Ventajas
+- Pantalla de 16" a 240 Hz que ofrece una experiencia de juego incomparable.
+- Tarjeta gráfica de última generación RTX 4070 de 12 GB que permite jugar a cualquier juego con una calidad altísima.
+- Procesador Intel i9 para una mayor rapidez y eficiencia.
+
+## Desventajas
+- Batería de poca duración, por lo que es recomendable tenerlo conectado a la corriente para poder jugar sin problemas.
+- Tamaño y peso elevados debido a su diseño enfocado en la refrigeración.
+- Precio elevado, aunque su calidad lo convierte en una inversión a largo plazo para los gamers más exigentes.
+
+
+¡Hasta la próxima semana!
+
+[ocultar]: https://colab.research.google.com/drive/1B5oYFHjQQZ7DJckB9HLm6U4GmKEFo0fn
+[revelar]: https://colab.research.google.com/drive/180wShYdVHgPU8WPBfxrWAkJnYpglSOr_
+[lenovo]: https://amzn.to/3MnkXTP
