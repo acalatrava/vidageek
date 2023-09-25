@@ -3,8 +3,8 @@
   <channel>
     <title>VidaGeek</title>
     <link>https://vidageek.com</link>
-    <description><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, inteligencia artificial, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
-    <generator>iWeb 3.0.1</generator>
+    <description><![CDATA[Inteligencia artificial, tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></description>
+    <generator>VidaGeek Jekyll 0.1</generator>
     <image>
       <url>https://vidageek.com/img/logo_2023_3000x3000.jpg</url>
       <title>VidaGeek</title>
@@ -23,13 +23,77 @@
       <itunes:email>podcast@vidageek.com</itunes:email>
     </itunes:owner>
     <itunes:subtitle>Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.</itunes:subtitle>
-    <itunes:summary><![CDATA[Hablamos sobre tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></itunes:summary>
+    <itunes:summary><![CDATA[Inteligencia artificial, tecnología, ciberseguridad, programación, gaming y lo que nos apetezca. Presentado por Antonio Calatrava y Paco Rodríguez.]]></itunes:summary>
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>OpenInterpreter: Hablando con tu ordenador</title>
+      <itunes:title>OpenInterpreter: Hablando con tu ordenador</itunes:title>
+      <link>https://vidageek.com/3/2023/09/25/podcast-3x01.html</link>
+      <guid isPermaLink="false">181a8c14-e893-4091-9b08-e91925d7abbd</guid>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <description><![CDATA[<h1 id="open-interpreter-hablando-con-tu-ordenador">Open Interpreter: Hablando con tu ordenador</h1>
+
+<p>La inteligencia artificial sigue imparable. Hoy vamos a hablar de un nuevo proyecto de código abierto llamado <a href="https://github.com/KillianLucas/open-interpreter">Open Interpreter</a> el cual nos permite “hablar” con nuestro ordenador.</p>
+
+<p><a href="https://github.com/KillianLucas/open-interpreter">Open Interpreter</a> es la respuesta de código abierto al plugin “Code Interpreter” que sacó en la versión plus de ChatGPT. Este plugin permite la creación y ejecución de código en base a una petición, o prompt. Entre otras cosas te permite resolución de problemas matemáticos, análisis y visualización de datos, convertir ficheros a diferentes formatos, y cosas así. No obstante tiene ciertas limitaciones como que opera sin acceso a internet, tiene un set de paquetes previamente instalados limitado, tiene un límite de 2 minutos de ejecución y el estado es eliminado después de la ejecución.</p>
+
+<p>Open Interpreter viene a mejorar todo esto, dando acceso completo a tu PC o Mac de forma que pueda ejecutar código diréctamente en tu equipo y con acceso a internet, eliminando todos esos límites impuestos por ChatGPT. Además, al ser un proyecto open source, puede operar totalmente en local utilizando un LLM que también se ejecute en local. Aunque si queremos que tenga mucha más potencia y conocimiento lo ideal es que utilicemos GPT4. No obstante en este caso estaremos enviando todo lo que hacemos a OpenAI y esto puede suponer un problema de privacidad.</p>
+
+<p>Aquí os vamos a explicar cómo ponerlo en marcha totalmente en local, sin tener que utilizar GPT4. Para ello utilizaremos CodeLlama, un LLM desarrollado por Meta, especializado en programación, que se ejecuta en local y con una licencia bastante abierta.</p>
+
+<h2 id="puesta-en-marcha">Puesta en marcha</h2>
+
+<p>Lo primero que tenemos que realizar es crearnos un entorno de ejecución con Conda. Si bien este paso no es esencial, es muy recomendable. Conda es un gestor de entornos de ejecución de forma que nos crea entornos independientes para cada proyecto. Esto está muy bien ya que muchas veces los proyectos necesitan de versiones específicas de ciertos paquetes o librerías. Para ello Conda crea un entorno de ejecución para cada proyecto aislado de los demas. Si bien aquí no vamos a tratar la instalación de Conda, es algo muy sencillo de realizar haciéndo una búsqueda en internet.</p>
+
+<p>Una vez tengamos conda instalado crearemos un entorno para el proyecto:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ conda create python=3.11 open-interpreter
+ $ conda activate open-interpreter
+</code></pre></div></div>
+
+<p>El siguiente paso es simplemente instalar open-interpreter con pip:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ pip install open-interpreter
+</code></pre></div></div>
+
+<p>Y ya está! Simplemente con esto ya tenemos Open Interpreter instalado. Ahora simplemente tenemos que ejecutar</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ interpreter
+</code></pre></div></div>
+<p>y seguir los pasos que nos va pidiendo.</p>
+
+<h2 id="gpt4-o-codellama">GPT4 o CodeLlama</h2>
+
+<p>Lo primero que nos pedirá es la clave de API de OpenAI para utilizar GPT4 como motor LLM. Esto es lo más rápido y efectivo puesto que GPT4 es el LLM más potente y capaz hasta la fecha. No obstante tiene ciertas desventajas:</p>
+<ul>
+  <li>No es gratis</li>
+  <li>Todos tus comandos y respuestas serán enviados a OpenAI para procesarlos
+Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemos ejecutar en local. CodeLlama viene en 3 sabores: 7B, 11B y 34B. Cada número se refiere a los billones de parámetros que tiene el modelo. Como suele ser en estas cosas, cuanto más, mejor. Pero cuanto más, más RAM y potencia de cálculo necesitarás.</li>
+</ul>
+
+<p>He hecho pruebas con el más potente (34B aunque muy comprimido) y con GPT4 y claramente GPT4 es mucho más potente y capaz. Aunque en la petición que le hice (generar un fichero excel a partir de un listado de películas en un PDF) no fue capaz de conseguir el objetivo final.</p>
+
+<h2 id="opencore-legacy-patcher">OpenCore Legacy Patcher</h2>
+
+<p>Paco nos ha comentado cómo ha sido posible actualizar su Macbook Pro Retina de 2014 a la última versión de MacOS gracias a <a href="https://dortania.github.io/OpenCore-Legacy-Patcher/">OpenCore Legacy Patcher</a>, un proyecto open source que nos permite crear un instalador de MacOS que engaña al sistema operativo haciéndole creer que se está ejecutando en un hardware soportado.</p>
+
+<p>Dependiendo del hardware que tengamos algos OS serán soportados y otros no. Sin embargo si tu equipo es de 2013 o supuerior suele poder soportar los últimos MacOS hasta la fecha. Quizá haya algunas funcionalidades que no estén disponibles pero generalmente funciona francamente bien.</p>
+
+<hr />
+
+<p>¡Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x01.mp3" length="47730223" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:33:08</itunes:duration>
+      <itunes:subtitle>En este inicio de temporada venimos a contaros cómo utilizar OpenInterpreter para hablar, literalmente, con tu ordenador</itunes:subtitle>
+      <itunes:summary>En este inicio de temporada venimos a contaros cómo utilizar OpenInterpreter para hablar, literalmente, con tu ordenador</itunes:summary>
+    </item>
+    <item>
       <title>Hubble Network, llevando el Bluetooth al espacio</title>
       <itunes:title>Hubble Network, llevando el Bluetooth al espacio</itunes:title>
-      <link>https://vidageek.com/2023/07/06/podcast-2x14.html</link>
+      <link>https://vidageek.com/2/2023/07/06/podcast-2x14.html</link>
       <guid isPermaLink="false">41f25b4c-2bda-4aa7-956c-51cf1cd6b472</guid>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -69,7 +133,7 @@
     <item>
       <title>La visión de Apple</title>
       <itunes:title>La visión de Apple</itunes:title>
-      <link>https://vidageek.com/2023/06/11/podcast-2x13.html</link>
+      <link>https://vidageek.com/2/2023/06/11/podcast-2x13.html</link>
       <guid isPermaLink="false">d6cbfd3f-8b8f-4d4e-b260-a13cd42a8019</guid>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -104,7 +168,7 @@
     <item>
       <title>Aniquilados por Inteligencia Artificial</title>
       <itunes:title>Aniquilados por Inteligencia Artificial</itunes:title>
-      <link>https://vidageek.com/2023/06/03/podcast-2x12.html</link>
+      <link>https://vidageek.com/2/2023/06/03/podcast-2x12.html</link>
       <guid isPermaLink="false">79a686ac-fb7e-4425-93ed-aba7f35ccd9a</guid>
       <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -172,7 +236,7 @@
     <item>
       <title>Pensamiento arborescente para tu IA, edición mágica de imágenes y mandos accesibles</title>
       <itunes:title>Pensamiento arborescente para tu IA, edición mágica de imágenes y mandos accesibles</itunes:title>
-      <link>https://vidageek.com/2023/05/27/podcast-2x11.html</link>
+      <link>https://vidageek.com/2/2023/05/27/podcast-2x11.html</link>
       <guid isPermaLink="false">ffe0ef08-8f9e-42b1-aa01-d4a7f7806b23</guid>
       <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -228,7 +292,7 @@
     <item>
       <title>Habla con tus documentos | Amazfit GTR 4</title>
       <itunes:title>Habla con tus documentos | Amazfit GTR 4</itunes:title>
-      <link>https://vidageek.com/2023/05/20/podcast-2x10.html</link>
+      <link>https://vidageek.com/2/2023/05/20/podcast-2x10.html</link>
       <guid isPermaLink="false">b5cf32b4-92d8-4e3c-87c6-831aa5409bd1</guid>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -299,7 +363,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
     <item>
       <title>Cómo esconder mensajes secretos a plena vista</title>
       <itunes:title>Cómo esconder mensajes secretos a plena vista</itunes:title>
-      <link>https://vidageek.com/2023/05/13/podcast-2x09.html</link>
+      <link>https://vidageek.com/2/2023/05/13/podcast-2x09.html</link>
       <guid isPermaLink="false">61907f89-84be-4504-9e77-b98b15779877</guid>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -370,7 +434,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
     <item>
       <title>Cómo generar imágenes con IA</title>
       <itunes:title>Cómo generar imágenes con IA</itunes:title>
-      <link>https://vidageek.com/2023/05/06/podcast-2x08.html</link>
+      <link>https://vidageek.com/2/2023/05/06/podcast-2x08.html</link>
       <guid isPermaLink="false">12d8fd4d-7f9f-4d71-b19f-986f9e81e73e</guid>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -395,7 +459,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
     <item>
       <title>AppWrite para tu backend y Unrecord para tu gozo</title>
       <itunes:title>AppWrite para tu backend y Unrecord para tu gozo</itunes:title>
-      <link>https://vidageek.com/2023/04/29/podcast-2x07.html</link>
+      <link>https://vidageek.com/2/2023/04/29/podcast-2x07.html</link>
       <guid isPermaLink="false">d04368a7-0c69-45e0-b274-cc54d5b4cb77</guid>
       <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -422,7 +486,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
     <item>
       <title>Cómo clonar tu voz fácilmente</title>
       <itunes:title>Cómo clonar tu voz fácilmente</itunes:title>
-      <link>https://vidageek.com/2023/04/22/podcast-2x06.html</link>
+      <link>https://vidageek.com/2/2023/04/22/podcast-2x06.html</link>
       <guid isPermaLink="false">99e833fb-4e01-4b7e-9576-6073e3ec4560</guid>
       <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -467,7 +531,7 @@ Se utilizaron para deepfakes</p>
     <item>
       <title>Hola, ¿quién está ahí?</title>
       <itunes:title>Hola, ¿quién está ahí?</itunes:title>
-      <link>https://vidageek.com/2023/04/14/podcast-16.html</link>
+      <link>https://vidageek.com/2/2023/04/14/podcast-16.html</link>
       <guid isPermaLink="false">dada4fa2-2c25-4381-83a5-ea0044ed9439</guid>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -506,7 +570,7 @@ Se utilizaron para deepfakes</p>
     <item>
       <title>La familia de los lamoides crece</title>
       <itunes:title>La familia de los lamoides crece</itunes:title>
-      <link>https://vidageek.com/2023/04/07/podcast-15.html</link>
+      <link>https://vidageek.com/2/2023/04/07/podcast-15.html</link>
       <guid isPermaLink="false">c0e2bc99-4d69-468a-abf7-58afe6cb48aa</guid>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -549,7 +613,7 @@ Se utilizaron para deepfakes</p>
     <item>
       <title>La inteligencia artificial nos come</title>
       <itunes:title>La inteligencia artificial nos come</itunes:title>
-      <link>https://vidageek.com/2023/03/31/podcast-14.html</link>
+      <link>https://vidageek.com/2/2023/03/31/podcast-14.html</link>
       <guid isPermaLink="false">294aaafa-cf4b-11ed-afa1-0242ac120002</guid>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -570,7 +634,7 @@ Se utilizaron para deepfakes</p>
     <item>
       <title>LangChain y Samsung Odyssey G7</title>
       <itunes:title>LangChain y Samsung Odyssey G7</itunes:title>
-      <link>https://vidageek.com/2023/03/24/podcast-13.html</link>
+      <link>https://vidageek.com/2/2023/03/24/podcast-13.html</link>
       <guid isPermaLink="false">5c0de642-c9c8-11ed-afa1-0242ac120002</guid>
       <pubDate>Fri, 24 Mar 2023 09:00:00 +0000</pubDate>
       <itunes:season>2</itunes:season>
@@ -599,7 +663,7 @@ Se utilizaron para deepfakes</p>
     <item>
       <title>NextDNS y Logitech G502 Hero</title>
       <itunes:title>NextDNS y Logitech G502 Hero</itunes:title>
-      <link>https://vidageek.com/2023/03/17/podcast-12.html</link>
+      <link>https://vidageek.com/2/2023/03/17/podcast-12.html</link>
       <guid isPermaLink="false">a29d98c6-df19-4294-ba7d-24c5e645e6a4</guid>
       <pubDate>Fri, 17 Mar 2023 11:25:40 +0000</pubDate>
       <itunes:season>2</itunes:season>

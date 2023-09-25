@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VidaGeek, un podcast de tecnología">
+    <title>OpenInterpreter: Hablando con tu ordenador</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-1-4">
+            <div class="header header-post">
+                <div class="ondesktop">
+                    <h1 class="pagetitle">OpenInterpreter: Hablando con tu ordenador</h1>
+                    <audio controls>
+                        <source src="https://vidageek.com//media/VidaGeek_3x01.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>&nbsp;</p>
+                </div>
+
+
+                <h2 class="h1logo small"><a href="https://vidageek.com" style="text-decoration: none;"><img
+                            src="https://vidageek.com/img/logo_2023_200x200.jpg" width="30" valign="middle" />
+                        &nbsp; <span style="color: white">Vida<span style="color: gray">Geek</span>
+                    </a></h2>
+                <div class="onpost">
+                    <div class="pure-menu pure-menu-horizontal">
+    <div class="icons">
+
+        <a href="https://podcasts.apple.com/us/podcast/vidageek/id299525194" class="pod-item"><img
+                src="https://vidageek.com/img/applepodcasts-icon@2x.png" width="20" alt="Apple Podcasts" /></a>
+        <a href="https://share.podimo.com/podcast/ff5a2a37-860a-452b-b425-3c3bc655922c?creatorId=ba65ddd0-38e0-4e21-9a93-8959d10277ac&key=E5hKNwWuZ7ln&source=ln&from=studio"
+            class="pod-item"><img src="https://vidageek.com/img/podimo.png" width="20" alt="Podimo" /></a>
+        <a href="https://open.spotify.com/show/4xA0RCcJ2jozOUhTYkPFmx" class="pod-item"><img
+                src="https://vidageek.com/img/spotify-icon@2x.png" width="20" alt="Spotify" /></a>
+        <a href="https://vidageek.com/rss.xml" class="pod-item"><img
+                src="https://vidageek.com/img/rss-icon@2x.png" width="20" alt="RSS" /></a>
+    </div>
+</div>
+                </div>
+                <div class="onmobile">
+                    <p>&nbsp;</p>
+                    <h1 class="pagetitle">OpenInterpreter: Hablando con tu ordenador</h1>
+                    <audio controls>
+                        <source src="https://vidageek.com//media/VidaGeek_3x01.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <br />
+                    <br />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <div>
+
+                <!-- A wrapper for all the blog posts -->
+                <div class="posts">
+                    <h1 class="content-subhead">25 September 2023</h1>
+
+                    <!-- A single blog post -->
+                    <section class="post">
+                        <header class="post-header">
+                            <!--<img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar"
+                                src="/img/common/tilo-avatar.png">-->
+
+                        </header>
+
+                        <div class="post-description">
+                            <h1 id="open-interpreter-hablando-con-tu-ordenador">Open Interpreter: Hablando con tu ordenador</h1>
+
+<p>La inteligencia artificial sigue imparable. Hoy vamos a hablar de un nuevo proyecto de código abierto llamado <a href="https://github.com/KillianLucas/open-interpreter">Open Interpreter</a> el cual nos permite “hablar” con nuestro ordenador.</p>
+
+<p><a href="https://github.com/KillianLucas/open-interpreter">Open Interpreter</a> es la respuesta de código abierto al plugin “Code Interpreter” que sacó en la versión plus de ChatGPT. Este plugin permite la creación y ejecución de código en base a una petición, o prompt. Entre otras cosas te permite resolución de problemas matemáticos, análisis y visualización de datos, convertir ficheros a diferentes formatos, y cosas así. No obstante tiene ciertas limitaciones como que opera sin acceso a internet, tiene un set de paquetes previamente instalados limitado, tiene un límite de 2 minutos de ejecución y el estado es eliminado después de la ejecución.</p>
+
+<p>Open Interpreter viene a mejorar todo esto, dando acceso completo a tu PC o Mac de forma que pueda ejecutar código diréctamente en tu equipo y con acceso a internet, eliminando todos esos límites impuestos por ChatGPT. Además, al ser un proyecto open source, puede operar totalmente en local utilizando un LLM que también se ejecute en local. Aunque si queremos que tenga mucha más potencia y conocimiento lo ideal es que utilicemos GPT4. No obstante en este caso estaremos enviando todo lo que hacemos a OpenAI y esto puede suponer un problema de privacidad.</p>
+
+<p>Aquí os vamos a explicar cómo ponerlo en marcha totalmente en local, sin tener que utilizar GPT4. Para ello utilizaremos CodeLlama, un LLM desarrollado por Meta, especializado en programación, que se ejecuta en local y con una licencia bastante abierta.</p>
+
+<h2 id="puesta-en-marcha">Puesta en marcha</h2>
+
+<p>Lo primero que tenemos que realizar es crearnos un entorno de ejecución con Conda. Si bien este paso no es esencial, es muy recomendable. Conda es un gestor de entornos de ejecución de forma que nos crea entornos independientes para cada proyecto. Esto está muy bien ya que muchas veces los proyectos necesitan de versiones específicas de ciertos paquetes o librerías. Para ello Conda crea un entorno de ejecución para cada proyecto aislado de los demas. Si bien aquí no vamos a tratar la instalación de Conda, es algo muy sencillo de realizar haciéndo una búsqueda en internet.</p>
+
+<p>Una vez tengamos conda instalado crearemos un entorno para el proyecto:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ conda create python=3.11 open-interpreter
+ $ conda activate open-interpreter
+</code></pre></div></div>
+
+<p>El siguiente paso es simplemente instalar open-interpreter con pip:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ pip install open-interpreter
+</code></pre></div></div>
+
+<p>Y ya está! Simplemente con esto ya tenemos Open Interpreter instalado. Ahora simplemente tenemos que ejecutar</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ interpreter
+</code></pre></div></div>
+<p>y seguir los pasos que nos va pidiendo.</p>
+
+<h2 id="gpt4-o-codellama">GPT4 o CodeLlama</h2>
+
+<p>Lo primero que nos pedirá es la clave de API de OpenAI para utilizar GPT4 como motor LLM. Esto es lo más rápido y efectivo puesto que GPT4 es el LLM más potente y capaz hasta la fecha. No obstante tiene ciertas desventajas:</p>
+<ul>
+  <li>No es gratis</li>
+  <li>Todos tus comandos y respuestas serán enviados a OpenAI para procesarlos
+Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemos ejecutar en local. CodeLlama viene en 3 sabores: 7B, 11B y 34B. Cada número se refiere a los billones de parámetros que tiene el modelo. Como suele ser en estas cosas, cuanto más, mejor. Pero cuanto más, más RAM y potencia de cálculo necesitarás.</li>
+</ul>
+
+<p>He hecho pruebas con el más potente (34B aunque muy comprimido) y con GPT4 y claramente GPT4 es mucho más potente y capaz. Aunque en la petición que le hice (generar un fichero excel a partir de un listado de películas en un PDF) no fue capaz de conseguir el objetivo final.</p>
+
+<h2 id="opencore-legacy-patcher">OpenCore Legacy Patcher</h2>
+
+<p>Paco nos ha comentado cómo ha sido posible actualizar su Macbook Pro Retina de 2014 a la última versión de MacOS gracias a <a href="https://dortania.github.io/OpenCore-Legacy-Patcher/">OpenCore Legacy Patcher</a>, un proyecto open source que nos permite crear un instalador de MacOS que engaña al sistema operativo haciéndole creer que se está ejecutando en un hardware soportado.</p>
+
+<p>Dependiendo del hardware que tengamos algos OS serán soportados y otros no. Sin embargo si tu equipo es de 2013 o supuerior suele poder soportar los últimos MacOS hasta la fecha. Quizá haya algunas funcionalidades que no estén disponibles pero generalmente funciona francamente bien.</p>
+
+<hr />
+
+<p>¡Hasta la próxima semana!</p>
+
+
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -6,6 +6,16 @@
     line-height: 1.6;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
@@ -114,6 +124,10 @@ h3 {
     letter-spacing: 0.1em;
 }
 
+.pure-g {
+    flex: 1 0 auto;
+}
+
 .content {
     padding: 2em 1em 0;
 }
@@ -184,6 +198,7 @@ h3 {
 .footer {
     padding: 1em 0;
     background: #f8f9fa;
+    flex-shrink: 0;
 }
 
 .footer a {
@@ -269,6 +284,7 @@ h3 {
 
     .footer {
         text-align: center;
+        flex-shrink: 0;
     }
 
     .icons {
