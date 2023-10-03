@@ -27,6 +27,31 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</title>
+      <itunes:title>Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</itunes:title>
+      <link>https://vidageek.com/3/2023/10/03/podcast-3x02.html</link>
+      <guid isPermaLink="false">83feca51-81a2-4d27-85e3-1f48a4d6f820</guid>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <description><![CDATA[<h1 id="charlando-sobre-iphone-15-macbook-air-financiación-openai-bing-meta-quest-y-más">Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</h1>
+<p>En el episodio de hoy hablamos de forma distendida sobre varias cosas como el iPhone 15 o el Macbook Air de los cuales Paco es nuevo poseedor (aún en parte). Además hablamos sobre <a href="https://github.com/jzhang38/TinyLlama">TinyLlama</a>, un nuevo LLM “pequeño” de tan sólo 1.1 billones de parámetros.</p>
+
+<p>También os contamos lo nuevo de <a href="https://openai.com/blog/chatgpt-can-now-see-hear-and-speak">OpenAI que ahora puede oír, hablar y ver</a> y de cómo podemos utilizarlo gratis gracias a <a href="https://www.bing.com/?cc=es">Bing</a>.</p>
+
+<p>Meta ha presentado las nuevas <a href="https://www.meta.com/es/quest/quest-3/">Quest 3</a> y han hecho un vídeo en el nos muestran cómo las podemos utilizar para entrar <a href="https://www.youtube.com/watch?v=MVYrJJNdrEg">en una videoconferencia con un avatar fotorrealista</a>. Muy interesantehttps://www.youtube.com/watch?v=MVYrJJNdrEg, la verdad.</p>
+
+<hr />
+<p>Hasta la próxima semana!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x02.mp3" length="53007586" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:36:48</itunes:duration>
+      <itunes:subtitle>En el episodio de hoy hablamos de forma distendida sobre varias cosas como el iPhone 15 o el Macbook Air de los cuales Paco es nuevo poseedor...</itunes:subtitle>
+      <itunes:summary>En el episodio de hoy hablamos de forma distendida sobre varias cosas como el iPhone 15 o el Macbook Air de los cuales Paco es nuevo poseedor...</itunes:summary>
+    </item>
+    <item>
       <title>OpenInterpreter: Hablando con tu ordenador</title>
       <itunes:title>OpenInterpreter: Hablando con tu ordenador</itunes:title>
       <link>https://vidageek.com/3/2023/09/25/podcast-3x01.html</link>
