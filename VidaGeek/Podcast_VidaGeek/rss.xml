@@ -27,6 +27,29 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>iCloud, copias de seguridad y videojuegos</title>
+      <itunes:title>iCloud, copias de seguridad y videojuegos</itunes:title>
+      <link>https://vidageek.com/3/2023/11/05/podcast-3x03.html</link>
+      <guid isPermaLink="false">388fc176-d1d4-4ed3-989a-be6563d9aa69</guid>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <description><![CDATA[<h1 id="copias-de-seguridad">Copias de seguridad</h1>
+<p>En el episodio de hoy hablamos sobre copias de seguridad y sobre cómo confiar sólo en la nube, ya sea iCloud o cualquier otra, no es una buena idea. Descubriremos por qué la búsqueda de un sistema de backup le ha llevado a Antonio a suscribirse a una plataforma de videojuegos y explicamos cómo utilizar el servicio <a href="https://backblaze.com">Backblaze</a> para realizar copias de seguridad de nuestro equipo.</p>
+
+<p>También comentamos cómo Antonio ha utilizado una herramienta de código abierto llamada <a href="https://github.com/icloud-photos-downloader/icloud_photos_downloader">iCloud Photo Downloader</a> para descargar toda su librería de fotos de iCloud a un disco duro local.</p>
+
+<hr />
+<p>¡Que lo disfrutes!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x03.mp3" length="59650485" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:41:25</itunes:duration>
+      <itunes:subtitle>Hoy os contamos por qué Antonio se va a suscribir a un servicio de videojuegos por culpa de sus fotos</itunes:subtitle>
+      <itunes:summary>Hoy os contamos por qué Antonio se va a suscribir a un servicio de videojuegos por culpa de sus fotos</itunes:summary>
+    </item>
+    <item>
       <title>Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</title>
       <itunes:title>Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</itunes:title>
       <link>https://vidageek.com/3/2023/10/03/podcast-3x02.html</link>
