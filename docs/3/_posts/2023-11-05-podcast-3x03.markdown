@@ -1,0 +1,19 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x03.mp3
+guid: 388fc176-d1d4-4ed3-989a-be6563d9aa69
+season: 3
+explicit: "yes"
+---
+# Copias de seguridad
+En el episodio de hoy hablamos sobre copias de seguridad y sobre cómo confiar sólo en la nube, ya sea iCloud o cualquier otra, no es una buena idea. Descubriremos por qué la búsqueda de un sistema de backup le ha llevado a Antonio a suscribirse a una plataforma de videojuegos y explicamos cómo utilizar el servicio [Backblaze][backblaze] para realizar copias de seguridad de nuestro equipo.
+
+También comentamos cómo Antonio ha utilizado una herramienta de código abierto llamada [iCloud Photo Downloader][icloudpd] para descargar toda su librería de fotos de iCloud a un disco duro local.
+
+---
+¡Que lo disfrutes!
+
+
+[backblaze]: https://backblaze.com
+[icloudpd]: https://github.com/icloud-photos-downloader/icloud_photos_downloader
+
