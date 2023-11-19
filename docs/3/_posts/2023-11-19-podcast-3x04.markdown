@@ -1,0 +1,17 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x04.mp3
+guid: 22eb488b-1415-4b10-a65d-b1422f41b58b
+season: 3
+explicit: "yes"
+---
+# Sam Altman es despedido... ¿y readmitido?
+Este fin de semana OpenAI se ha levantado de resaca. El viernes a mediodía despedían a Sam Altman sin previo aviso... ¿pero parece ser que apenas 48 horas más tarde se han arrepentido?
+
+# El nuevo dispositivo AI Pin quiere ser lo que le siga al smartphone
+Humane ha presentado su nuevo AI Pin, un dispositivo móvil que no se parece a nada de lo que hayas visto antes... para bien y para mal. Está cargado de inteligencia artificial y pretende remplazar de alguna forma al smartphone.
+
+# Elon Musk consigue un nuevo hito en el lanzamiento de Starship
+El último lanzamiento de Starship ha sido un éxito consiguiendo nuevos hitos. El avance de la misión va estupendamente.
+
+Te lo contamos todo en este nuevo episodio, ¡Que lo disfrutes!
