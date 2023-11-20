@@ -27,8 +27,8 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
-      <title>Sam Altman es despedido - AI Pin pretende remplazar al iPhone - Starship consigue un nuevo hito</title>
-      <itunes:title>Sam Altman es despedido - AI Pin pretende remplazar al iPhone - Starship consigue un nuevo hito</itunes:title>
+      <title>Despidos en OpenAI, la Starship realiza un lanzamiento espectacular y Humane pretende destronar al iPhone</title>
+      <itunes:title>Despidos en OpenAI, la Starship realiza un lanzamiento espectacular y Humane pretende destronar al iPhone</itunes:title>
       <link>https://vidageek.com/3/2023/11/19/podcast-3x04.html</link>
       <guid isPermaLink="false">22eb488b-1415-4b10-a65d-b1422f41b58b</guid>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
@@ -45,7 +45,7 @@
 
 <p>Te lo contamos todo en este nuevo episodio, ¡Que lo disfrutes!</p>
 ]]></description>
-      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x04.mp3" length="62251386" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x04.mp3" length="62252099" type="audio/mpeg"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:duration>00:43:13</itunes:duration>
       <itunes:subtitle>Hoy os contamos las últimas novedades de tecnológia, desde el despido de Sam Altman hasta el nuevo hito de Starship pasando por el nuevo AI Pin de Humane... muy loco todo</itunes:subtitle>
