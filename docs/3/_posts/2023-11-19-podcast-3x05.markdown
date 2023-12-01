@@ -1,0 +1,17 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x05.mp3
+guid: fd93982d-0dd3-403b-9df1-3f66793a975f
+season: 3
+explicit: "yes"
+---
+# OpenHaystack, AirTags para todos
+Hoy os hablamos sobre OpenHaystack, un proyecto de código abierto realizado por la universidad [TU Darmstadt](https://www.tu-darmstadt.de) a partir de ingenieria inversa del protocolo de los AirTag. Nos permite poder crear nuestros propios AirTags y que funcionen dentro de la red FindMy de Apple. Además, jugando con el proyecto, he realizado un nuevo firmware de muy bajo consumo que funciona con los chips nrf52 de Nordic.
+
+Aquí os dejo los enlaces del proyecto y del firmware de bajo consumo:
+ - Proyecto OpenHaystack: [https://github.com/seemoo-lab/openhaystack](https://github.com/seemoo-lab/openhaystack)
+ - Firmware modificado de muy bajo consumo: [https://github.com/acalatrava/openhaystack-firmware](https://github.com/acalatrava/openhaystack-firmware)
+ - Firmware más avanzado que permite incluso actualización DFU: [https://github.com/spaceinvadertech/openhaystack_moko](https://github.com/spaceinvadertech/openhaystack_moko)
+
+Un saludo!
+
