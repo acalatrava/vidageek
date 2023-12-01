@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-11-20T08:32:51+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 3x04</title><link href="https://vidageek.com/3/2023/11/19/podcast-3x04.html" rel="alternate" type="text/html" title="Podcast 3x04" /><published>2023-11-19T00:00:00+00:00</published><updated>2023-11-19T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/11/19/podcast-3x04</id><content type="html" xml:base="https://vidageek.com/3/2023/11/19/podcast-3x04.html"><![CDATA[<h1 id="sam-altman-es-despedido-y-readmitido">Sam Altman es despedido… ¿y readmitido?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-12-01T10:17:49+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 3x04</title><link href="https://vidageek.com/3/2023/11/19/podcast-3x04.html" rel="alternate" type="text/html" title="Podcast 3x04" /><published>2023-11-19T00:00:00+00:00</published><updated>2023-11-19T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/11/19/podcast-3x04</id><content type="html" xml:base="https://vidageek.com/3/2023/11/19/podcast-3x04.html"><![CDATA[<h1 id="sam-altman-es-despedido-y-readmitido">Sam Altman es despedido… ¿y readmitido?</h1>
 <p>Este fin de semana OpenAI se ha levantado de resaca. El viernes a mediodía despedían a Sam Altman sin previo aviso… ¿pero parece ser que apenas 48 horas más tarde se han arrepentido?</p>
 
 <h1 id="el-nuevo-dispositivo-ai-pin-quiere-ser-lo-que-le-siga-al-smartphone">El nuevo dispositivo AI Pin quiere ser lo que le siga al smartphone</h1>
@@ -7,7 +7,17 @@
 <h1 id="elon-musk-consigue-un-nuevo-hito-en-el-lanzamiento-de-starship">Elon Musk consigue un nuevo hito en el lanzamiento de Starship</h1>
 <p>El último lanzamiento de Starship ha sido un éxito consiguiendo nuevos hitos. El avance de la misión va estupendamente.</p>
 
-<p>Te lo contamos todo en este nuevo episodio, ¡Que lo disfrutes!</p>]]></content><author><name></name></author><category term="3" /><summary type="html"><![CDATA[Sam Altman es despedido… ¿y readmitido? Este fin de semana OpenAI se ha levantado de resaca. El viernes a mediodía despedían a Sam Altman sin previo aviso… ¿pero parece ser que apenas 48 horas más tarde se han arrepentido?]]></summary></entry><entry><title type="html">Podcast 3x03</title><link href="https://vidageek.com/3/2023/11/05/podcast-3x03.html" rel="alternate" type="text/html" title="Podcast 3x03" /><published>2023-11-05T00:00:00+00:00</published><updated>2023-11-05T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/11/05/podcast-3x03</id><content type="html" xml:base="https://vidageek.com/3/2023/11/05/podcast-3x03.html"><![CDATA[<h1 id="copias-de-seguridad">Copias de seguridad</h1>
+<p>Te lo contamos todo en este nuevo episodio, ¡Que lo disfrutes!</p>]]></content><author><name></name></author><category term="3" /><summary type="html"><![CDATA[Sam Altman es despedido… ¿y readmitido? Este fin de semana OpenAI se ha levantado de resaca. El viernes a mediodía despedían a Sam Altman sin previo aviso… ¿pero parece ser que apenas 48 horas más tarde se han arrepentido?]]></summary></entry><entry><title type="html">Podcast 3x05</title><link href="https://vidageek.com/3/2023/11/19/podcast-3x05.html" rel="alternate" type="text/html" title="Podcast 3x05" /><published>2023-11-19T00:00:00+00:00</published><updated>2023-11-19T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/11/19/podcast-3x05</id><content type="html" xml:base="https://vidageek.com/3/2023/11/19/podcast-3x05.html"><![CDATA[<h1 id="openhaystack-airtags-para-todos">OpenHaystack, AirTags para todos</h1>
+<p>Hoy os hablamos sobre OpenHaystack, un proyecto de código abierto realizado por la universidad <a href="https://www.tu-darmstadt.de">TU Darmstadt</a> a partir de ingenieria inversa del protocolo de los AirTag. Nos permite poder crear nuestros propios AirTags y que funcionen dentro de la red FindMy de Apple. Además, jugando con el proyecto, he realizado un nuevo firmware de muy bajo consumo que funciona con los chips nrf52 de Nordic.</p>
+
+<p>Aquí os dejo los enlaces del proyecto y del firmware de bajo consumo:</p>
+<ul>
+  <li>Proyecto OpenHaystack: <a href="https://github.com/seemoo-lab/openhaystack">https://github.com/seemoo-lab/openhaystack</a></li>
+  <li>Firmware modificado de muy bajo consumo: <a href="https://github.com/acalatrava/openhaystack-firmware">https://github.com/acalatrava/openhaystack-firmware</a></li>
+  <li>Firmware más avanzado que permite incluso actualización DFU: <a href="https://github.com/spaceinvadertech/openhaystack_moko">https://github.com/spaceinvadertech/openhaystack_moko</a></li>
+</ul>
+
+<p>Un saludo!</p>]]></content><author><name></name></author><category term="3" /><summary type="html"><![CDATA[OpenHaystack, AirTags para todos Hoy os hablamos sobre OpenHaystack, un proyecto de código abierto realizado por la universidad TU Darmstadt a partir de ingenieria inversa del protocolo de los AirTag. Nos permite poder crear nuestros propios AirTags y que funcionen dentro de la red FindMy de Apple. Además, jugando con el proyecto, he realizado un nuevo firmware de muy bajo consumo que funciona con los chips nrf52 de Nordic.]]></summary></entry><entry><title type="html">Podcast 3x03</title><link href="https://vidageek.com/3/2023/11/05/podcast-3x03.html" rel="alternate" type="text/html" title="Podcast 3x03" /><published>2023-11-05T00:00:00+00:00</published><updated>2023-11-05T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/11/05/podcast-3x03</id><content type="html" xml:base="https://vidageek.com/3/2023/11/05/podcast-3x03.html"><![CDATA[<h1 id="copias-de-seguridad">Copias de seguridad</h1>
 <p>En el episodio de hoy hablamos sobre copias de seguridad y sobre cómo confiar sólo en la nube, ya sea iCloud o cualquier otra, no es una buena idea. Descubriremos por qué la búsqueda de un sistema de backup le ha llevado a Antonio a suscribirse a una plataforma de videojuegos y explicamos cómo utilizar el servicio <a href="https://backblaze.com">Backblaze</a> para realizar copias de seguridad de nuestro equipo.</p>
 
 <p>También comentamos cómo Antonio ha utilizado una herramienta de código abierto llamada <a href="https://github.com/icloud-photos-downloader/icloud_photos_downloader">iCloud Photo Downloader</a> para descargar toda su librería de fotos de iCloud a un disco duro local.</p>
@@ -256,58 +266,4 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
 - Aplicacion de terceros 
 </code></pre></div></div>
 
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Habla con tus documentos Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como ChatPDF o PrivateGPT.]]></summary></entry><entry><title type="html">Podcast 2x09</title><link href="https://vidageek.com/2/2023/05/13/podcast-2x09.html" rel="alternate" type="text/html" title="Podcast 2x09" /><published>2023-05-13T00:00:00+00:00</published><updated>2023-05-13T00:00:00+00:00</updated><id>https://vidageek.com/2/2023/05/13/podcast-2x09</id><content type="html" xml:base="https://vidageek.com/2/2023/05/13/podcast-2x09.html"><![CDATA[<h1 id="cómo-esconder-mensajes-secretos-a-plena-vista">Cómo esconder mensajes secretos a plena vista</h1>
-<p>Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.</p>
-
-<h2 id="etimología">Etimología</h2>
-<p>La palabra “esteganografía” proviene de dos palabras griegas: “steganos” (στεγανός) y “graphein” (γράφειν). “Steganos” significa “cubierto” o “escondido”, mientras que “graphein” significa “escribir” o “dibujar”. Por lo tanto, la etimología de “esteganografía” se traduce aproximadamente como “escritura escondida” o “escritura encubierta”, lo que refleja la idea de ocultar mensajes secretos dentro de otros medios, como imágenes, textos o archivos de audio.</p>
-
-<h2 id="tipos-de-esteganografía">Tipos de esteganografía</h2>
-<p>Hay diferentes tipos de esteganografía, dependiendo de en qué escondes el mensaje:</p>
-
-<ul>
-  <li>
-    <p>Esteganografía en imágenes: Escondes el mensaje dentro de una foto o un dibujo, cambiando un poquito los colores o los detalles de la imagen.</p>
-  </li>
-  <li>
-    <p>Esteganografía en audio: Puedes esconder el mensaje dentro de una grabación de música o sonido, cambiando un poquito las ondas de sonido.</p>
-  </li>
-  <li>
-    <p>Esteganografía en texto: Aquí, escondes el mensaje dentro de un texto, utilizando letras o palabras extrañas, o cambiando el tamaño y el color de las letras.</p>
-  </li>
-  <li>
-    <p>Esteganografía en redes: En este caso, escondes el mensaje en la forma en que se envían los datos por internet u otras redes, para que no se pueda saber qué información se está compartiendo.</p>
-  </li>
-</ul>
-
-<h2 id="historia">Historia</h2>
-<p>La esteganografía se ha utilizado desde hace mucho tiempo. La primera vez que se tiene constancia de su uso fue en la antigua Grecia, alrededor del año 440 a.C. Un famoso general griego llamado Histiaeus quería enviar un mensaje secreto a uno de sus aliados. Entonces, afeitó la cabeza de uno de sus mensajeros, escribió el mensaje en su cuero cabelludo y esperó a que el cabello volviera a crecer. Cuando el cabello del mensajero creció lo suficiente para cubrir el mensaje, lo envió a entregar el mensaje secreto. Al llegar a su destino, el aliado volvió a afeitar la cabeza del mensajero y pudo leer el mensaje oculto.</p>
-
-<h2 id="tutorial-esconde-un-mensaje-en-una-imagen-jpeg">Tutorial: esconde un mensaje en una imagen JPEG</h2>
-<p>Para este tutorial vamos a hacer uso de un cuaderno que hemos creado de una forma sencilla.</p>
-
-<ul>
-  <li>Ocultar mensaje: <a href="https://colab.research.google.com/drive/1B5oYFHjQQZ7DJckB9HLm6U4GmKEFo0fn">Esteganografía en JPG ocultar mensaje</a></li>
-  <li>Revelar mensaje: <a href="https://colab.research.google.com/drive/180wShYdVHgPU8WPBfxrWAkJnYpglSOr_">Esteganografía en JPG revelar mensaje</a></li>
-</ul>
-
-<hr />
-<h1 id="legion-pro-7i-gen-8-el-ordenador-ideal-para-gamers-exigentes">Legion Pro 7i Gen 8: El ordenador ideal para gamers exigentes</h1>
-
-<p>El <a href="https://amzn.to/3MnkXTP">Legion Pro 7i Gen 8</a> es un ordenador diseñado específicamente para disfrutar de tus videojuegos favoritos. Con una pantalla de excelente calidad y una tarjeta gráfica de última generación, podrás jugar a cualquier juego con una calidad altísima. La única desventaja es su batería, que puede durar menos de una hora, por lo que es recomendable tenerlo siempre conectado a la corriente para que la GPU funcione a pleno rendimiento. Además, cuenta con un teclado retroiluminado RGB que permite multitud de combinaciones. En definitiva, una elección TOP para juegos que durará muchos años gracias a sus 32 GB de RAM, 1 TB de disco SSD y 12 GB de gráfica RTX 4070. Debido a que está pensado para rendimiento, su tamaño y peso son amplios para garantizar una buena refrigeración y evitar que los componentes sufran en exceso. Sin duda, Lenovo está haciendo un trabajo estupendo con esta gama Legion.</p>
-
-<h2 id="ventajas">Ventajas</h2>
-<ul>
-  <li>Pantalla de 16” a 240 Hz que ofrece una experiencia de juego incomparable.</li>
-  <li>Tarjeta gráfica de última generación RTX 4070 de 12 GB que permite jugar a cualquier juego con una calidad altísima.</li>
-  <li>Procesador Intel i9 para una mayor rapidez y eficiencia.</li>
-</ul>
-
-<h2 id="desventajas">Desventajas</h2>
-<ul>
-  <li>Batería de poca duración, por lo que es recomendable tenerlo conectado a la corriente para poder jugar sin problemas.</li>
-  <li>Tamaño y peso elevados debido a su diseño enfocado en la refrigeración.</li>
-  <li>Precio elevado, aunque su calidad lo convierte en una inversión a largo plazo para los gamers más exigentes.</li>
-</ul>
-
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Cómo esconder mensajes secretos a plena vista Esta semana os vamos a hablar de la esteganografía, el arte de esconder mensajes a plena vista. Imagina que quieres enviar un mensaje secreto a tu mejor amigo, pero no quieres que tus hermanos o compañeros de clase lo lean. Entonces, en lugar de escribir el mensaje en un papel y ponerlo en un sobre, decides esconderlo dentro de un dibujo o una foto para que nadie sospeche que hay algo más. Eso es la esteganografía: esconder un mensaje dentro de otra cosa para que nadie se dé cuenta de que está ahí.]]></summary></entry></feed>
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Habla con tus documentos Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como ChatPDF o PrivateGPT.]]></summary></entry></feed>

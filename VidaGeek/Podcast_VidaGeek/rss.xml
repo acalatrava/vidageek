@@ -27,6 +27,33 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>OpenHaystack - AirTags para todos</title>
+      <itunes:title>OpenHaystack - AirTags para todos</itunes:title>
+      <link>https://vidageek.com/3/2023/11/19/podcast-3x05.html</link>
+      <guid isPermaLink="false">fd93982d-0dd3-403b-9df1-3f66793a975f</guid>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <description><![CDATA[<h1 id="openhaystack-airtags-para-todos">OpenHaystack, AirTags para todos</h1>
+<p>Hoy os hablamos sobre OpenHaystack, un proyecto de código abierto realizado por la universidad <a href="https://www.tu-darmstadt.de">TU Darmstadt</a> a partir de ingenieria inversa del protocolo de los AirTag. Nos permite poder crear nuestros propios AirTags y que funcionen dentro de la red FindMy de Apple. Además, jugando con el proyecto, he realizado un nuevo firmware de muy bajo consumo que funciona con los chips nrf52 de Nordic.</p>
+
+<p>Aquí os dejo los enlaces del proyecto y del firmware de bajo consumo:</p>
+<ul>
+  <li>Proyecto OpenHaystack: <a href="https://github.com/seemoo-lab/openhaystack">https://github.com/seemoo-lab/openhaystack</a></li>
+  <li>Firmware modificado de muy bajo consumo: <a href="https://github.com/acalatrava/openhaystack-firmware">https://github.com/acalatrava/openhaystack-firmware</a></li>
+  <li>Firmware más avanzado que permite incluso actualización DFU: <a href="https://github.com/spaceinvadertech/openhaystack_moko">https://github.com/spaceinvadertech/openhaystack_moko</a></li>
+</ul>
+
+<p>Un saludo!</p>
+
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x05.mp3" length="50434014" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:35:01</itunes:duration>
+      <itunes:subtitle>OpenHaystack, un proyecto de código abierto realizado a partir de ingenieria inversa del protocolo de los AirTag de Apple</itunes:subtitle>
+      <itunes:summary>OpenHaystack, un proyecto de código abierto realizado a partir de ingenieria inversa del protocolo de los AirTag de Apple</itunes:summary>
+    </item>
+    <item>
       <title>Despidos en OpenAI, la Starship realiza un lanzamiento espectacular y Humane pretende destronar al iPhone</title>
       <itunes:title>Despidos en OpenAI, la Starship realiza un lanzamiento espectacular y Humane pretende destronar al iPhone</itunes:title>
       <link>https://vidageek.com/3/2023/11/19/podcast-3x04.html</link>
