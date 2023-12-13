@@ -27,6 +27,28 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>¿Nos engaña Google con su IA?</title>
+      <itunes:title>¿Nos engaña Google con su IA?</itunes:title>
+      <link>https://vidageek.com/3/2023/12/13/podcast-3x06.html</link>
+      <guid isPermaLink="false">2a3e85da-8a06-4b7d-a819-1aa3e1465476</guid>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <description><![CDATA[<h1 id="nos-engaña-google-con-su-nueva-ia">¿Nos engaña Google con su nueva IA?</h1>
+
+<p>En este episodio os contamos la polémica con la presentación del nuevo <a href="https://www.youtube.com/watch?v=UIZAiXYceBI&amp;t=86s">proyecto Gemini de Google</a> ya que parece ser que lo que han presentado <a href="https://www.lavanguardia.com/andro4all/google/acusan-a-google-de-falsear-el-video-de-demostracion-de-gemini-su-nuevo-modelo-de-ia">no es exactamente lo que realmente puede hacer su modelo de IA</a>.</p>
+
+<p>Además os hablamos sobre el <a href="https://www.apple.com/es/shop/buy-watch/apple-watch-ultra/explorar">Apple Watch Ultra 2</a>, al cual finalmente Paco no se ha podido resistir, y sobre <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0">GTA VI</a> entre otras cosas.</p>
+
+<p>Que lo disfrutéis!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x06.mp3" length="40575171" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:42:07</itunes:duration>
+      <itunes:subtitle>En este episodio hablamos sobre la nueva IA de Google, GTA VI, Epic Games y más.</itunes:subtitle>
+      <itunes:summary>En este episodio hablamos sobre la nueva IA de Google, GTA VI, Epic Games y más.</itunes:summary>
+    </item>
+    <item>
       <title>OpenHaystack - AirTags para todos</title>
       <itunes:title>OpenHaystack - AirTags para todos</itunes:title>
       <link>https://vidageek.com/3/2023/12/01/podcast-3x05.html</link>

@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-12-02T10:37:15+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 3x05</title><link href="https://vidageek.com/3/2023/12/01/podcast-3x05.html" rel="alternate" type="text/html" title="Podcast 3x05" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/12/01/podcast-3x05</id><content type="html" xml:base="https://vidageek.com/3/2023/12/01/podcast-3x05.html"><![CDATA[<h1 id="openhaystack-airtags-para-todos">OpenHaystack, AirTags para todos</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vidageek.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vidageek.com/" rel="alternate" type="text/html" /><updated>2023-12-13T13:25:13+00:00</updated><id>https://vidageek.com/feed.xml</id><title type="html">VidaGeek</title><subtitle>Un podcast sobre tecnología, programación, videojuegos y mucho más</subtitle><entry><title type="html">Podcast 3x06</title><link href="https://vidageek.com/3/2023/12/13/podcast-3x06.html" rel="alternate" type="text/html" title="Podcast 3x06" /><published>2023-12-13T00:00:00+00:00</published><updated>2023-12-13T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/12/13/podcast-3x06</id><content type="html" xml:base="https://vidageek.com/3/2023/12/13/podcast-3x06.html"><![CDATA[<h1 id="nos-engaña-google-con-su-nueva-ia">¿Nos engaña Google con su nueva IA?</h1>
+
+<p>En este episodio os contamos la polémica con la presentación del nuevo <a href="https://www.youtube.com/watch?v=UIZAiXYceBI&amp;t=86s">proyecto Gemini de Google</a> ya que parece ser que lo que han presentado <a href="https://www.lavanguardia.com/andro4all/google/acusan-a-google-de-falsear-el-video-de-demostracion-de-gemini-su-nuevo-modelo-de-ia">no es exactamente lo que realmente puede hacer su modelo de IA</a>.</p>
+
+<p>Además os hablamos sobre el <a href="https://www.apple.com/es/shop/buy-watch/apple-watch-ultra/explorar">Apple Watch Ultra 2</a>, al cual finalmente Paco no se ha podido resistir, y sobre <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0">GTA VI</a> entre otras cosas.</p>
+
+<p>Que lo disfrutéis!</p>]]></content><author><name></name></author><category term="3" /><summary type="html"><![CDATA[¿Nos engaña Google con su nueva IA?]]></summary></entry><entry><title type="html">Podcast 3x05</title><link href="https://vidageek.com/3/2023/12/01/podcast-3x05.html" rel="alternate" type="text/html" title="Podcast 3x05" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>https://vidageek.com/3/2023/12/01/podcast-3x05</id><content type="html" xml:base="https://vidageek.com/3/2023/12/01/podcast-3x05.html"><![CDATA[<h1 id="openhaystack-airtags-para-todos">OpenHaystack, AirTags para todos</h1>
 <p>Hoy os hablamos sobre OpenHaystack, un proyecto de código abierto realizado por la universidad <a href="https://www.tu-darmstadt.de">TU Darmstadt</a> a partir de ingenieria inversa del protocolo de los AirTag. Nos permite poder crear nuestros propios AirTags y que funcionen dentro de la red FindMy de Apple. Además, jugando con el proyecto, he realizado un nuevo firmware de muy bajo consumo que funciona con los chips nrf52 de Nordic.</p>
 
 <p>Aquí os dejo los enlaces del proyecto y del firmware de bajo consumo:</p>
@@ -217,58 +223,4 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
 <h2 id="recomendacion">Recomendacion</h2>
 <p>Desde mi punto de vista eligiria de todos ellos el mando POWER A por su calidad de acabado, precio y ergonomia a la hora de jugar ya que es practicamente lo mismo que el de xbox original pero con cable. Eso lo hace mas ligero pero con el incoveniente de tenerlo que tener conectado por cable.</p>
 
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Tree of thoughts: Deliberate problem solving with Large Language Models https://arxiv.org/pdf/2305.10601.pdf]]></summary></entry><entry><title type="html">Podcast 2x10</title><link href="https://vidageek.com/2/2023/05/20/podcast-2x10.html" rel="alternate" type="text/html" title="Podcast 2x10" /><published>2023-05-20T00:00:00+00:00</published><updated>2023-05-20T00:00:00+00:00</updated><id>https://vidageek.com/2/2023/05/20/podcast-2x10</id><content type="html" xml:base="https://vidageek.com/2/2023/05/20/podcast-2x10.html"><![CDATA[<h1 id="habla-con-tus-documentos">Habla con tus documentos</h1>
-<p>Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como <a href="https://www.chatpdf.com?via=vidageek">ChatPDF</a> o <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a>.</p>
-
-<p>El modo como funcionan estas herramientas se divide en 3 partes:</p>
-
-<ul>
-  <li>
-    <p>Extracción de texto
-El primer paso es extraer todo el texto del documento y categorizarlo con metadatos como número de página, autor, etc.</p>
-  </li>
-  <li>
-    <p>Extraer embeddings del texto
-Este paso utiliza un modelo que analiza semánticamente el texto y lo convierte a vectores de forma que puede ser indexado en una base de datos vectorial como <a href="https://pinecone.io">Pinecone</a> o similar.</p>
-  </li>
-  <li>
-    <p>“Conversar” con el documento
-Este último paso realiza el paso anterior por cada consulta que le realicemos. Es decir, genera embeddings de la consulta que queremos hacer para luego poder hacer una búsqueda en la base de datos de forma que encontrará los textos que se acerquen más de forma semántica a la consulta para utilizarlos como contexto o referencia en la consulta final.</p>
-  </li>
-</ul>
-
-<h2 id="chatpdf">ChatPDF</h2>
-<p><a href="https://www.chatpdf.com?via=vidageek">ChatPDF</a> es una herramienta online que utiliza por detrás los modelos de lenguaje de <a href="https://openai.com">OpenAI</a> como ChatGPT para las consultas o ADA para los embeddings. Es un servicio gratuito con limitaciones de hasta 120 páginas por documento o 3 documentos por día. Es muy sencilla de utilizar pero como inconveniente tiene que todo es procesdo online de forma que, si trabajamos con documentos sensibles o confidenciales, no deberíamos utilizarla.</p>
-
-<h2 id="privategpt">PrivateGPT</h2>
-<p>Por el contrario el proyecto <a href="https://github.com/imartinez/privateGPT">PrivateGPT</a> utiliza un modelo de lenguaje de código abierto que se ejecuta en local, directamente en tu CPU. Esto tiene la gran ventaja de que podemos trabajar con documentos confidenciales pero como contrapartida es mucho más lento, dependiendo en gran medida de la potencia de la CPU.</p>
-
-<p>Como ejemplo os hemos puesto un <a href="https://colab.research.google.com/drive/1ikKWtOx73NirUjf72mNHJt_Q9uKI7m61#scrollTo=rV2Ydj-tqX-P">Google Colab</a> para que podáis probarlo aunque os adelantamos que es especialmente lento al usar sólo la CPU…</p>
-
-<hr />
-<h1 id="amazfit-gtr-4-y-gts-4">Amazfit GTR 4 y GTS 4</h1>
-
-<h2 id="acerca-de-estos-relojes">Acerca de estos relojes</h2>
-<p>Dos relojes muy similares por dentro pero muy diferentes por fuera.
-El <a href="https://amzn.to/3WmkgO4">Amazfit GTR 4</a> cuenta con una pantalla HD amoled de 1.43 pulgadas con una resolucion de 466x466 Pixeles. Cuenta además con una batería que prometen durar unos 15 días. Con sensores para deporte con 150 modos de entrenamiento, control del sueño etc. Una opcion muy buena para el dia a dia y con un tamaño y forma muy deportivo</p>
-
-<p>Por otro lado, el <a href="https://amzn.to/3pWDVbs">Amazfit GTS 4</a>, al contrario que su hermano, es rectangular(el gtr es redondo) y es la mayor diferencia que podemos encontrar en el dado que sus sensores son iguales. El peso tambien al ser mas pequeño es menor, la bateria pasa lo mismo pero no por ello malo ni mucho menos.</p>
-
-<p>Cuenta con una pantalla de 1.75 pulgadas, comentamos en directo que la pantalla del gtr 4 era mas grande pero como dicen los datos lo dijimos mal.</p>
-
-<p>En ambos casos hay que usar la aplicacion de Amazfit para poder usar las funcionalidades del mismo con nuestro telefono movil.
-Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marcas y desde luego para el dia a dia no dudaria en comprarmelo</p>
-
-<h2 id="ventajas">Ventajas</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Bateria
-- Pantalla
-- Precio
-</code></pre></div></div>
-
-<h2 id="desventajas">Desventajas</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- No cuenta con NFC
-- Fácil de rallar
-- Aplicacion de terceros 
-</code></pre></div></div>
-
-<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Habla con tus documentos Esta semana os explicamos cómo hablar con vuestros documentos. Para ello hacemos uso de diferentes herramientas como ChatPDF o PrivateGPT.]]></summary></entry></feed>
+<p>¡Hasta la próxima semana!</p>]]></content><author><name></name></author><category term="2" /><summary type="html"><![CDATA[Tree of thoughts: Deliberate problem solving with Large Language Models https://arxiv.org/pdf/2305.10601.pdf]]></summary></entry></feed>
