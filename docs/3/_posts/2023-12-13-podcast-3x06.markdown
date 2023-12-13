@@ -1,0 +1,14 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x06.mp3
+guid: 2a3e85da-8a06-4b7d-a819-1aa3e1465476
+season: 3
+explicit: "yes"
+---
+# ¿Nos engaña Google con su nueva IA?
+
+En este episodio os contamos la polémica con la presentación del nuevo [proyecto Gemini de Google](https://www.youtube.com/watch?v=UIZAiXYceBI&t=86s) ya que parece ser que lo que han presentado [no es exactamente lo que realmente puede hacer su modelo de IA](https://www.lavanguardia.com/andro4all/google/acusan-a-google-de-falsear-el-video-de-demostracion-de-gemini-su-nuevo-modelo-de-ia).
+
+Además os hablamos sobre el [Apple Watch Ultra 2](https://www.apple.com/es/shop/buy-watch/apple-watch-ultra/explorar), al cual finalmente Paco no se ha podido resistir, y sobre [GTA VI](https://www.youtube.com/watch?v=QdBZY2fkU-0) entre otras cosas.
+
+Que lo disfrutéis!

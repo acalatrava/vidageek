@@ -16,7 +16,7 @@ module MP3Information
 
   def mp3_description(audio_file)
     Mp3Info.open("."+audio_file) do |mp3info|
-        return mp3info.tag2.COMM[0]
+        return mp3info.tag2.TXXX ? mp3info.tag2.TXXX.split("\u0000")[1] : mp3info.tag2.COMM[0] 
     end
   end
 
