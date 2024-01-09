@@ -13,7 +13,7 @@ También os contamos lo nuevo de [OpenAI que ahora puede oír, hablar y ver][ope
 Meta ha presentado las nuevas [Quest 3][quest] y han hecho un vídeo en el nos muestran cómo las podemos utilizar para entrar [en una videoconferencia con un avatar fotorrealista][avatar]. Muy interesante, la verdad.
 
 ---
-Hasta la próxima semana!
+¡Hasta la próxima semana!
 
 
 [tinyllama]: https://github.com/jzhang38/TinyLlama

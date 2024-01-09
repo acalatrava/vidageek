@@ -1,0 +1,14 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x07.mp3
+guid: 1848d56d-c31c-4cfe-9d65-98135874a187
+season: 3
+explicit: "yes"
+---
+# Microsoft lo apuesta todo a la IA - iOS 17.3 protegerá aún más nuestros iPhone - Xiaomi lanzará un coche eléctrico
+
+En este episodio os contamos cómo Microsoft lo apuesta todo a la IA [lanzando un nuevo teclado](https://www.genbeta.com/actualidad/nuestros-teclados-cambiaran-30-anos-despues-nueva-tecla-ia-microsoft-al-alcance-nuestros-dedos) con un nuevo botón destinado a Copilot. También hablamos de la próxima actualización de iOS la cual [añade una nueva funcionalidad para proteger nuestros dispositivos](https://blogthinkbig.com/ios-17-3-estrena-stolen-device-protection-que-es-y-por-que-debes-activarlo).
+
+Además os contamos sobre el [futuro coche eléctrico de Xiaomi](https://www.xataka.com/movilidad/xiaomi-su7-coche-electrico-apunta-directamente-a-tesla-porsche-presumiendo-rendimiento-conduccion-autonoma), el cual dará mucho que hablar. 
+
+¡Que lo disfrutéis!

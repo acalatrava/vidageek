@@ -16,5 +16,5 @@ Aquí os dejo los enlaces del proyecto y del firmware de bajo consumo:
 Y aquí podéis encontrar un "clon" chino compatible con la red FindMy de Apple de forma oficial que cuestan apenas 5€:
  - [Aiyato Global Tracker](https://www.aliexpress.us/item/1005005978714839.html)
 
-Un saludo!
+¡Un saludo!
 
