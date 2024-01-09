@@ -40,6 +40,7 @@
       <itunes:duration>{% assign mp3_length = post.audiourl | mp3_length_hhmmss %}{{ post.duration | default: mp3_length }}</itunes:duration>
       <itunes:subtitle>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:subtitle>
       <itunes:summary>{% assign mp3_description = post.audiourl | mp3_description %}{{ post.summary | default: mp3_description }}</itunes:summary>
+      <itunes:image href="{% if post.image != null and post.image != "" %} {{ site.url | url_fixer }}{{ post.image }} {% else %} "https://vidageek.com/img/logo_2023_3000x3000.jpg" {% endif %}"/>
     </item>
     {% endfor %}<item>
       <title>Podcast 11</title>
