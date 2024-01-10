@@ -4,7 +4,7 @@ audiourl: /media/VidaGeek_3x07.mp3
 guid: 1848d56d-c31c-4cfe-9d65-98135874a187
 season: 3
 explicit: "yes"
-image: /media/VidaGeek_3x07-cover.jpg
+image: /media/VidaGeek_3x07.jpg
 ---
 # Microsoft lo apuesta todo a la IA - iOS 17.3 protegerá aún más nuestros iPhone - Xiaomi lanzará un coche eléctrico
 
