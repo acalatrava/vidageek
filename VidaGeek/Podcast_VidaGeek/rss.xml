@@ -47,7 +47,7 @@
       <itunes:duration>00:40:51</itunes:duration>
       <itunes:subtitle>Microsoft lo apuesta todo a la IA - iOS 17.3 protegerá aún más nuestros iPhone - Xiaomi lanzará un coche eléctrico</itunes:subtitle>
       <itunes:summary>Microsoft lo apuesta todo a la IA - iOS 17.3 protegerá aún más nuestros iPhone - Xiaomi lanzará un coche eléctrico</itunes:summary>
-      <itunes:image href="https://vidageek.com/media/VidaGeek_3x07-cover.jpg"/>
+      <itunes:image href="https://vidageek.com/media/VidaGeek_3x07.jpg"/>
     </item>
     <item>
       <title>¿Nos engaña Google con su IA?</title>
@@ -70,7 +70,7 @@
       <itunes:duration>00:42:07</itunes:duration>
       <itunes:subtitle>En este episodio hablamos sobre la nueva IA de Google, GTA VI, Epic Games y más.</itunes:subtitle>
       <itunes:summary>En este episodio hablamos sobre la nueva IA de Google, GTA VI, Epic Games y más.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>OpenHaystack - AirTags para todos</title>
@@ -103,7 +103,7 @@
       <itunes:duration>00:35:01</itunes:duration>
       <itunes:subtitle>OpenHaystack, un proyecto de código abierto realizado a partir de ingenieria inversa del protocolo de los AirTag de Apple</itunes:subtitle>
       <itunes:summary>OpenHaystack, un proyecto de código abierto realizado a partir de ingenieria inversa del protocolo de los AirTag de Apple</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Despidos en OpenAI, la Starship realiza un lanzamiento espectacular y Humane pretende destronar al iPhone</title>
@@ -129,7 +129,7 @@
       <itunes:duration>00:43:13</itunes:duration>
       <itunes:subtitle>Hoy os contamos las últimas novedades de tecnológia, desde el despido de Sam Altman hasta el nuevo hito de Starship pasando por el nuevo AI Pin de Humane... muy loco todo</itunes:subtitle>
       <itunes:summary>Hoy os contamos las últimas novedades de tecnológia, desde el despido de Sam Altman hasta el nuevo hito de Starship pasando por el nuevo AI Pin de Humane... muy loco todo</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>iCloud, copias de seguridad y videojuegos</title>
@@ -153,7 +153,7 @@
       <itunes:duration>00:41:25</itunes:duration>
       <itunes:subtitle>Hoy os contamos por qué Antonio se va a suscribir a un servicio de videojuegos por culpa de sus fotos</itunes:subtitle>
       <itunes:summary>Hoy os contamos por qué Antonio se va a suscribir a un servicio de videojuegos por culpa de sus fotos</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Charlando sobre iPhone 15, Macbook Air, financiación, OpenAI, Bing, Meta Quest y más</title>
@@ -179,7 +179,7 @@
       <itunes:duration>00:36:48</itunes:duration>
       <itunes:subtitle>En el episodio de hoy hablamos de forma distendida sobre varias cosas como el iPhone 15 o el Macbook Air de los cuales Paco es nuevo poseedor...</itunes:subtitle>
       <itunes:summary>En el episodio de hoy hablamos de forma distendida sobre varias cosas como el iPhone 15 o el Macbook Air de los cuales Paco es nuevo poseedor...</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>OpenInterpreter: Hablando con tu ordenador</title>
@@ -244,7 +244,7 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
       <itunes:duration>00:33:08</itunes:duration>
       <itunes:subtitle>En este inicio de temporada venimos a contaros cómo utilizar OpenInterpreter para hablar, literalmente, con tu ordenador</itunes:subtitle>
       <itunes:summary>En este inicio de temporada venimos a contaros cómo utilizar OpenInterpreter para hablar, literalmente, con tu ordenador</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Hubble Network, llevando el Bluetooth al espacio</title>
@@ -285,7 +285,7 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
       <itunes:duration>00:14:50</itunes:duration>
       <itunes:subtitle>Hoy os contamos cómo Hubble Network pretende revolucionar los dispositivos de bajo consumo llevando el bluetooth al espacio.</itunes:subtitle>
       <itunes:summary>Hoy os contamos cómo Hubble Network pretende revolucionar los dispositivos de bajo consumo llevando el bluetooth al espacio.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>La visión de Apple</title>
@@ -321,7 +321,7 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
       <itunes:duration>00:25:58</itunes:duration>
       <itunes:subtitle>Hoy os hablamos de las nuevas Apple Vision Pro y de cómo será el futuro de la computación tal y como la conocemos</itunes:subtitle>
       <itunes:summary>Hoy os hablamos de las nuevas Apple Vision Pro y de cómo será el futuro de la computación tal y como la conocemos</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Aniquilados por Inteligencia Artificial</title>
@@ -390,7 +390,7 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
       <itunes:duration>00:26:30</itunes:duration>
       <itunes:subtitle>¡Se han filtrado las especificaciones de las gafas de Apple y son loquísimas! | ImageBind un modelo para unirlos a todos | Dicen algunos expertos que la IA podría acabar aniquilando la humanidad</itunes:subtitle>
       <itunes:summary>¡Se han filtrado las especificaciones de las gafas de Apple y son loquísimas! | ImageBind un modelo para unirlos a todos | Dicen algunos expertos que la IA podría acabar aniquilando la humanidad</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Pensamiento arborescente para tu IA, edición mágica de imágenes y mandos accesibles</title>
@@ -447,7 +447,7 @@ Como alternativa podemos usar CodeLlama. Un LLM desarrollado por Meta que podemo
       <itunes:duration>00:25:19</itunes:duration>
       <itunes:subtitle>Os comentamos un nuevo paper sobre cómo mejorar sustancialmente tu IA con pensamiento arborescente. También os mostramos otro paper que explica cómo modificar y recrear imágenes con solo arrastrar y soltar. Y os contamos unos mandos de videojuego realmente accesibles.</itunes:subtitle>
       <itunes:summary>Os comentamos un nuevo paper sobre cómo mejorar sustancialmente tu IA con pensamiento arborescente. También os mostramos otro paper que explica cómo modificar y recrear imágenes con solo arrastrar y soltar. Y os contamos unos mandos de videojuego realmente accesibles.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Habla con tus documentos | Amazfit GTR 4</title>
@@ -519,7 +519,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
       <itunes:duration>00:43:45</itunes:duration>
       <itunes:subtitle>Hoy os contamos cómo hablar con tus documentos para no tenerte que leer ese tocho de manual de tu coche. Además también charlamos sobre el nuevo Amazfit GTR y GTS 4</itunes:subtitle>
       <itunes:summary>Hoy os contamos cómo hablar con tus documentos para no tenerte que leer ese tocho de manual de tu coche. Además también charlamos sobre el nuevo Amazfit GTR y GTS 4</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Cómo esconder mensajes secretos a plena vista</title>
@@ -591,7 +591,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
       <itunes:duration>00:42:59</itunes:duration>
       <itunes:subtitle>Hoy os explicamos qué es la esteganografía o el arte de esconder mensajes secretos a plena vista. Además os traemos una review del Lenovo Legion Pro 7.</itunes:subtitle>
       <itunes:summary>Hoy os explicamos qué es la esteganografía o el arte de esconder mensajes secretos a plena vista. Además os traemos una review del Lenovo Legion Pro 7.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Cómo generar imágenes con IA</title>
@@ -617,7 +617,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
       <itunes:duration>00:40:16</itunes:duration>
       <itunes:subtitle>Os enseñamos a generar imágenes con IA incluso en las que aparezca un texto concreto. Además, para celebrar el día de Star Wars, Paco nos habla sobre el videojuego Star Wars Jedi Survivor</itunes:subtitle>
       <itunes:summary>Os enseñamos a generar imágenes con IA incluso en las que aparezca un texto concreto. Además, para celebrar el día de Star Wars, Paco nos habla sobre el videojuego Star Wars Jedi Survivor</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>AppWrite para tu backend y Unrecord para tu gozo</title>
@@ -645,7 +645,7 @@ Dos opciones de relojes muy recomentadables y mucho mas asequible que otras marc
       <itunes:duration>00:25:21</itunes:duration>
       <itunes:subtitle>AppWrite un proyecto open source para crear tu backend fácilmente. Y Unrecord, el próximo videojuego fotorrealista que te dejará boquiabierto.</itunes:subtitle>
       <itunes:summary>AppWrite un proyecto open source para crear tu backend fácilmente. Y Unrecord, el próximo videojuego fotorrealista que te dejará boquiabierto.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Cómo clonar tu voz fácilmente</title>
@@ -691,7 +691,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:46:28</itunes:duration>
       <itunes:subtitle>En este episodio indagamos aún más en cómo clonar nuestra propia voz o la de nuestro vecino... Además Javier Maestre nos dará el punto de vista legal de un experto abogado en nuevas tecnologías.</itunes:subtitle>
       <itunes:summary>En este episodio indagamos aún más en cómo clonar nuestra propia voz o la de nuestro vecino... Además Javier Maestre nos dará el punto de vista legal de un experto abogado en nuevas tecnologías.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Hola, ¿quién está ahí?</title>
@@ -731,7 +731,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:31:53</itunes:duration>
       <itunes:subtitle>Hablamos sobre deep fake audio o cómo hablar como tu vecino de enfrente, también os traemos un inflador de pelotas</itunes:subtitle>
       <itunes:summary>Hablamos sobre deep fake audio o cómo hablar como tu vecino de enfrente, también os traemos un inflador de pelotas</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>La familia de los lamoides crece</title>
@@ -775,7 +775,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:28:01</itunes:duration>
       <itunes:subtitle>Hablamos sobre un nuevo modelo en el barrio de las LLaMAs y sobre el videjuego Destiny 2</itunes:subtitle>
       <itunes:summary>Hablamos sobre un nuevo modelo en el barrio de las LLaMAs y sobre el videjuego Destiny 2</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>La inteligencia artificial nos come</title>
@@ -797,7 +797,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:33:13</itunes:duration>
       <itunes:subtitle>Hoy hablamos sobre llamas, alpacas y mandos de xbox... una locura vamos.</itunes:subtitle>
       <itunes:summary>Hoy hablamos sobre llamas, alpacas y mandos de xbox... una locura vamos.</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>LangChain y Samsung Odyssey G7</title>
@@ -827,7 +827,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:27:40</itunes:duration>
       <itunes:subtitle>Hoy hablamos sobre LangChain e inteligencia artificial y sobre el monitor Samsung Odyssey G7</itunes:subtitle>
       <itunes:summary>Hoy hablamos sobre LangChain e inteligencia artificial y sobre el monitor Samsung Odyssey G7</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>NextDNS y Logitech G502 Hero</title>
@@ -855,7 +855,7 @@ Se utilizaron para deepfakes</p>
       <itunes:duration>00:21:45</itunes:duration>
       <itunes:subtitle>Hoy os traemos NextDNS y Logitech G502 Hero</itunes:subtitle>
       <itunes:summary>Hoy os traemos NextDNS y Logitech G502 Hero</itunes:summary>
-      <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
+      
     </item>
     <item>
       <title>Podcast 11</title>
