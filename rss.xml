@@ -27,6 +27,29 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Rabbit, tu nuevo asistente personal - Hackean Orange España - Lanzamiento de Apple Vision Pro</title>
+      <itunes:title>Rabbit, tu nuevo asistente personal - Hackean Orange España - Lanzamiento de Apple Vision Pro</itunes:title>
+      <link>https://vidageek.com/3/2024/01/21/podcast-3x08.html</link>
+      <guid isPermaLink="false">1ddc1990-1de1-446d-a4e3-0eb5390e1550</guid>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <description><![CDATA[<h1 id="rabbit-tu-ia-de-bolsillo">Rabbit, tu IA de bolsillo</h1>
+
+<p>Es este episodio os hablamos de <a href="https://rabbit.tech">Rabbit</a> un nuevo dispositivo que funciona con Inteligencia Artificial pretende colarse en tu bolsillo por tan sólo 200€ sin cuotas mensuales. Además os contamos cómo <a href="https://www.genbeta.com/seguridad/hacker-que-tumbo-a-orange-espana-explica-como-dejo-conexion-a-miles-clientes">hackearon Orange España</a> entrando hasta el panel de administración del proveedor de rutas europeo RIPE… de una forma curiosa.</p>
+
+<p>Por otro lado hablamos del lanzamiento de las <a href="https://apple.com">Apple Vision Pro</a> en los Estados Unidos.</p>
+
+<p>¡Que lo disfrutéis!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x08.mp3" length="45013443" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:46:53</itunes:duration>
+      <itunes:subtitle>Hablamos del nuevo Rabbit, un nuevo dispositivo que se convertirá en tu asistente personal por solo 200·. También os contamos el hackeo de Orange España y el lanzamiento de Apple Vision Pro</itunes:subtitle>
+      <itunes:summary>Hablamos del nuevo Rabbit, un nuevo dispositivo que se convertirá en tu asistente personal por solo 200·. También os contamos el hackeo de Orange España y el lanzamiento de Apple Vision Pro</itunes:summary>
+      <itunes:image href="https://vidageek.com/media/VidaGeek_3x08.jpg"/>
+    </item>
+    <item>
       <title>Novedades sobre Microsoft, Apple y Xiaomi</title>
       <itunes:title>Novedades sobre Microsoft, Apple y Xiaomi</itunes:title>
       <link>https://vidageek.com/3/2024/01/09/podcast-3x07.html</link>
