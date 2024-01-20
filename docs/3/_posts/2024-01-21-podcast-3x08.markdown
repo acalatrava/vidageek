@@ -1,0 +1,15 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x08.mp3
+guid: 1ddc1990-1de1-446d-a4e3-0eb5390e1550
+season: 3
+explicit: "yes"
+image: /media/VidaGeek_3x08.jpg
+---
+# Rabbit, tu IA de bolsillo
+
+Es este episodio os hablamos de [Rabbit](https://rabbit.tech) un nuevo dispositivo que funciona con Inteligencia Artificial pretende colarse en tu bolsillo por tan sólo 200€ sin cuotas mensuales. Además os contamos cómo [hackearon Orange España](https://www.genbeta.com/seguridad/hacker-que-tumbo-a-orange-espana-explica-como-dejo-conexion-a-miles-clientes) entrando hasta el panel de administración del proveedor de rutas europeo RIPE... de una forma curiosa.
+
+Por otro lado hablamos del lanzamiento de las [Apple Vision Pro](https://apple.com) en los Estados Unidos.
+
+¡Que lo disfrutéis!
