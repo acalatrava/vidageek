@@ -27,8 +27,8 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
-      <title>Rabbit, tu nuevo asistente personal - Hackean Orange España - Lanzamiento de Apple Vision Pro</title>
-      <itunes:title>Rabbit, tu nuevo asistente personal - Hackean Orange España - Lanzamiento de Apple Vision Pro</itunes:title>
+      <title>Rabbit, tu IA de bolsillo</title>
+      <itunes:title>Rabbit, tu IA de bolsillo</itunes:title>
       <link>https://vidageek.com/3/2024/01/21/podcast-3x08.html</link>
       <guid isPermaLink="false">1ddc1990-1de1-446d-a4e3-0eb5390e1550</guid>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
@@ -42,7 +42,7 @@
 
 <p>¡Que lo disfrutéis!</p>
 ]]></description>
-      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x08.mp3" length="45013443" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x08.mp3" length="45013280" type="audio/mpeg"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:duration>00:46:53</itunes:duration>
       <itunes:subtitle>Hablamos del nuevo Rabbit, un nuevo dispositivo que se convertirá en tu asistente personal por solo 200·. También os contamos el hackeo de Orange España y el lanzamiento de Apple Vision Pro</itunes:subtitle>
