@@ -27,6 +27,29 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Apple: Cambios en Europa - Nueva batería con 50 años de autonomía</title>
+      <itunes:title>Apple: Cambios en Europa - Nueva batería con 50 años de autonomía</itunes:title>
+      <link>https://vidageek.com/3/2024/02/06/podcast-3x09.html</link>
+      <guid isPermaLink="false">1ddc1990-1de1-446d-a4e3-0eb5390e1309</guid>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <description><![CDATA[<h1 id="apple-cambios-en-europa">Apple: Cambios en Europa</h1>
+
+<p>Os contamos los nuevos cambios que traerá iOS 17.4, o cómo Apple ha interpretado la DMA impuesta por Europa, lo cual no ha gustado a muchos…</p>
+
+<p>También os mostramos una nueva batería presentada por Betavolt, una empresa con sede en Pekín, que promete una duración de más de 50 años… sin necesidad de carga.</p>
+
+<p>¡Que lo disfrutéis!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x09.mp3" length="41887419" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:43:37</itunes:duration>
+      <itunes:subtitle>Os contamos los nuevos cambios que se esperan en iOS por imposición de la Unión Europea. Y por otro lado hablamos de una nueva batería que promete una autonomía de 50 años.</itunes:subtitle>
+      <itunes:summary>Os contamos los nuevos cambios que se esperan en iOS por imposición de la Unión Europea. Y por otro lado hablamos de una nueva batería que promete una autonomía de 50 años.</itunes:summary>
+      <itunes:image href="https://vidageek.com/media/VidaGeek_3x09.png"/>
+    </item>
+    <item>
       <title>Rabbit, tu IA de bolsillo</title>
       <itunes:title>Rabbit, tu IA de bolsillo</itunes:title>
       <link>https://vidageek.com/3/2024/01/21/podcast-3x08.html</link>
