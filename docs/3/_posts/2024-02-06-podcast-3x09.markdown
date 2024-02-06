@@ -1,0 +1,15 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x09.mp3
+guid: 1ddc1990-1de1-446d-a4e3-0eb5390e1309
+season: 3
+explicit: "yes"
+image: /media/VidaGeek_3x09.png
+---
+# Apple: Cambios en Europa
+
+Os contamos los nuevos cambios que traerá iOS 17.4, o cómo Apple ha interpretado la DMA impuesta por Europa, lo cual no ha gustado a muchos...
+
+También os mostramos una nueva batería presentada por Betavolt, una empresa con sede en Pekín, que promete una duración de más de 50 años... sin necesidad de carga.
+
+¡Que lo disfrutéis!
