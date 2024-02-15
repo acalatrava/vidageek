@@ -27,6 +27,29 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Un robot que aprende por sí sólo</title>
+      <itunes:title>Un robot que aprende por sí sólo</itunes:title>
+      <link>https://vidageek.com/3/2024/02/15/podcast-3x10.html</link>
+      <guid isPermaLink="false">1ddc1990-1de1-446d-a4e3-0eb5390e1310</guid>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <description><![CDATA[<h1 id="1x-presenta-su-nuevo-robot-inteligente">1X presenta su nuevo robot inteligente</h1>
+
+<p>Os hablamos sobre el nuevo robot con IA que ha presentado 1X. Un robot capaz de aprender por sí sólo con un modelo neuronal end-to-end.</p>
+
+<p>Además os contamos las últimas novedades en OpenAI y de paso algo sobre tractores!</p>
+
+<p>Hasta pronto!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x10.mp3" length="30615155" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:31:53</itunes:duration>
+      <itunes:subtitle>Hablamos sobre el nuevo robot presentado por 1X.tech y las últimas novedades en OpenAI</itunes:subtitle>
+      <itunes:summary>Hablamos sobre el nuevo robot presentado por 1X.tech y las últimas novedades en OpenAI</itunes:summary>
+      <itunes:image href="https://vidageek.com/media/VidaGeek_3x10.png"/>
+    </item>
+    <item>
       <title>Apple: Cambios en Europa - Nueva batería con 50 años de autonomía</title>
       <itunes:title>Apple: Cambios en Europa - Nueva batería con 50 años de autonomía</itunes:title>
       <link>https://vidageek.com/3/2024/02/06/podcast-3x09.html</link>
