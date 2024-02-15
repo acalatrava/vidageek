@@ -1,0 +1,15 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x10.mp3
+guid: 1ddc1990-1de1-446d-a4e3-0eb5390e1310
+season: 3
+explicit: "yes"
+image: /media/VidaGeek_3x10.png
+---
+# 1X presenta su nuevo robot inteligente
+
+Os hablamos sobre el nuevo robot con IA que ha presentado 1X. Un robot capaz de aprender por sí sólo con un modelo neuronal end-to-end.
+
+Además os contamos las últimas novedades en OpenAI y de paso algo sobre tractores!
+
+Hasta pronto!
