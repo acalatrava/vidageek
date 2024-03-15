@@ -1,0 +1,13 @@
+---
+layout: post
+audiourl: /media/VidaGeek_3x11.mp3
+guid: 1ddc1990-1de1-446d-a4e3-0eb5390e1311
+season: 3
+explicit: "yes"
+image: /media/VidaGeek_3x11.png
+---
+# SpaceX hace historia con Starship
+
+Comentamos el espectacular lanzamiento de SpaceX, que ha conseguido orbitar la tierra con su Starship. Estamos un paso más cerca de la luna.
+
+Hasta pronto!
