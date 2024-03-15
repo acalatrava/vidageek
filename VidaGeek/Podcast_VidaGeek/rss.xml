@@ -27,6 +27,27 @@
     <itunes:image href="https://vidageek.com/img/logo_2023_3000x3000.jpg"/>
     <language>es</language>
     <item>
+      <title>Un paso más cerca de la luna</title>
+      <itunes:title>Un paso más cerca de la luna</itunes:title>
+      <link>https://vidageek.com/3/2024/03/15/podcast-3x11.html</link>
+      <guid isPermaLink="false">1ddc1990-1de1-446d-a4e3-0eb5390e1311</guid>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <description><![CDATA[<h1 id="spacex-hace-historia-con-starship">SpaceX hace historia con Starship</h1>
+
+<p>Comentamos el espectacular lanzamiento de SpaceX, que ha conseguido orbitar la tierra con su Starship. Estamos un paso más cerca de la luna.</p>
+
+<p>Hasta pronto!</p>
+]]></description>
+      <enclosure url="https://op3.dev/e,pg=cd6ef324-4d9a-52d2-a6e0-1e6f4572119f/https://vidageek.com/media/VidaGeek_3x11.mp3" length="33440304" type="audio/mpeg"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>00:34:49</itunes:duration>
+      <itunes:subtitle>SpaceX ha realizado un lanzamiento espectacular, navegando con la Starship alrededor de nuestro planeta en un vuelo de casi 1 hora de duración.</itunes:subtitle>
+      <itunes:summary>SpaceX ha realizado un lanzamiento espectacular, navegando con la Starship alrededor de nuestro planeta en un vuelo de casi 1 hora de duración.</itunes:summary>
+      <itunes:image href="https://vidageek.com/media/VidaGeek_3x11.png"/>
+    </item>
+    <item>
       <title>Un robot que aprende por sí sólo</title>
       <itunes:title>Un robot que aprende por sí sólo</itunes:title>
       <link>https://vidageek.com/3/2024/02/15/podcast-3x10.html</link>
